@@ -1,0 +1,77 @@
+  INFO root [2021-09-29 17:39:40,229] - 
+  INFO root [2021-09-29 17:39:40,229] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 17:39:40,230] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 17:39:40,230] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 17:39:40,230] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 17:39:40,275] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:63503 )
+  INFO root [2021-09-29 17:39:40,275] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:63503, SOMAXCONN=511.
+  INFO root [2021-09-29 17:39:40,275] - server-configs:
+  INFO root [2021-09-29 17:39:40,275] - 	internalTcpAddr : 192.168.31.145:63503
+  INFO root [2021-09-29 17:39:40,275] - 	componentID : 5000
+  WARN root [2021-09-29 17:39:40,275] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [2021-09-29 17:39:40,482] - Components::findLogger: found logger, addr:192.168.31.145:63501
+  INFO root [2021-09-29 17:39:40,483] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 17:39:40,483] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2021-09-29 17:39:40,487] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Debug X64. Built: 14:53:32 Sep 29 2021. AppID: 5000. UID: 12169. PID: 16708 ----
+  INFO root [2021-09-29 17:39:40,488] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 17:39:40,488] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 17:39:40,488] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 17:39:40,800] - ---- baseappmgr is running ----
+ DEBUG root [2021-09-29 17:39:40,800] - Components::process(): Request for the process of identity...
+  WARN root [2021-09-29 17:39:47,001] - Forwarding logs to logger[192.168.31.145:63501/0/0/0]...
+  INFO root [2021-09-29 19:20:22,693] - 
+  INFO root [2021-09-29 19:20:22,719] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 19:20:22,720] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 19:20:22,720] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 19:20:22,720] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 19:20:22,757] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:50941 )
+  INFO root [2021-09-29 19:20:22,758] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:50941, SOMAXCONN=511.
+  INFO root [2021-09-29 19:20:22,758] - server-configs:
+  INFO root [2021-09-29 19:20:22,758] - 	internalTcpAddr : 192.168.31.145:50941
+  INFO root [2021-09-29 19:20:22,758] - 	componentID : 5000
+  WARN root [2021-09-29 19:20:22,758] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [2021-09-29 19:20:24,264] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Debug X64. Built: 14:53:32 Sep 29 2021. AppID: 5000. UID: 12169. PID: 692 ----
+  INFO root [2021-09-29 19:20:24,264] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 19:20:24,264] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 19:20:24,265] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 19:20:24,555] - ---- baseappmgr is running ----
+ DEBUG root [2021-09-29 19:20:24,556] - Components::process(): Request for the process of identity...
+  INFO root [2021-09-29 19:20:31,686] - Components::findComponents: find logger(1)...
+  INFO root [2021-09-29 19:20:31,738] - Components::findComponents: found logger, addr:192.168.31.145:50938
+  INFO root [2021-09-29 19:20:31,738] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 19:20:31,738] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2021-09-29 19:20:31,740] - Components::findComponents: find dbmgr(2)...
+  WARN root [2021-09-29 19:20:32,842] - Forwarding logs to logger[192.168.31.145:50938/0/0/0]...
+  INFO root [2021-09-29 19:21:45,316] - 
+  INFO root [2021-09-29 19:21:45,317] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 19:21:45,318] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 19:21:45,318] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 19:21:45,318] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 19:21:45,362] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51016 )
+  INFO root [2021-09-29 19:21:45,362] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:51016, SOMAXCONN=511.
+  INFO root [2021-09-29 19:21:45,362] - server-configs:
+  INFO root [2021-09-29 19:21:45,362] - 	internalTcpAddr : 192.168.31.145:51016
+  INFO root [2021-09-29 19:21:45,362] - 	componentID : 5000
+  WARN root [2021-09-29 19:21:45,362] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [2021-09-29 19:21:45,500] - Components::findLogger: found logger, addr:192.168.31.145:51014
+  INFO root [2021-09-29 19:21:45,500] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 19:21:45,500] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2021-09-29 19:21:45,504] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Debug X64. Built: 14:53:32 Sep 29 2021. AppID: 5000. UID: 12169. PID: 2872 ----
+  INFO root [2021-09-29 19:21:45,505] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 19:21:45,505] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 19:21:45,505] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 19:21:45,786] - ---- baseappmgr is running ----
+ DEBUG root [2021-09-29 19:21:45,786] - Components::process(): Request for the process of identity...
+  WARN root [2021-09-29 19:21:51,908] - Forwarding logs to logger[192.168.31.145:51014/0/0/0]...
+ ERROR root [2021-09-29 19:22:06,701] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=13965900872, lastReceivedTime=13753903396, inactivityExceptionPeriod=599500320)
+   OFF root [2021-09-29 19:22:06,702] - The following logs sent to logger failed:
+  WARN root [2021-09-29 19:22:06,702] - ==> [2021-09-29 19:22:06 701] TCPPacketReceiver::processPendingEvents(192.168.31.145:51014): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2021-09-29 19:22:06,702] - ==> [2021-09-29 19:22:06 702] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=13965900872, lastReceivedTime=13753903396, inactivityExceptionPeriod=599500320)

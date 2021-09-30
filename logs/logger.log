@@ -1,0 +1,201 @@
+  INFO [0x0000471c] [2021-09-29 17:39:39,938] - 
+  INFO [0x0000471c] [2021-09-29 17:39:39,938] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x0000471c] [2021-09-29 17:39:39,938] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO [0x0000471c] [2021-09-29 17:39:39,939] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO [0x0000471c] [2021-09-29 17:39:39,939] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x0000471c] [2021-09-29 17:39:39,981] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:63500 )
+  INFO [0x0000471c] [2021-09-29 17:39:39,981] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:63500, SOMAXCONN=511.
+  INFO [0x0000471c] [2021-09-29 17:39:39,983] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:63501 )
+  INFO [0x0000471c] [2021-09-29 17:39:39,983] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:63501, SOMAXCONN=511.
+  WARN [0x0000471c] [2021-09-29 17:39:39,983] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO [0x0000471c] [2021-09-29 17:39:39,986] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 14:53:06 Sep 29 2021. AppID: 2000. UID: 12169. PID: 23344 ----
+  INFO [0x0000471c] [2021-09-29 17:39:39,986] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO [0x0000471c] [2021-09-29 17:39:39,987] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x0000471c] [2021-09-29 17:39:39,987] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x0000471c] [2021-09-29 17:39:40,183] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO [0x0000471c] [2021-09-29 17:39:40,184] - Script::install(): KBExtra is successfully!
+S_INFO [0x0000471c] [2021-09-29 17:39:40,207] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x0000471c] [2021-09-29 17:39:40,208] - TelnetServer server is running on port 34000
+  INFO [0x0000471c] [2021-09-29 17:39:40,210] - ---- logger is running ----
+ DEBUG [0x0000471c] [2021-09-29 17:39:40,210] - Components::process(): Request for the process of identity...
+  INFO [0x0000471c] [2021-09-29 17:39:46,389] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63503, extaddr:nonsupport, extport:0,  from 192.168.31.145:63506/0/0/0.
+  INFO [0x0000471c] [2021-09-29 17:39:46,389] - Components::addComponent: reset orderLog, uid=12169!
+  INFO [0x0000471c] [2021-09-29 17:39:46,389] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x0000471c] [2021-09-29 17:39:46,390] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63504, extaddr:nonsupport, extport:0,  from 192.168.31.145:63507/0/0/0.
+  INFO [0x0000471c] [2021-09-29 17:39:46,390] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x0000471c] [2021-09-29 17:39:46,390] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63508, extaddr:nonsupport, extport:0,  from 192.168.31.145:63510/0/0/0.
+  INFO [0x0000471c] [2021-09-29 17:39:46,390] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x0000471c] [2021-09-29 17:39:46,390] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63505, extaddr:192.168.31.145, extport:20015,  from 192.168.31.145:63511/0/0/0.
+  INFO [0x0000471c] [2021-09-29 17:39:46,391] - Components::addComponent[baseapp], uid=12169, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x0000471c] [2021-09-29 17:39:46,391] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63509, extaddr:192.168.31.145, extport:20013,  from 192.168.31.145:63513/0/0/0.
+  INFO [0x0000471c] [2021-09-29 17:39:46,391] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x0000471c] [2021-09-29 17:39:47,428] - Components::process(): Found all the components!
+  INFO [0x0000471c] [2021-09-29 17:39:53,413] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63502, extaddr:nonsupport, extport:0,  from 192.168.31.145:49327/0/0/0.
+  INFO [0x0000471c] [2021-09-29 17:39:53,414] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  WARN [0x0000471c] [2021-09-29 18:52:22,014] - TCPPacketReceiver::processPendingEvents(192.168.31.145:63506): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x0000471c] [2021-09-29 18:52:22,247] - Components::removeComponentByChannel: baseappmgr : 5000, Normal exit!
+ S_ERR [0x0000471c] [2021-09-29 18:52:38,625] - Traceback (most recent call last):
+  File "D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/logger\kbemain.py", line 35, in onLogWrote
+    def onLogWrote(logData):
+ S_ERR [0x0000471c] [2021-09-29 18:52:38,626] - KeyboardInterrupt
+ S_ERR [0x0000471c] [2021-09-29 18:52:39,612] - Traceback (most recent call last):
+  File "D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/logger\kbemain.py", line 35, in onLogWrote
+    def onLogWrote(logData):
+ S_ERR [0x0000471c] [2021-09-29 18:52:39,613] - KeyboardInterrupt
+ S_ERR [0x0000471c] [2021-09-29 18:52:40,612] - Traceback (most recent call last):
+  File "D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/logger\kbemain.py", line 35, in onLogWrote
+    def onLogWrote(logData):
+ S_ERR [0x0000471c] [2021-09-29 18:52:40,613] - KeyboardInterrupt
+  INFO [0x0000471c] [2021-09-29 18:53:23,363] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:49327/0/0/0 timeout!
+  INFO [0x0000471c] [2021-09-29 18:53:23,363] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO [0x0000471c] [2021-09-29 18:53:24,178] - Components::removeComponentByChannel: cellappmgr : 6000, Normal exit!
+  INFO [0x0000471c] [2021-09-29 18:53:24,588] - Components::removeComponentByChannel: loginapp : 9000, Normal exit!
+  INFO [0x0000471c] [2021-09-29 18:53:28,554] - Components::removeComponentByChannel: cellapp : 8001, Normal exit!
+  INFO [0x0000471c] [2021-09-29 18:53:32,726] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  INFO [0x00002454] [2021-09-29 19:20:20,728] - 
+  INFO [0x00002454] [2021-09-29 19:20:20,752] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00002454] [2021-09-29 19:20:20,753] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO [0x00002454] [2021-09-29 19:20:20,753] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO [0x00002454] [2021-09-29 19:20:20,753] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x00002454] [2021-09-29 19:20:20,791] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:50937 )
+  INFO [0x00002454] [2021-09-29 19:20:20,791] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:50937, SOMAXCONN=511.
+  INFO [0x00002454] [2021-09-29 19:20:20,793] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:50938 )
+  INFO [0x00002454] [2021-09-29 19:20:20,793] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:50938, SOMAXCONN=511.
+  WARN [0x00002454] [2021-09-29 19:20:20,793] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO [0x00002454] [2021-09-29 19:20:20,796] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 14:53:06 Sep 29 2021. AppID: 2000. UID: 12169. PID: 12028 ----
+  INFO [0x00002454] [2021-09-29 19:20:20,797] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO [0x00002454] [2021-09-29 19:20:20,797] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00002454] [2021-09-29 19:20:20,797] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00002454] [2021-09-29 19:20:22,911] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO [0x00002454] [2021-09-29 19:20:22,911] - Script::install(): KBExtra is successfully!
+S_INFO [0x00002454] [2021-09-29 19:20:23,041] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00002454] [2021-09-29 19:20:23,041] - TelnetServer server is running on port 34000
+  INFO [0x00002454] [2021-09-29 19:20:23,044] - ---- logger is running ----
+ DEBUG [0x00002454] [2021-09-29 19:20:23,044] - Components::process(): Request for the process of identity...
+  INFO [0x00002454] [2021-09-29 19:20:29,159] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:50943, extaddr:nonsupport, extport:0,  from 192.168.31.145:50944/0/0/0.
+  INFO [0x00002454] [2021-09-29 19:20:29,159] - Components::addComponent: reset orderLog, uid=12169!
+  INFO [0x00002454] [2021-09-29 19:20:29,159] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00002454] [2021-09-29 19:20:29,159] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:50946, extaddr:192.168.31.145, extport:20015,  from 192.168.31.145:50947/0/0/0.
+  INFO [0x00002454] [2021-09-29 19:20:29,159] - Components::addComponent[baseapp], uid=12169, componentID=7001, globalorderid=2, grouporderid=1, totalcount=1
+  WARN [0x00002454] [2021-09-29 19:20:29,261] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 0.10 seconds
+  INFO [0x00002454] [2021-09-29 19:20:29,267] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:50950, extaddr:nonsupport, extport:0,  from 192.168.31.145:50951/0/0/0.
+  INFO [0x00002454] [2021-09-29 19:20:29,267] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00002454] [2021-09-29 19:20:29,280] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:50952, extaddr:192.168.31.145, extport:20013,  from 192.168.31.145:50953/0/0/0.
+  INFO [0x00002454] [2021-09-29 19:20:29,280] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+  WARN [0x00002454] [2021-09-29 19:20:30,108] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 0.11 seconds
+  INFO [0x00002454] [2021-09-29 19:20:30,182] - Components::process(): Found all the components!
+  INFO [0x00002454] [2021-09-29 19:20:31,740] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:50941, extaddr:nonsupport, extport:0,  from 192.168.31.145:50957/0/0/0.
+  INFO [0x00002454] [2021-09-29 19:20:31,741] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00002454] [2021-09-29 19:20:32,185] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  INFO [0x00002454] [2021-09-29 19:20:32,683] - Components::removeComponentByChannel: cellapp : 8001, Normal exit!
+  WARN [0x00002454] [2021-09-29 19:20:32,949] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 0.10 seconds
+  INFO [0x00003868] [2021-09-29 19:21:45,059] - 
+  INFO [0x00003868] [2021-09-29 19:21:45,059] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00003868] [2021-09-29 19:21:45,060] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO [0x00003868] [2021-09-29 19:21:45,060] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO [0x00003868] [2021-09-29 19:21:45,060] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x00003868] [2021-09-29 19:21:45,102] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51013 )
+  INFO [0x00003868] [2021-09-29 19:21:45,102] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:51013, SOMAXCONN=511.
+  INFO [0x00003868] [2021-09-29 19:21:45,104] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51014 )
+  INFO [0x00003868] [2021-09-29 19:21:45,104] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:51014, SOMAXCONN=511.
+  WARN [0x00003868] [2021-09-29 19:21:45,104] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO [0x00003868] [2021-09-29 19:21:45,107] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 14:53:06 Sep 29 2021. AppID: 2000. UID: 12169. PID: 12208 ----
+  INFO [0x00003868] [2021-09-29 19:21:45,107] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO [0x00003868] [2021-09-29 19:21:45,108] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00003868] [2021-09-29 19:21:45,108] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00003868] [2021-09-29 19:21:45,299] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO [0x00003868] [2021-09-29 19:21:45,299] - Script::install(): KBExtra is successfully!
+S_INFO [0x00003868] [2021-09-29 19:21:45,310] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00003868] [2021-09-29 19:21:45,311] - TelnetServer server is running on port 34000
+  INFO [0x00003868] [2021-09-29 19:21:45,315] - ---- logger is running ----
+ DEBUG [0x00003868] [2021-09-29 19:21:45,315] - Components::process(): Request for the process of identity...
+  INFO [0x00003868] [2021-09-29 19:21:51,435] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:51016, extaddr:nonsupport, extport:0,  from 192.168.31.145:51017/0/0/0.
+  INFO [0x00003868] [2021-09-29 19:21:51,436] - Components::addComponent: reset orderLog, uid=12169!
+  INFO [0x00003868] [2021-09-29 19:21:51,436] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00003868] [2021-09-29 19:21:51,436] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:51018, extaddr:nonsupport, extport:0,  from 192.168.31.145:51019/0/0/0.
+  INFO [0x00003868] [2021-09-29 19:21:51,436] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00003868] [2021-09-29 19:21:51,436] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:51021, extaddr:nonsupport, extport:0,  from 192.168.31.145:51022/0/0/0.
+  INFO [0x00003868] [2021-09-29 19:21:51,437] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00003868] [2021-09-29 19:21:51,443] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:51023, extaddr:192.168.31.145, extport:20013,  from 192.168.31.145:51024/0/0/0.
+  INFO [0x00003868] [2021-09-29 19:21:51,444] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00003868] [2021-09-29 19:21:52,462] - Components::process(): Found all the components!
+  INFO [0x00003868] [2021-09-29 19:21:53,272] - Components::removeComponentByChannel: cellapp : 8001, Normal exit!
+  INFO [0x00004708] [2021-09-30 15:17:16,784] - 
+  INFO [0x00004708] [2021-09-30 15:17:16,805] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00004708] [2021-09-30 15:17:16,806] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO [0x00004708] [2021-09-30 15:17:16,806] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO [0x00004708] [2021-09-30 15:17:16,806] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x00004708] [2021-09-30 15:17:16,815] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51386 )
+  INFO [0x00004708] [2021-09-30 15:17:16,815] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:51386, SOMAXCONN=511.
+  INFO [0x00004708] [2021-09-30 15:17:16,817] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51387 )
+  INFO [0x00004708] [2021-09-30 15:17:16,817] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:51387, SOMAXCONN=511.
+  WARN [0x00004708] [2021-09-30 15:17:16,817] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO [0x00004708] [2021-09-30 15:17:16,820] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 14:53:06 Sep 29 2021. AppID: 2000. UID: 12169. PID: 18712 ----
+  INFO [0x00004708] [2021-09-30 15:17:16,821] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO [0x00004708] [2021-09-30 15:17:16,821] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00004708] [2021-09-30 15:17:16,821] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00004708] [2021-09-30 15:17:18,037] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO [0x00004708] [2021-09-30 15:17:18,038] - Script::install(): KBExtra is successfully!
+S_INFO [0x00004708] [2021-09-30 15:17:18,083] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00004708] [2021-09-30 15:17:18,083] - TelnetServer server is running on port 34000
+  INFO [0x00004708] [2021-09-30 15:17:18,085] - ---- logger is running ----
+ DEBUG [0x00004708] [2021-09-30 15:17:18,086] - Components::process(): Request for the process of identity...
+  INFO [0x00004708] [2021-09-30 15:17:24,331] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:56080, extaddr:nonsupport, extport:0,  from 192.168.31.145:56081/0/0/0.
+  INFO [0x00004708] [2021-09-30 15:17:24,332] - Components::addComponent: reset orderLog, uid=12169!
+  INFO [0x00004708] [2021-09-30 15:17:24,332] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00004708] [2021-09-30 15:17:24,457] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:58265, extaddr:nonsupport, extport:0,  from 192.168.31.145:58266/0/0/0.
+  INFO [0x00004708] [2021-09-30 15:17:24,458] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00004708] [2021-09-30 15:17:25,363] - Components::process(): Found all the components!
+  INFO [0x00004708] [2021-09-30 15:17:29,931] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:58275, extaddr:nonsupport, extport:0,  from 192.168.31.145:58276/0/0/0.
+  INFO [0x00004708] [2021-09-30 15:17:29,932] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00004708] [2021-09-30 15:17:30,151] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:58277, extaddr:192.168.31.145, extport:20015,  from 192.168.31.145:58278/0/0/0.
+  INFO [0x00004708] [2021-09-30 15:17:30,151] - Components::addComponent[baseapp], uid=12169, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00004708] [2021-09-30 15:17:30,595] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:58279, extaddr:nonsupport, extport:0,  from 192.168.31.145:58281/0/0/0.
+  INFO [0x00004708] [2021-09-30 15:17:30,595] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00004708] [2021-09-30 15:17:35,610] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:54598, extaddr:192.168.31.145, extport:20013,  from 192.168.31.145:54599/0/0/0.
+  INFO [0x00004708] [2021-09-30 15:17:35,610] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00004ba0] [2021-09-30 15:55:46,512] - 
+  INFO [0x00004ba0] [2021-09-30 15:55:46,512] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00004ba0] [2021-09-30 15:55:46,513] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO [0x00004ba0] [2021-09-30 15:55:46,513] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO [0x00004ba0] [2021-09-30 15:55:46,513] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x00004ba0] [2021-09-30 15:55:46,521] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51762 )
+  INFO [0x00004ba0] [2021-09-30 15:55:46,521] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:51762, SOMAXCONN=511.
+  INFO [0x00004ba0] [2021-09-30 15:55:46,523] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51763 )
+  INFO [0x00004ba0] [2021-09-30 15:55:46,523] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:51763, SOMAXCONN=511.
+  WARN [0x00004ba0] [2021-09-30 15:55:46,523] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO [0x00004ba0] [2021-09-30 15:55:46,526] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 14:53:06 Sep 29 2021. AppID: 2000. UID: 12169. PID: 14696 ----
+  INFO [0x00004ba0] [2021-09-30 15:55:46,526] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO [0x00004ba0] [2021-09-30 15:55:46,526] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00004ba0] [2021-09-30 15:55:46,527] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00004ba0] [2021-09-30 15:55:46,712] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO [0x00004ba0] [2021-09-30 15:55:46,712] - Script::install(): KBExtra is successfully!
+S_INFO [0x00004ba0] [2021-09-30 15:55:46,722] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00004ba0] [2021-09-30 15:55:46,722] - TelnetServer server is running on port 34000
+  INFO [0x00004ba0] [2021-09-30 15:55:46,724] - ---- logger is running ----
+ DEBUG [0x00004ba0] [2021-09-30 15:55:46,725] - Components::process(): Request for the process of identity...
+  INFO [0x00004ba0] [2021-09-30 15:55:52,955] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:61140, extaddr:nonsupport, extport:0,  from 192.168.31.145:61142/0/0/0.
+  INFO [0x00004ba0] [2021-09-30 15:55:52,955] - Components::addComponent: reset orderLog, uid=12169!
+  INFO [0x00004ba0] [2021-09-30 15:55:52,955] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00004ba0] [2021-09-30 15:55:53,083] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:61147, extaddr:nonsupport, extport:0,  from 192.168.31.145:61149/0/0/0.
+  INFO [0x00004ba0] [2021-09-30 15:55:53,084] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00004ba0] [2021-09-30 15:55:53,096] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:61148, extaddr:nonsupport, extport:0,  from 192.168.31.145:61150/0/0/0.
+  INFO [0x00004ba0] [2021-09-30 15:55:53,096] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00004ba0] [2021-09-30 15:55:53,304] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:61151, extaddr:192.168.31.145, extport:20015,  from 192.168.31.145:61152/0/0/0.
+  INFO [0x00004ba0] [2021-09-30 15:55:53,304] - Components::addComponent[baseapp], uid=12169, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00004ba0] [2021-09-30 15:55:53,989] - Components::process(): Found all the components!
+  INFO [0x00004ba0] [2021-09-30 15:55:55,820] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:61167, extaddr:nonsupport, extport:0,  from 192.168.31.145:61168/0/0/0.
+  INFO [0x00004ba0] [2021-09-30 15:55:55,821] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00004ba0] [2021-09-30 15:55:56,035] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:61169, extaddr:192.168.31.145, extport:20013,  from 192.168.31.145:61170/0/0/0.
+  INFO [0x00004ba0] [2021-09-30 15:55:56,035] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
+  WARN [0x00004ba0] [2021-09-30 16:14:04,318] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 0.12 seconds

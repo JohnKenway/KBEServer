@@ -1,0 +1,1074 @@
+  INFO root [2021-09-29 17:39:39,850] - 
+  INFO root [2021-09-29 17:39:39,850] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 17:39:39,851] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 17:39:39,851] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 17:39:39,851] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 17:39:39,914] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20099 )
+  INFO root [2021-09-29 17:39:39,914] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20099, SOMAXCONN=5.
+  INFO root [2021-09-29 17:39:39,916] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:63499 )
+  INFO root [2021-09-29 17:39:39,917] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:63499, SOMAXCONN=5.
+  INFO root [2021-09-29 17:39:39,917] - server-configs:
+  INFO root [2021-09-29 17:39:39,917] - 	internalTcpAddr : 192.168.31.145:63499
+  INFO root [2021-09-29 17:39:39,917] - 	componentID : 1000
+  WARN root [2021-09-29 17:39:39,917] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [2021-09-29 17:39:39,962] - ---- machine Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4FDF831D7F690DA91AEF080A7365BE1C. Config: Debug X64. Built: 14:53:09 Sep 29 2021. AppID: 1000. UID: 12169. PID: 14992 ----
+  INFO root [2021-09-29 17:39:39,963] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 17:39:39,963] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 17:39:39,963] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2021-09-29 17:39:40,066] - EndPoint::getInterfaces: found eth0 192.168.31.145
+  INFO root [2021-09-29 17:39:40,066] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.31.145.
+  INFO root [2021-09-29 17:39:40,066] - Machine::findBroadcastInterface: Confirmed 192.168.31.145 (eth0) as default broadcast route interface.
+  INFO root [2021-09-29 17:39:40,067] - Machine::initNetwork: bind broadcast successfully! addr:192.168.31.145:20086
+  INFO root [2021-09-29 17:39:40,245] - ---- machine is running ----
+  INFO root [2021-09-29 17:39:40,245] - Components::process(): Found all the components!
+  INFO root [2021-09-29 17:39:40,347] - Machine::onBroadcastInterface: added newUID 12169.
+  INFO root [2021-09-29 17:39:40,347] - Machine::onBroadcastInterface[192.168.31.145:62113/0/0/0]: uid:12169, username:Administrator, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:23344, intaddr:192.168.31.145, intport:63501, extaddr:192.168.31.145, extport:63500.
+  INFO root [2021-09-29 17:39:40,347] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 17:39:40,347] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2021-09-29 17:39:40,348] - Machine::onFindInterfaceAddr[192.168.31.145:62112/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20628.
+  WARN root [2021-09-29 17:39:40,483] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 0.14 seconds
+ DEBUG root [2021-09-29 17:39:40,483] - Machine::onBroadcastInterface: logger update, pid=23344, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 17:39:40,483] - Machine::onFindInterfaceAddr[192.168.31.145:62114/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20984.
+  INFO root [2021-09-29 17:39:40,585] - Machine::onFindInterfaceAddr[192.168.31.145:62114/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20984.
+  INFO root [2021-09-29 17:39:40,586] - Machine::onFindInterfaceAddr[192.168.31.145:62117/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20392.
+  INFO root [2021-09-29 17:39:40,587] - Machine::onFindInterfaceAddr[192.168.31.145:62117/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20392.
+  INFO root [2021-09-29 17:39:40,689] - Machine::onFindInterfaceAddr[192.168.31.145:62121/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20954.
+  INFO root [2021-09-29 17:39:40,691] - Machine::onFindInterfaceAddr[192.168.31.145:62121/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20954.
+  INFO root [2021-09-29 17:39:40,894] - Machine::onFindInterfaceAddr[192.168.31.145:62124/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20310.
+  INFO root [2021-09-29 17:39:40,895] - Machine::onBroadcastInterface[192.168.31.145:62125/0/0/0]: uid:12169, username:Administrator, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:19884, intaddr:192.168.31.145, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-29 17:39:40,895] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 17:39:40,895] - Components::addComponent[interfaces], uid=12169, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2021-09-29 17:39:40,896] - Machine::onFindInterfaceAddr[192.168.31.145:62124/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20310.
+ DEBUG root [2021-09-29 17:39:40,940] - Machine::onBroadcastInterface: interfaces update, pid=19884, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 17:39:40,941] - Machine::onBroadcastInterface[192.168.31.145:62128/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:19132, intaddr:192.168.31.145, intport:63504, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-29 17:39:40,941] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 17:39:40,941] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-29 17:39:41,043] - Machine::onBroadcastInterface: cellappmgr update, pid=19132, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 17:39:41,043] - Machine::onBroadcastInterface[192.168.31.145:62129/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:16708, intaddr:192.168.31.145, intport:63503, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-29 17:39:41,043] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-29 17:39:41,046] - Machine::onBroadcastInterface: baseappmgr update, pid=16708, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 17:39:41,248] - Machine::onBroadcastInterface[192.168.31.145:62130/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderid=-1, grouporderid=-1, pid:11804, intaddr:192.168.31.145, intport:63508, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-29 17:39:41,248] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-29 17:39:41,250] - Machine::onBroadcastInterface: cellapp update, pid=11804, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 17:39:41,351] - Machine::onBroadcastInterface[192.168.31.145:62131/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, globalorderid=-1, grouporderid=-1, pid:9948, intaddr:192.168.31.145, intport:63505, extaddr:192.168.31.145, extport:20015.
+  INFO root [2021-09-29 17:39:41,351] - Components::addComponent[baseapp], uid=12169, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-29 17:39:41,353] - Machine::onBroadcastInterface: baseapp update, pid=9948, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 17:39:41,455] - Machine::onBroadcastInterface[192.168.31.145:62132/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:23180, intaddr:192.168.31.145, intport:63509, extaddr:192.168.31.145, extport:20013.
+  INFO root [2021-09-29 17:39:41,455] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-29 17:39:41,457] - Machine::onBroadcastInterface: loginapp update, pid=23180, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:43,475] - Machine::onBroadcastInterface: logger update, pid=23344, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:43,475] - Machine::onBroadcastInterface: logger update, pid=23344, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:43,981] - Machine::onBroadcastInterface: interfaces update, pid=19884, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:43,983] - Machine::onBroadcastInterface: cellappmgr update, pid=19132, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:43,985] - Machine::onBroadcastInterface: interfaces update, pid=19884, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:43,987] - Machine::onBroadcastInterface: cellappmgr update, pid=19132, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:44,090] - Machine::onBroadcastInterface: baseappmgr update, pid=16708, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:44,090] - Machine::onBroadcastInterface: baseappmgr update, pid=16708, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:44,294] - Machine::onBroadcastInterface: cellapp update, pid=11804, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:44,294] - Machine::onBroadcastInterface: cellapp update, pid=11804, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:44,398] - Machine::onBroadcastInterface: baseapp update, pid=9948, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:44,398] - Machine::onBroadcastInterface: baseapp update, pid=9948, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:44,501] - Machine::onBroadcastInterface: loginapp update, pid=23180, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:44,501] - Machine::onBroadcastInterface: loginapp update, pid=23180, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 17:39:46,413] - Machine::onBroadcastInterface[192.168.31.145:62140/0/0/0]: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, globalorderid=-1, grouporderid=-1, pid:7536, intaddr:192.168.31.145, intport:63502, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-29 17:39:46,413] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-29 17:39:46,415] - Machine::onBroadcastInterface: dbmgr update, pid=7536, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 17:39:48,028] - Machine::onFindInterfaceAddr[192.168.31.145:62141/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20064.
+  INFO root [2021-09-29 17:39:48,031] - Machine::onFindInterfaceAddr[192.168.31.145:62142/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20116.
+  INFO root [2021-09-29 17:39:48,032] - Machine::onFindInterfaceAddr[192.168.31.145:62141/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20064.
+  INFO root [2021-09-29 17:39:48,033] - Machine::onFindInterfaceAddr[192.168.31.145:62142/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20116.
+  INFO root [2021-09-29 17:39:48,336] - Machine::onFindInterfaceAddr[192.168.31.145:50097/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20985.
+  INFO root [2021-09-29 17:39:48,337] - Machine::onFindInterfaceAddr[192.168.31.145:50097/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20985.
+  INFO root [2021-09-29 17:39:48,439] - Machine::onFindInterfaceAddr[192.168.31.145:50100/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20393.
+  INFO root [2021-09-29 17:39:48,440] - Machine::onFindInterfaceAddr[192.168.31.145:50100/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20393.
+  INFO root [2021-09-29 17:39:48,542] - Machine::onFindInterfaceAddr[192.168.31.145:50103/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20749.
+  INFO root [2021-09-29 17:39:48,543] - Machine::onFindInterfaceAddr[192.168.31.145:50103/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20749.
+ DEBUG root [2021-09-29 17:39:49,451] - Machine::onBroadcastInterface: dbmgr update, pid=7536, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 17:39:49,451] - Machine::onBroadcastInterface: dbmgr update, pid=7536, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 17:39:50,055] - Machine::onFindInterfaceAddr[192.168.31.145:62357/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20801.
+  INFO root [2021-09-29 17:39:50,058] - Machine::onFindInterfaceAddr[192.168.31.145:62357/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20801.
+  INFO root [2021-09-29 17:39:50,462] - Machine::onFindInterfaceAddr[192.168.31.145:62360/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20819.
+  INFO root [2021-09-29 17:39:50,465] - Machine::onFindInterfaceAddr[192.168.31.145:62360/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20819.
+  INFO root [2021-09-29 17:39:50,568] - Machine::onFindInterfaceAddr[192.168.31.145:62363/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20280.
+  INFO root [2021-09-29 17:39:50,571] - Machine::onFindInterfaceAddr[192.168.31.145:62364/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20433.
+  INFO root [2021-09-29 17:39:50,572] - Machine::onFindInterfaceAddr[192.168.31.145:62363/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20280.
+  INFO root [2021-09-29 17:39:50,573] - Machine::onFindInterfaceAddr[192.168.31.145:62364/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20433.
+  INFO root [2021-09-29 17:39:51,481] - Machine::onFindInterfaceAddr[192.168.31.145:62369/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20238.
+  INFO root [2021-09-29 17:39:51,484] - Machine::onFindInterfaceAddr[192.168.31.145:62369/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20238.
+  INFO root [2021-09-29 17:39:52,492] - Machine::onFindInterfaceAddr[192.168.31.145:62372/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20710.
+  INFO root [2021-09-29 17:39:52,495] - Machine::onFindInterfaceAddr[192.168.31.145:62372/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20710.
+  INFO root [2021-09-29 17:39:52,698] - Machine::onFindInterfaceAddr[192.168.31.145:62375/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20118.
+  INFO root [2021-09-29 17:39:52,701] - Machine::onFindInterfaceAddr[192.168.31.145:62375/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20118.
+  INFO root [2021-09-29 17:39:53,408] - Machine::onFindInterfaceAddr[192.168.31.145:51602/0/0/0]: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20721.
+  INFO root [2021-09-29 17:39:53,411] - Machine::onFindInterfaceAddr[192.168.31.145:51602/0/0/0]: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20721.
+ DEBUG root [2021-09-29 17:39:58,150] - Machine::onBroadcastInterface: baseapp update, pid=9948, uid=12169, globalorderid=6, grouporderid=1!
+ DEBUG root [2021-09-29 17:39:58,150] - Machine::onBroadcastInterface: baseapp update, pid=9948, uid=12169, globalorderid=6, grouporderid=1!
+ DEBUG root [2021-09-29 17:39:58,455] - Machine::onBroadcastInterface: cellapp update, pid=11804, uid=12169, globalorderid=5, grouporderid=1!
+ DEBUG root [2021-09-29 17:39:58,455] - Machine::onBroadcastInterface: cellapp update, pid=11804, uid=12169, globalorderid=5, grouporderid=1!
+ DEBUG root [2021-09-29 17:39:58,759] - Machine::onBroadcastInterface: baseapp update, pid=9948, uid=12169, globalorderid=6, grouporderid=1!
+ DEBUG root [2021-09-29 17:39:58,759] - Machine::onBroadcastInterface: baseapp update, pid=9948, uid=12169, globalorderid=6, grouporderid=1!
+ DEBUG root [2021-09-29 17:39:58,862] - Machine::onBroadcastInterface: loginapp update, pid=23180, uid=12169, globalorderid=2, grouporderid=1!
+ DEBUG root [2021-09-29 17:39:58,862] - Machine::onBroadcastInterface: loginapp update, pid=23180, uid=12169, globalorderid=2, grouporderid=1!
+ DEBUG root [2021-09-29 17:39:59,066] - Machine::onBroadcastInterface: cellapp update, pid=11804, uid=12169, globalorderid=5, grouporderid=1!
+ DEBUG root [2021-09-29 17:39:59,066] - Machine::onBroadcastInterface: cellapp update, pid=11804, uid=12169, globalorderid=5, grouporderid=1!
+ DEBUG root [2021-09-29 17:39:59,471] - Machine::onBroadcastInterface: loginapp update, pid=23180, uid=12169, globalorderid=2, grouporderid=1!
+ DEBUG root [2021-09-29 17:39:59,471] - Machine::onBroadcastInterface: loginapp update, pid=23180, uid=12169, globalorderid=2, grouporderid=1!
+  INFO root [2021-09-29 17:40:40,270] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62111/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:40,371] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62112/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:40,572] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62114/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:40,673] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62117/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:40,773] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62121/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:40,975] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62124/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:40,975] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62125/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:41,076] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62129/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:41,277] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62130/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:41,378] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62131/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:41,479] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62132/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:43,492] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62133/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:43,995] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62134/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:43,995] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62135/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:44,096] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62136/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:44,297] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62137/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:44,398] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62138/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:44,600] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62139/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:46,514] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62140/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:48,125] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62141/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:48,125] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62142/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:48,428] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:50097/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:48,529] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:50100/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:48,630] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:50103/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:49,536] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:50168/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:50,141] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62357/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:50,543] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62360/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:50,644] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62363/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:50,644] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62364/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:51,550] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62369/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:52,558] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62372/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:52,760] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62375/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:53,464] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:51602/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:58,197] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:59838/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:58,500] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:60881/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:58,802] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:60882/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:58,903] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:60883/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:59,104] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:60884/0/0/0 timeout!
+  INFO root [2021-09-29 17:40:59,507] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:60885/0/0/0 timeout!
+  INFO root [2021-09-29 17:41:10,381] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62113/0/0/0 timeout!
+  INFO root [2021-09-29 17:41:10,985] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62128/0/0/0 timeout!
+  INFO root [2021-09-29 19:20:20,131] - 
+  INFO root [2021-09-29 19:20:20,149] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 19:20:20,162] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 19:20:20,162] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 19:20:20,162] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 19:20:20,200] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20099 )
+  INFO root [2021-09-29 19:20:20,200] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20099, SOMAXCONN=5.
+  INFO root [2021-09-29 19:20:20,202] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:50936 )
+  INFO root [2021-09-29 19:20:20,202] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:50936, SOMAXCONN=5.
+  INFO root [2021-09-29 19:20:20,203] - server-configs:
+  INFO root [2021-09-29 19:20:20,203] - 	internalTcpAddr : 192.168.31.145:50936
+  INFO root [2021-09-29 19:20:20,203] - 	componentID : 1000
+  WARN root [2021-09-29 19:20:20,203] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [2021-09-29 19:20:20,289] - ---- machine Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4FDF831D7F690DA91AEF080A7365BE1C. Config: Debug X64. Built: 14:53:09 Sep 29 2021. AppID: 1000. UID: 12169. PID: 11524 ----
+  INFO root [2021-09-29 19:20:20,289] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 19:20:20,290] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 19:20:20,291] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2021-09-29 19:20:20,395] - EndPoint::getInterfaces: found eth0 192.168.31.145
+  INFO root [2021-09-29 19:20:20,395] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.31.145.
+  INFO root [2021-09-29 19:20:20,395] - Machine::findBroadcastInterface: Confirmed 192.168.31.145 (eth0) as default broadcast route interface.
+  INFO root [2021-09-29 19:20:20,396] - Machine::initNetwork: bind broadcast successfully! addr:192.168.31.145:20086
+  INFO root [2021-09-29 19:20:20,567] - ---- machine is running ----
+  INFO root [2021-09-29 19:20:20,568] - Components::process(): Found all the components!
+  INFO root [2021-09-29 19:20:23,189] - Machine::onBroadcastInterface: added newUID 12169.
+  INFO root [2021-09-29 19:20:23,189] - Machine::onBroadcastInterface[192.168.31.145:55600/0/0/0]: uid:12169, username:Administrator, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:12028, intaddr:192.168.31.145, intport:50938, extaddr:192.168.31.145, extport:50937.
+  INFO root [2021-09-29 19:20:23,189] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 19:20:23,189] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-29 19:20:23,257] - Machine::onBroadcastInterface: logger update, pid=12028, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 19:20:23,559] - Machine::onBroadcastInterface[192.168.31.145:55601/0/0/0]: uid:12169, username:Administrator, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:14560, intaddr:192.168.31.145, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-29 19:20:23,559] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 19:20:23,559] - Components::addComponent[interfaces], uid=12169, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-29 19:20:23,593] - Machine::onBroadcastInterface: interfaces update, pid=14560, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 19:20:23,594] - Machine::onFindInterfaceAddr[192.168.31.145:55602/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20095.
+  INFO root [2021-09-29 19:20:23,697] - Machine::onFindInterfaceAddr[192.168.31.145:55602/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20095.
+  INFO root [2021-09-29 19:20:24,000] - Machine::onBroadcastInterface[192.168.31.145:55605/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:3880, intaddr:192.168.31.145, intport:50943, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-29 19:20:24,000] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 19:20:24,000] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-29 19:20:24,003] - Machine::onBroadcastInterface: cellappmgr update, pid=3880, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 19:20:24,707] - Machine::onBroadcastInterface[192.168.31.145:55606/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:692, intaddr:192.168.31.145, intport:50941, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-29 19:20:24,707] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO root [2021-09-29 19:20:24,707] - Machine::onFindInterfaceAddr[192.168.31.145:55607/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20618.
+ DEBUG root [2021-09-29 19:20:24,711] - Machine::onBroadcastInterface: baseappmgr update, pid=692, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 19:20:24,711] - Machine::onFindInterfaceAddr[192.168.31.145:55607/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20618.
+  INFO root [2021-09-29 19:20:25,218] - Machine::onFindInterfaceAddr[192.168.31.145:55610/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20584.
+  INFO root [2021-09-29 19:20:25,219] - Machine::onFindInterfaceAddr[192.168.31.145:55610/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20584.
+  INFO root [2021-09-29 19:20:25,925] - Machine::onFindInterfaceAddr[192.168.31.145:55613/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20880.
+  INFO root [2021-09-29 19:20:25,926] - Machine::onFindInterfaceAddr[192.168.31.145:55613/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20880.
+ DEBUG root [2021-09-29 19:20:26,230] - Machine::onBroadcastInterface: logger update, pid=12028, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:20:26,230] - Machine::onBroadcastInterface: logger update, pid=12028, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 19:20:26,432] - Machine::onBroadcastInterface[192.168.31.145:55617/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:15132, intaddr:192.168.31.145, intport:50952, extaddr:192.168.31.145, extport:20013.
+  INFO root [2021-09-29 19:20:26,432] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-29 19:20:26,491] - Machine::onBroadcastInterface: loginapp update, pid=15132, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:20:26,593] - Machine::onBroadcastInterface: interfaces update, pid=14560, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:20:26,593] - Machine::onBroadcastInterface: interfaces update, pid=14560, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:20:26,997] - Machine::onBroadcastInterface: cellappmgr update, pid=3880, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:20:26,997] - Machine::onBroadcastInterface: cellappmgr update, pid=3880, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:20:27,704] - Machine::onBroadcastInterface: baseappmgr update, pid=692, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:20:27,704] - Machine::onBroadcastInterface: baseappmgr update, pid=692, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:20:29,518] - Machine::onBroadcastInterface: loginapp update, pid=15132, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:20:29,518] - Machine::onBroadcastInterface: loginapp update, pid=15132, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 19:20:31,029] - Machine::onFindInterfaceAddr[192.168.31.145:55622/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20616.
+  WARN root [2021-09-29 19:20:31,030] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:31,030] - Machine::onFindInterfaceAddr[192.168.31.145:55622/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20616.
+  WARN root [2021-09-29 19:20:31,031] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:31,736] - Machine::onFindInterfaceAddr[192.168.31.145:55625/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20859.
+  INFO root [2021-09-29 19:20:31,738] - Machine::onFindInterfaceAddr[192.168.31.145:55625/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20859.
+  INFO root [2021-09-29 19:20:31,840] - Machine::onFindInterfaceAddr[192.168.31.145:55628/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20859.
+  WARN root [2021-09-29 19:20:31,841] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:31,841] - Machine::onFindInterfaceAddr[192.168.31.145:55628/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20859.
+  WARN root [2021-09-29 19:20:31,842] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:33,050] - Machine::onFindInterfaceAddr[192.168.31.145:55631/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20301.
+  WARN root [2021-09-29 19:20:33,051] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:33,051] - Machine::onFindInterfaceAddr[192.168.31.145:55631/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20301.
+  WARN root [2021-09-29 19:20:33,052] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:33,555] - Machine::onFindInterfaceAddr[192.168.31.145:55634/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20679.
+  WARN root [2021-09-29 19:20:33,556] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:33,556] - Machine::onFindInterfaceAddr[192.168.31.145:55634/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20679.
+  WARN root [2021-09-29 19:20:33,557] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:33,860] - Machine::onFindInterfaceAddr[192.168.31.145:55637/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20903.
+  WARN root [2021-09-29 19:20:33,860] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:33,860] - Machine::onFindInterfaceAddr[192.168.31.145:55637/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20903.
+  WARN root [2021-09-29 19:20:33,861] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:35,070] - Machine::onFindInterfaceAddr[192.168.31.145:55640/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20113.
+  WARN root [2021-09-29 19:20:35,071] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:35,071] - Machine::onFindInterfaceAddr[192.168.31.145:55640/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20113.
+  WARN root [2021-09-29 19:20:35,072] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:35,676] - Machine::onFindInterfaceAddr[192.168.31.145:55643/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20798.
+  WARN root [2021-09-29 19:20:35,677] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:35,677] - Machine::onFindInterfaceAddr[192.168.31.145:55643/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20798.
+  WARN root [2021-09-29 19:20:35,678] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:35,879] - Machine::onFindInterfaceAddr[192.168.31.145:55646/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20715.
+  WARN root [2021-09-29 19:20:35,880] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:35,880] - Machine::onFindInterfaceAddr[192.168.31.145:55646/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20715.
+  WARN root [2021-09-29 19:20:35,881] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:37,090] - Machine::onFindInterfaceAddr[192.168.31.145:55649/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20696.
+  WARN root [2021-09-29 19:20:37,091] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:37,091] - Machine::onFindInterfaceAddr[192.168.31.145:55649/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20696.
+  WARN root [2021-09-29 19:20:37,092] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:37,696] - Machine::onFindInterfaceAddr[192.168.31.145:55652/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20685.
+  WARN root [2021-09-29 19:20:37,697] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:37,697] - Machine::onFindInterfaceAddr[192.168.31.145:55652/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20685.
+  WARN root [2021-09-29 19:20:37,698] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:37,899] - Machine::onFindInterfaceAddr[192.168.31.145:55655/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20299.
+  WARN root [2021-09-29 19:20:37,900] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:37,900] - Machine::onFindInterfaceAddr[192.168.31.145:55655/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20299.
+  WARN root [2021-09-29 19:20:37,901] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:39,109] - Machine::onFindInterfaceAddr[192.168.31.145:55658/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20280.
+  WARN root [2021-09-29 19:20:39,110] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:39,110] - Machine::onFindInterfaceAddr[192.168.31.145:55658/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20280.
+  WARN root [2021-09-29 19:20:39,111] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:39,716] - Machine::onFindInterfaceAddr[192.168.31.145:55661/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20268.
+  WARN root [2021-09-29 19:20:39,717] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:39,717] - Machine::onFindInterfaceAddr[192.168.31.145:55661/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20268.
+  WARN root [2021-09-29 19:20:39,718] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:39,919] - Machine::onFindInterfaceAddr[192.168.31.145:55664/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20931.
+  WARN root [2021-09-29 19:20:39,920] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:39,920] - Machine::onFindInterfaceAddr[192.168.31.145:55664/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20931.
+  WARN root [2021-09-29 19:20:39,921] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:41,128] - Machine::onFindInterfaceAddr[192.168.31.145:55667/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20912.
+  WARN root [2021-09-29 19:20:41,129] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:41,129] - Machine::onFindInterfaceAddr[192.168.31.145:55667/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20912.
+  WARN root [2021-09-29 19:20:41,130] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:41,835] - Machine::onFindInterfaceAddr[192.168.31.145:55670/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20901.
+  WARN root [2021-09-29 19:20:41,836] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:41,836] - Machine::onFindInterfaceAddr[192.168.31.145:55670/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20901.
+  WARN root [2021-09-29 19:20:41,837] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:41,938] - Machine::onFindInterfaceAddr[192.168.31.145:55673/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20515.
+  WARN root [2021-09-29 19:20:41,939] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:41,939] - Machine::onFindInterfaceAddr[192.168.31.145:55673/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20515.
+  WARN root [2021-09-29 19:20:41,940] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:43,148] - Machine::onFindInterfaceAddr[192.168.31.145:55676/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20495.
+  WARN root [2021-09-29 19:20:43,149] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:43,149] - Machine::onFindInterfaceAddr[192.168.31.145:55676/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20495.
+  WARN root [2021-09-29 19:20:43,150] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:43,955] - Machine::onFindInterfaceAddr[192.168.31.145:55679/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20791.
+  WARN root [2021-09-29 19:20:43,956] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:43,956] - Machine::onFindInterfaceAddr[192.168.31.145:55680/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20095.
+  WARN root [2021-09-29 19:20:43,957] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:43,957] - Machine::onFindInterfaceAddr[192.168.31.145:55679/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20791.
+  WARN root [2021-09-29 19:20:43,958] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:43,958] - Machine::onFindInterfaceAddr[192.168.31.145:55680/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20095.
+  WARN root [2021-09-29 19:20:43,959] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:45,167] - Machine::onFindInterfaceAddr[192.168.31.145:55685/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20308.
+  WARN root [2021-09-29 19:20:45,168] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:45,168] - Machine::onFindInterfaceAddr[192.168.31.145:55685/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20308.
+  WARN root [2021-09-29 19:20:45,169] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:45,974] - Machine::onFindInterfaceAddr[192.168.31.145:55688/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20963.
+  WARN root [2021-09-29 19:20:45,975] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:45,975] - Machine::onFindInterfaceAddr[192.168.31.145:55688/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20963.
+  WARN root [2021-09-29 19:20:45,976] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:47,285] - Machine::onFindInterfaceAddr[192.168.31.145:55691/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20940.
+  WARN root [2021-09-29 19:20:47,286] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:47,286] - Machine::onFindInterfaceAddr[192.168.31.145:55691/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20940.
+  WARN root [2021-09-29 19:20:47,287] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:47,388] - Machine::onFindInterfaceAddr[192.168.31.145:55694/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20348.
+  WARN root [2021-09-29 19:20:47,389] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:47,389] - Machine::onFindInterfaceAddr[192.168.31.145:55694/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20348.
+  WARN root [2021-09-29 19:20:47,390] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:47,994] - Machine::onFindInterfaceAddr[192.168.31.145:55697/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20543.
+  WARN root [2021-09-29 19:20:47,995] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:47,995] - Machine::onFindInterfaceAddr[192.168.31.145:55697/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20543.
+  WARN root [2021-09-29 19:20:47,996] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:49,405] - Machine::onFindInterfaceAddr[192.168.31.145:55700/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20830.
+  WARN root [2021-09-29 19:20:49,406] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:49,406] - Machine::onFindInterfaceAddr[192.168.31.145:55701/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20137.
+  WARN root [2021-09-29 19:20:49,407] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:49,407] - Machine::onFindInterfaceAddr[192.168.31.145:55700/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20830.
+  WARN root [2021-09-29 19:20:49,408] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:49,408] - Machine::onFindInterfaceAddr[192.168.31.145:55701/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20137.
+  WARN root [2021-09-29 19:20:49,409] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:50,013] - Machine::onFindInterfaceAddr[192.168.31.145:55706/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20126.
+  WARN root [2021-09-29 19:20:50,014] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:50,014] - Machine::onFindInterfaceAddr[192.168.31.145:55706/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20126.
+  WARN root [2021-09-29 19:20:50,015] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:51,424] - Machine::onFindInterfaceAddr[192.168.31.145:55709/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20717.
+  WARN root [2021-09-29 19:20:51,425] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:51,425] - Machine::onFindInterfaceAddr[192.168.31.145:55710/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20770.
+  WARN root [2021-09-29 19:20:51,426] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:51,426] - Machine::onFindInterfaceAddr[192.168.31.145:55709/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20717.
+  WARN root [2021-09-29 19:20:51,427] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:51,427] - Machine::onFindInterfaceAddr[192.168.31.145:55710/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20770.
+  WARN root [2021-09-29 19:20:51,428] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:52,032] - Machine::onFindInterfaceAddr[192.168.31.145:55715/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20709.
+  WARN root [2021-09-29 19:20:52,033] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:52,033] - Machine::onFindInterfaceAddr[192.168.31.145:55715/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20709.
+  WARN root [2021-09-29 19:20:52,034] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:53,444] - Machine::onFindInterfaceAddr[192.168.31.145:55718/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20350.
+  WARN root [2021-09-29 19:20:53,445] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:53,446] - Machine::onFindInterfaceAddr[192.168.31.145:55718/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20350.
+  WARN root [2021-09-29 19:20:53,447] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:54,050] - Machine::onFindInterfaceAddr[192.168.31.145:55721/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20342.
+  WARN root [2021-09-29 19:20:54,051] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:54,051] - Machine::onFindInterfaceAddr[192.168.31.145:55721/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20342.
+  WARN root [2021-09-29 19:20:54,052] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:54,858] - Machine::onFindInterfaceAddr[192.168.31.145:55724/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20739.
+  WARN root [2021-09-29 19:20:54,859] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:54,859] - Machine::onFindInterfaceAddr[192.168.31.145:55724/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20739.
+  WARN root [2021-09-29 19:20:54,860] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:55,465] - Machine::onFindInterfaceAddr[192.168.31.145:55727/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20165.
+  WARN root [2021-09-29 19:20:55,466] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:55,466] - Machine::onFindInterfaceAddr[192.168.31.145:55727/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20165.
+  WARN root [2021-09-29 19:20:55,467] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:56,071] - Machine::onFindInterfaceAddr[192.168.31.145:55730/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20154.
+  WARN root [2021-09-29 19:20:56,072] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:56,072] - Machine::onFindInterfaceAddr[192.168.31.145:55730/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20154.
+  WARN root [2021-09-29 19:20:56,073] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:56,879] - Machine::onFindInterfaceAddr[192.168.31.145:55733/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20757.
+  WARN root [2021-09-29 19:20:56,880] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:56,880] - Machine::onFindInterfaceAddr[192.168.31.145:55733/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20757.
+  WARN root [2021-09-29 19:20:56,881] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:57,485] - Machine::onFindInterfaceAddr[192.168.31.145:55736/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20749.
+  WARN root [2021-09-29 19:20:57,486] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:57,486] - Machine::onFindInterfaceAddr[192.168.31.145:55736/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20749.
+  WARN root [2021-09-29 19:20:57,487] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:58,091] - Machine::onFindInterfaceAddr[192.168.31.145:55739/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20737.
+  WARN root [2021-09-29 19:20:58,091] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:58,091] - Machine::onFindInterfaceAddr[192.168.31.145:55739/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20737.
+  WARN root [2021-09-29 19:20:58,092] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:58,898] - Machine::onFindInterfaceAddr[192.168.31.145:55742/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20340.
+  WARN root [2021-09-29 19:20:58,899] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:58,899] - Machine::onFindInterfaceAddr[192.168.31.145:55742/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20340.
+  WARN root [2021-09-29 19:20:58,900] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:20:59,504] - Machine::onFindInterfaceAddr[192.168.31.145:55745/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20329.
+  WARN root [2021-09-29 19:20:59,505] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:20:59,505] - Machine::onFindInterfaceAddr[192.168.31.145:55745/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20329.
+  WARN root [2021-09-29 19:20:59,506] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:00,110] - Machine::onFindInterfaceAddr[192.168.31.145:55748/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20370.
+  WARN root [2021-09-29 19:21:00,111] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:00,111] - Machine::onFindInterfaceAddr[192.168.31.145:55748/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20370.
+  WARN root [2021-09-29 19:21:00,112] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:00,918] - Machine::onFindInterfaceAddr[192.168.31.145:55751/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20972.
+  WARN root [2021-09-29 19:21:00,919] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:00,919] - Machine::onFindInterfaceAddr[192.168.31.145:55751/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20972.
+  WARN root [2021-09-29 19:21:00,920] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:01,525] - Machine::onFindInterfaceAddr[192.168.31.145:55754/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20964.
+  WARN root [2021-09-29 19:21:01,526] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:01,526] - Machine::onFindInterfaceAddr[192.168.31.145:55754/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20964.
+  WARN root [2021-09-29 19:21:01,527] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:02,131] - Machine::onFindInterfaceAddr[192.168.31.145:55757/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20901.
+  WARN root [2021-09-29 19:21:02,132] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:02,132] - Machine::onFindInterfaceAddr[192.168.31.145:55757/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20901.
+  WARN root [2021-09-29 19:21:02,133] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:02,938] - Machine::onFindInterfaceAddr[192.168.31.145:55760/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20556.
+  WARN root [2021-09-29 19:21:02,939] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:02,939] - Machine::onFindInterfaceAddr[192.168.31.145:55760/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20556.
+  WARN root [2021-09-29 19:21:02,940] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:03,545] - Machine::onFindInterfaceAddr[192.168.31.145:55763/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20545.
+  WARN root [2021-09-29 19:21:03,546] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:03,546] - Machine::onFindInterfaceAddr[192.168.31.145:55763/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20545.
+  WARN root [2021-09-29 19:21:03,547] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:04,150] - Machine::onFindInterfaceAddr[192.168.31.145:60522/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20537.
+  WARN root [2021-09-29 19:21:04,151] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:04,151] - Machine::onFindInterfaceAddr[192.168.31.145:60522/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20537.
+  WARN root [2021-09-29 19:21:04,152] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:04,958] - Machine::onFindInterfaceAddr[192.168.31.145:60525/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20368.
+  WARN root [2021-09-29 19:21:04,959] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:04,959] - Machine::onFindInterfaceAddr[192.168.31.145:60525/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20368.
+  WARN root [2021-09-29 19:21:04,960] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:05,565] - Machine::onFindInterfaceAddr[192.168.31.145:60528/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20360.
+  WARN root [2021-09-29 19:21:05,565] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:05,565] - Machine::onFindInterfaceAddr[192.168.31.145:60528/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20360.
+  WARN root [2021-09-29 19:21:05,566] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:06,171] - Machine::onFindInterfaceAddr[192.168.31.145:60531/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20349.
+  WARN root [2021-09-29 19:21:06,172] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:06,172] - Machine::onFindInterfaceAddr[192.168.31.145:60531/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20349.
+  WARN root [2021-09-29 19:21:06,173] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:06,979] - Machine::onFindInterfaceAddr[192.168.31.145:60534/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20951.
+  WARN root [2021-09-29 19:21:06,980] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:06,980] - Machine::onFindInterfaceAddr[192.168.31.145:60534/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20951.
+  WARN root [2021-09-29 19:21:06,981] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:07,586] - Machine::onFindInterfaceAddr[192.168.31.145:60537/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20940.
+  WARN root [2021-09-29 19:21:07,587] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:07,587] - Machine::onFindInterfaceAddr[192.168.31.145:60537/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20940.
+  WARN root [2021-09-29 19:21:07,588] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:08,192] - Machine::onFindInterfaceAddr[192.168.31.145:60540/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20981.
+  WARN root [2021-09-29 19:21:08,193] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:08,193] - Machine::onFindInterfaceAddr[192.168.31.145:60540/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20981.
+  WARN root [2021-09-29 19:21:08,194] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:09,000] - Machine::onFindInterfaceAddr[192.168.31.145:60543/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20584.
+  WARN root [2021-09-29 19:21:09,001] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:09,001] - Machine::onFindInterfaceAddr[192.168.31.145:60543/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20584.
+  WARN root [2021-09-29 19:21:09,002] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:09,606] - Machine::onFindInterfaceAddr[192.168.31.145:60546/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20576.
+  WARN root [2021-09-29 19:21:09,607] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:09,607] - Machine::onFindInterfaceAddr[192.168.31.145:60546/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20576.
+  WARN root [2021-09-29 19:21:09,608] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:10,213] - Machine::onFindInterfaceAddr[192.168.31.145:60549/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20565.
+  WARN root [2021-09-29 19:21:10,214] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:10,214] - Machine::onFindInterfaceAddr[192.168.31.145:60549/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20565.
+  WARN root [2021-09-29 19:21:10,215] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:11,021] - Machine::onFindInterfaceAddr[192.168.31.145:60552/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20167.
+  WARN root [2021-09-29 19:21:11,022] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:11,022] - Machine::onFindInterfaceAddr[192.168.31.145:60552/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20167.
+  WARN root [2021-09-29 19:21:11,023] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:11,628] - Machine::onFindInterfaceAddr[192.168.31.145:60555/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20156.
+  WARN root [2021-09-29 19:21:11,629] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:11,629] - Machine::onFindInterfaceAddr[192.168.31.145:60555/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20156.
+  WARN root [2021-09-29 19:21:11,630] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:12,234] - Machine::onFindInterfaceAddr[192.168.31.145:60558/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20148.
+  WARN root [2021-09-29 19:21:12,235] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:12,235] - Machine::onFindInterfaceAddr[192.168.31.145:60558/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20148.
+  WARN root [2021-09-29 19:21:12,236] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:13,142] - Machine::onFindInterfaceAddr[192.168.31.145:60561/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20852.
+  WARN root [2021-09-29 19:21:13,143] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:13,143] - Machine::onFindInterfaceAddr[192.168.31.145:60561/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20852.
+  WARN root [2021-09-29 19:21:13,144] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:13,647] - Machine::onFindInterfaceAddr[192.168.31.145:60564/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20739.
+  WARN root [2021-09-29 19:21:13,648] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:13,648] - Machine::onFindInterfaceAddr[192.168.31.145:60564/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20739.
+  WARN root [2021-09-29 19:21:13,649] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:14,254] - Machine::onFindInterfaceAddr[192.168.31.145:60567/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20728.
+  WARN root [2021-09-29 19:21:14,254] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:14,254] - Machine::onFindInterfaceAddr[192.168.31.145:60567/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20728.
+  WARN root [2021-09-29 19:21:14,255] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:15,263] - Machine::onFindInterfaceAddr[192.168.31.145:60570/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20971.
+  WARN root [2021-09-29 19:21:15,263] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:15,263] - Machine::onFindInterfaceAddr[192.168.31.145:60570/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20971.
+  WARN root [2021-09-29 19:21:15,265] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:15,667] - Machine::onFindInterfaceAddr[192.168.31.145:60573/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20604.
+  WARN root [2021-09-29 19:21:15,668] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:15,668] - Machine::onFindInterfaceAddr[192.168.31.145:60573/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20604.
+  WARN root [2021-09-29 19:21:15,669] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:16,273] - Machine::onFindInterfaceAddr[192.168.31.145:60576/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20596.
+  WARN root [2021-09-29 19:21:16,274] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:16,274] - Machine::onFindInterfaceAddr[192.168.31.145:60576/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20596.
+  WARN root [2021-09-29 19:21:16,275] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:17,383] - Machine::onFindInterfaceAddr[192.168.31.145:60579/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20910.
+  WARN root [2021-09-29 19:21:17,384] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:17,384] - Machine::onFindInterfaceAddr[192.168.31.145:60579/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20910.
+  WARN root [2021-09-29 19:21:17,385] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:17,687] - Machine::onFindInterfaceAddr[192.168.31.145:60582/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20187.
+  WARN root [2021-09-29 19:21:17,688] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:17,688] - Machine::onFindInterfaceAddr[192.168.31.145:60582/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20187.
+  WARN root [2021-09-29 19:21:17,689] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:18,293] - Machine::onFindInterfaceAddr[192.168.31.145:60585/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20176.
+  WARN root [2021-09-29 19:21:18,294] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:18,294] - Machine::onFindInterfaceAddr[192.168.31.145:60585/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20176.
+  WARN root [2021-09-29 19:21:18,295] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:19,504] - Machine::onFindInterfaceAddr[192.168.31.145:60588/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20850.
+  WARN root [2021-09-29 19:21:19,505] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:19,505] - Machine::onFindInterfaceAddr[192.168.31.145:60588/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20850.
+  WARN root [2021-09-29 19:21:19,506] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:19,708] - Machine::onFindInterfaceAddr[192.168.31.145:60591/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20767.
+  WARN root [2021-09-29 19:21:19,717] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:19,717] - Machine::onFindInterfaceAddr[192.168.31.145:60591/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20767.
+  WARN root [2021-09-29 19:21:19,718] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:20,322] - Machine::onFindInterfaceAddr[192.168.31.145:60594/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20759.
+  WARN root [2021-09-29 19:21:20,323] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:20,323] - Machine::onFindInterfaceAddr[192.168.31.145:60594/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20759.
+  WARN root [2021-09-29 19:21:20,324] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:21,532] - Machine::onFindInterfaceAddr[192.168.31.145:60597/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20740.
+  WARN root [2021-09-29 19:21:21,533] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:21,533] - Machine::onFindInterfaceAddr[192.168.31.145:60597/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20740.
+  WARN root [2021-09-29 19:21:21,534] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:21,736] - Machine::onFindInterfaceAddr[192.168.31.145:53066/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20452.
+  WARN root [2021-09-29 19:21:21,737] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:21,737] - Machine::onFindInterfaceAddr[192.168.31.145:53066/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20452.
+  WARN root [2021-09-29 19:21:21,738] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:22,343] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55598/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:22,343] - Machine::onFindInterfaceAddr[192.168.31.145:53069/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20392.
+  WARN root [2021-09-29 19:21:22,344] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:22,344] - Machine::onFindInterfaceAddr[192.168.31.145:53069/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20392.
+  WARN root [2021-09-29 19:21:22,345] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:22,849] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55599/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:23,251] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55600/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:23,553] - Machine::onFindInterfaceAddr[192.168.31.145:53072/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20372.
+  WARN root [2021-09-29 19:21:23,554] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:23,554] - Machine::onFindInterfaceAddr[192.168.31.145:53072/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20372.
+  WARN root [2021-09-29 19:21:23,555] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:23,656] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55601/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:23,656] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55602/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:23,757] - Machine::onFindInterfaceAddr[192.168.31.145:53075/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20035.
+  WARN root [2021-09-29 19:21:23,758] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:23,758] - Machine::onFindInterfaceAddr[192.168.31.145:53075/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20035.
+  WARN root [2021-09-29 19:21:23,759] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:24,061] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55605/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:24,363] - Machine::onFindInterfaceAddr[192.168.31.145:53078/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20975.
+  WARN root [2021-09-29 19:21:24,364] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:24,364] - Machine::onFindInterfaceAddr[192.168.31.145:53078/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20975.
+  WARN root [2021-09-29 19:21:24,365] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:24,768] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55606/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:24,768] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55607/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:25,271] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55610/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:25,574] - Machine::onFindInterfaceAddr[192.168.31.145:53081/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20185.
+  WARN root [2021-09-29 19:21:25,574] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:25,574] - Machine::onFindInterfaceAddr[192.168.31.145:53081/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20185.
+  WARN root [2021-09-29 19:21:25,575] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:25,977] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55613/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:26,279] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55616/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:26,380] - Machine::onFindInterfaceAddr[192.168.31.145:53084/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20787.
+  WARN root [2021-09-29 19:21:26,381] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:26,381] - Machine::onFindInterfaceAddr[192.168.31.145:53084/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20787.
+  WARN root [2021-09-29 19:21:26,382] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:26,483] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55617/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:26,684] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55618/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:27,087] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55619/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:27,590] - Machine::onFindInterfaceAddr[192.168.31.145:53087/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20768.
+  WARN root [2021-09-29 19:21:27,591] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:27,591] - Machine::onFindInterfaceAddr[192.168.31.145:53087/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20768.
+  WARN root [2021-09-29 19:21:27,592] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:27,794] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55620/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:28,399] - Machine::onFindInterfaceAddr[192.168.31.145:53090/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20371.
+  WARN root [2021-09-29 19:21:28,400] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:28,400] - Machine::onFindInterfaceAddr[192.168.31.145:53090/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20371.
+  WARN root [2021-09-29 19:21:28,400] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:29,609] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55621/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:29,609] - Machine::onFindInterfaceAddr[192.168.31.145:53093/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20351.
+  WARN root [2021-09-29 19:21:29,610] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:29,610] - Machine::onFindInterfaceAddr[192.168.31.145:53093/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20351.
+  WARN root [2021-09-29 19:21:29,611] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:30,418] - Machine::onFindInterfaceAddr[192.168.31.145:53096/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20003.
+  WARN root [2021-09-29 19:21:30,419] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:30,419] - Machine::onFindInterfaceAddr[192.168.31.145:53096/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20003.
+  WARN root [2021-09-29 19:21:30,420] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:31,125] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55622/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:31,628] - Machine::onFindInterfaceAddr[192.168.31.145:53099/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20932.
+  WARN root [2021-09-29 19:21:31,629] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:31,629] - Machine::onFindInterfaceAddr[192.168.31.145:53099/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20932.
+  WARN root [2021-09-29 19:21:31,630] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:31,831] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55625/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:31,932] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55628/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:32,436] - Machine::onFindInterfaceAddr[192.168.31.145:53102/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20586.
+  WARN root [2021-09-29 19:21:32,437] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:32,437] - Machine::onFindInterfaceAddr[192.168.31.145:53102/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20586.
+  WARN root [2021-09-29 19:21:32,438] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:33,143] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55631/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:33,645] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55634/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:33,746] - Machine::onFindInterfaceAddr[192.168.31.145:53105/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20567.
+  WARN root [2021-09-29 19:21:33,747] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:33,747] - Machine::onFindInterfaceAddr[192.168.31.145:53105/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20567.
+  WARN root [2021-09-29 19:21:33,748] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:33,950] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55637/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:34,453] - Machine::onFindInterfaceAddr[192.168.31.145:53108/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20167.
+  WARN root [2021-09-29 19:21:34,454] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:34,454] - Machine::onFindInterfaceAddr[192.168.31.145:53108/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20167.
+  WARN root [2021-09-29 19:21:34,455] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:35,161] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55640/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:35,765] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55643/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:35,865] - Machine::onFindInterfaceAddr[192.168.31.145:53111/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20739.
+  WARN root [2021-09-29 19:21:35,866] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:35,866] - Machine::onFindInterfaceAddr[192.168.31.145:53111/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20739.
+  WARN root [2021-09-29 19:21:35,867] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:35,968] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55646/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:36,472] - Machine::onFindInterfaceAddr[192.168.31.145:53114/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20034.
+  WARN root [2021-09-29 19:21:36,473] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:36,473] - Machine::onFindInterfaceAddr[192.168.31.145:53114/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20034.
+  WARN root [2021-09-29 19:21:36,474] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:37,179] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55649/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:37,784] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55652/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:37,985] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55655/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:37,985] - Machine::onFindInterfaceAddr[192.168.31.145:53117/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20626.
+  WARN root [2021-09-29 19:21:37,986] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:37,986] - Machine::onFindInterfaceAddr[192.168.31.145:53117/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20626.
+  WARN root [2021-09-29 19:21:37,987] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:38,490] - Machine::onFindInterfaceAddr[192.168.31.145:53120/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20614.
+  WARN root [2021-09-29 19:21:38,491] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:38,491] - Machine::onFindInterfaceAddr[192.168.31.145:53120/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20614.
+  WARN root [2021-09-29 19:21:38,492] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:39,196] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:55658/0/0/0 timeout!
+  INFO root [2021-09-29 19:21:44,952] - 
+  INFO root [2021-09-29 19:21:44,952] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 19:21:44,953] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 19:21:44,954] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 19:21:44,954] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 19:21:44,991] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20099 )
+  INFO root [2021-09-29 19:21:44,992] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20099, SOMAXCONN=5.
+  INFO root [2021-09-29 19:21:44,994] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51012 )
+  INFO root [2021-09-29 19:21:44,994] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:51012, SOMAXCONN=5.
+  INFO root [2021-09-29 19:21:44,994] - server-configs:
+  INFO root [2021-09-29 19:21:44,994] - 	internalTcpAddr : 192.168.31.145:51012
+  INFO root [2021-09-29 19:21:44,994] - 	componentID : 1000
+  WARN root [2021-09-29 19:21:44,994] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [2021-09-29 19:21:45,042] - ---- machine Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4FDF831D7F690DA91AEF080A7365BE1C. Config: Debug X64. Built: 14:53:09 Sep 29 2021. AppID: 1000. UID: 12169. PID: 15004 ----
+  INFO root [2021-09-29 19:21:45,042] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 19:21:45,042] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 19:21:45,042] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2021-09-29 19:21:45,147] - EndPoint::getInterfaces: found eth0 192.168.31.145
+  INFO root [2021-09-29 19:21:45,148] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.31.145.
+  INFO root [2021-09-29 19:21:45,148] - Machine::findBroadcastInterface: Confirmed 192.168.31.145 (eth0) as default broadcast route interface.
+  INFO root [2021-09-29 19:21:45,148] - Machine::initNetwork: bind broadcast successfully! addr:192.168.31.145:20086
+  INFO root [2021-09-29 19:21:45,329] - ---- machine is running ----
+  INFO root [2021-09-29 19:21:45,330] - Components::process(): Found all the components!
+  INFO root [2021-09-29 19:21:45,431] - Machine::onBroadcastInterface: added newUID 12169.
+  INFO root [2021-09-29 19:21:45,431] - Machine::onBroadcastInterface[192.168.31.145:53126/0/0/0]: uid:12169, username:Administrator, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:12208, intaddr:192.168.31.145, intport:51014, extaddr:192.168.31.145, extport:51013.
+  INFO root [2021-09-29 19:21:45,431] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 19:21:45,431] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2021-09-29 19:21:45,432] - Machine::onFindInterfaceAddr[192.168.31.145:53125/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20297.
+ DEBUG root [2021-09-29 19:21:45,500] - Machine::onBroadcastInterface: logger update, pid=12208, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 19:21:45,601] - Machine::onFindInterfaceAddr[192.168.31.145:53128/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20859.
+  INFO root [2021-09-29 19:21:45,602] - Machine::onFindInterfaceAddr[192.168.31.145:53128/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20859.
+  INFO root [2021-09-29 19:21:45,803] - Machine::onFindInterfaceAddr[192.168.31.145:53131/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20522.
+  INFO root [2021-09-29 19:21:45,804] - Machine::onFindInterfaceAddr[192.168.31.145:53131/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20522.
+  INFO root [2021-09-29 19:21:45,906] - Machine::onBroadcastInterface[192.168.31.145:53134/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:2872, intaddr:192.168.31.145, intport:51016, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-29 19:21:45,906] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 19:21:45,906] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2021-09-29 19:21:45,907] - Machine::onBroadcastInterface[192.168.31.145:53135/0/0/0]: uid:12169, username:Administrator, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:3216, intaddr:192.168.31.145, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-29 19:21:45,907] - Components::addComponent[interfaces], uid=12169, componentID=3000, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-29 19:21:45,947] - Machine::onBroadcastInterface: baseappmgr update, pid=2872, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:21:45,948] - Machine::onBroadcastInterface: interfaces update, pid=3216, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 19:21:46,050] - Machine::onBroadcastInterface[192.168.31.145:53136/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:4176, intaddr:192.168.31.145, intport:51018, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-29 19:21:46,050] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO root [2021-09-29 19:21:46,050] - Machine::onFindInterfaceAddr[192.168.31.145:53137/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20289.
+ DEBUG root [2021-09-29 19:21:46,053] - Machine::onBroadcastInterface: cellappmgr update, pid=4176, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 19:21:46,053] - Machine::onFindInterfaceAddr[192.168.31.145:53137/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20289.
+  INFO root [2021-09-29 19:21:46,560] - Machine::onBroadcastInterface[192.168.31.145:53140/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:11548, intaddr:192.168.31.145, intport:51023, extaddr:192.168.31.145, extport:20013.
+  INFO root [2021-09-29 19:21:46,560] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-29 19:21:46,562] - Machine::onBroadcastInterface: loginapp update, pid=11548, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:21:48,477] - Machine::onBroadcastInterface: logger update, pid=12208, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:21:48,477] - Machine::onBroadcastInterface: logger update, pid=12208, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:21:48,982] - Machine::onBroadcastInterface: baseappmgr update, pid=2872, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:21:48,984] - Machine::onBroadcastInterface: interfaces update, pid=3216, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:21:48,985] - Machine::onBroadcastInterface: baseappmgr update, pid=2872, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:21:48,986] - Machine::onBroadcastInterface: interfaces update, pid=3216, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:21:49,088] - Machine::onBroadcastInterface: cellappmgr update, pid=4176, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:21:49,089] - Machine::onBroadcastInterface: cellappmgr update, pid=4176, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:21:49,593] - Machine::onBroadcastInterface: loginapp update, pid=11548, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-29 19:21:49,593] - Machine::onBroadcastInterface: loginapp update, pid=11548, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-29 19:21:53,017] - Machine::onFindInterfaceAddr[192.168.31.145:53146/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20995.
+  WARN root [2021-09-29 19:21:53,018] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:53,018] - Machine::onFindInterfaceAddr[192.168.31.145:53147/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20250.
+  WARN root [2021-09-29 19:21:53,019] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:53,019] - Machine::onFindInterfaceAddr[192.168.31.145:53146/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20995.
+  WARN root [2021-09-29 19:21:53,020] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:53,020] - Machine::onFindInterfaceAddr[192.168.31.145:53147/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20250.
+  WARN root [2021-09-29 19:21:53,021] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:53,627] - Machine::onFindInterfaceAddr[192.168.31.145:53152/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20137.
+  WARN root [2021-09-29 19:21:53,628] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:53,628] - Machine::onFindInterfaceAddr[192.168.31.145:53152/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20137.
+  WARN root [2021-09-29 19:21:53,629] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:55,038] - Machine::onFindInterfaceAddr[192.168.31.145:53155/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20065.
+  WARN root [2021-09-29 19:21:55,039] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:55,040] - Machine::onFindInterfaceAddr[192.168.31.145:53156/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20114.
+  WARN root [2021-09-29 19:21:55,040] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:55,041] - Machine::onFindInterfaceAddr[192.168.31.145:53155/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20065.
+  WARN root [2021-09-29 19:21:55,041] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:55,042] - Machine::onFindInterfaceAddr[192.168.31.145:53156/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20114.
+  WARN root [2021-09-29 19:21:55,042] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:55,748] - Machine::onFindInterfaceAddr[192.168.31.145:53161/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20106.
+  WARN root [2021-09-29 19:21:55,749] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:55,749] - Machine::onFindInterfaceAddr[192.168.31.145:53161/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20106.
+  WARN root [2021-09-29 19:21:55,750] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:57,059] - Machine::onFindInterfaceAddr[192.168.31.145:53164/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20697.
+  WARN root [2021-09-29 19:21:57,060] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:57,060] - Machine::onFindInterfaceAddr[192.168.31.145:53164/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20697.
+  WARN root [2021-09-29 19:21:57,061] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:57,866] - Machine::onFindInterfaceAddr[192.168.31.145:53167/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20045.
+  WARN root [2021-09-29 19:21:57,867] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:57,867] - Machine::onFindInterfaceAddr[192.168.31.145:53167/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20045.
+  WARN root [2021-09-29 19:21:57,868] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:59,077] - Machine::onFindInterfaceAddr[192.168.31.145:53170/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20277.
+  WARN root [2021-09-29 19:21:59,078] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:59,078] - Machine::onFindInterfaceAddr[192.168.31.145:53170/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20277.
+  WARN root [2021-09-29 19:21:59,079] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:59,784] - Machine::onFindInterfaceAddr[192.168.31.145:53173/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20423.
+  WARN root [2021-09-29 19:21:59,785] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:59,785] - Machine::onFindInterfaceAddr[192.168.31.145:53173/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20423.
+  WARN root [2021-09-29 19:21:59,786] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:21:59,887] - Machine::onFindInterfaceAddr[192.168.31.145:53176/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20880.
+  WARN root [2021-09-29 19:21:59,888] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:21:59,888] - Machine::onFindInterfaceAddr[192.168.31.145:53176/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20880.
+  WARN root [2021-09-29 19:21:59,889] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:22:01,098] - Machine::onFindInterfaceAddr[192.168.31.145:53179/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20861.
+  WARN root [2021-09-29 19:22:01,099] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:22:01,099] - Machine::onFindInterfaceAddr[192.168.31.145:53179/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20861.
+  WARN root [2021-09-29 19:22:01,100] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:22:01,804] - Machine::onFindInterfaceAddr[192.168.31.145:53182/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20157.
+  WARN root [2021-09-29 19:22:01,805] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:22:01,805] - Machine::onFindInterfaceAddr[192.168.31.145:53182/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20157.
+  WARN root [2021-09-29 19:22:01,806] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:22:02,007] - Machine::onFindInterfaceAddr[192.168.31.145:53185/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20565.
+  WARN root [2021-09-29 19:22:02,008] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:22:02,008] - Machine::onFindInterfaceAddr[192.168.31.145:53185/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20565.
+  WARN root [2021-09-29 19:22:02,009] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:22:03,116] - Machine::onFindInterfaceAddr[192.168.31.145:53188/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20493.
+  WARN root [2021-09-29 19:22:03,117] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:22:03,117] - Machine::onFindInterfaceAddr[192.168.31.145:53188/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20493.
+  WARN root [2021-09-29 19:22:03,118] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:22:03,823] - Machine::onFindInterfaceAddr[192.168.31.145:53191/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20740.
+  WARN root [2021-09-29 19:22:03,824] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:22:03,824] - Machine::onFindInterfaceAddr[192.168.31.145:53191/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20740.
+  WARN root [2021-09-29 19:22:03,825] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:22:04,127] - Machine::onFindInterfaceAddr[192.168.31.145:53194/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20504.
+  WARN root [2021-09-29 19:22:04,128] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:22:04,128] - Machine::onFindInterfaceAddr[192.168.31.145:53194/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20504.
+  WARN root [2021-09-29 19:22:04,129] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:22:05,136] - Machine::onFindInterfaceAddr[192.168.31.145:53197/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20256.
+  WARN root [2021-09-29 19:22:05,137] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:22:05,137] - Machine::onFindInterfaceAddr[192.168.31.145:53197/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20256.
+  WARN root [2021-09-29 19:22:05,138] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-09-29 19:22:05,844] - Machine::onFindInterfaceAddr[192.168.31.145:53200/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20604.
+  WARN root [2021-09-29 19:22:05,845] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:22:05,845] - Machine::onFindInterfaceAddr[192.168.31.145:53200/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20604.
+  WARN root [2021-09-29 19:22:05,846] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-09-29 19:22:06,249] - Machine::onFindInterfaceAddr[192.168.31.145:53203/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20627.
+  WARN root [2021-09-29 19:22:06,250] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-29 19:22:06,250] - Machine::onFindInterfaceAddr[192.168.31.145:53203/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20627.
+  WARN root [2021-09-29 19:22:06,251] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-09-30 15:17:13,162] - 
+  INFO root [2021-09-30 15:17:13,174] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-30 15:17:13,185] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-30 15:17:13,185] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-30 15:17:13,185] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-30 15:17:13,194] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20099 )
+  INFO root [2021-09-30 15:17:13,194] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20099, SOMAXCONN=5.
+  INFO root [2021-09-30 15:17:13,196] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51377 )
+  INFO root [2021-09-30 15:17:13,196] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:51377, SOMAXCONN=5.
+  INFO root [2021-09-30 15:17:13,196] - server-configs:
+  INFO root [2021-09-30 15:17:13,196] - 	internalTcpAddr : 192.168.31.145:51377
+  INFO root [2021-09-30 15:17:13,196] - 	componentID : 1000
+  WARN root [2021-09-30 15:17:13,196] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [2021-09-30 15:17:13,261] - ---- machine Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4FDF831D7F690DA91AEF080A7365BE1C. Config: Debug X64. Built: 14:53:09 Sep 29 2021. AppID: 1000. UID: 12169. PID: 13876 ----
+  INFO root [2021-09-30 15:17:13,261] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-30 15:17:13,261] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-30 15:17:13,262] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2021-09-30 15:17:13,371] - EndPoint::getInterfaces: found eth0 192.168.31.145
+  INFO root [2021-09-30 15:17:13,372] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.31.145.
+  INFO root [2021-09-30 15:17:13,372] - Machine::findBroadcastInterface: Confirmed 192.168.31.145 (eth0) as default broadcast route interface.
+  INFO root [2021-09-30 15:17:13,372] - Machine::initNetwork: bind broadcast successfully! addr:192.168.31.145:20086
+  INFO root [2021-09-30 15:17:13,530] - ---- machine is running ----
+  INFO root [2021-09-30 15:17:13,530] - Components::process(): Found all the components!
+  INFO root [2021-09-30 15:17:18,219] - Machine::onBroadcastInterface: added newUID 12169.
+  INFO root [2021-09-30 15:17:18,219] - Machine::onBroadcastInterface[192.168.31.145:62923/0/0/0]: uid:12169, username:Administrator, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:18712, intaddr:192.168.31.145, intport:51387, extaddr:192.168.31.145, extport:51386.
+  INFO root [2021-09-30 15:17:18,219] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-30 15:17:18,220] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:17:18,318] - Machine::onBroadcastInterface: logger update, pid=18712, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:17:20,601] - Machine::onFindInterfaceAddr[192.168.31.145:62924/0/0/0]: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20093.
+  INFO root [2021-09-30 15:17:20,640] - Machine::onFindInterfaceAddr[192.168.31.145:62924/0/0/0]: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20093.
+  INFO root [2021-09-30 15:17:20,745] - Machine::onBroadcastInterface[192.168.31.145:62927/0/0/0]: uid:12169, username:Administrator, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:17516, intaddr:192.168.31.145, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-30 15:17:20,745] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-30 15:17:20,745] - Components::addComponent[interfaces], uid=12169, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:17:20,747] - Machine::onBroadcastInterface: interfaces update, pid=17516, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:21,292] - Machine::onBroadcastInterface: logger update, pid=18712, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:21,292] - Machine::onBroadcastInterface: logger update, pid=18712, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:23,906] - Machine::onBroadcastInterface: interfaces update, pid=17516, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:23,907] - Machine::onBroadcastInterface: interfaces update, pid=17516, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:17:24,454] - Machine::onFindInterfaceAddr[192.168.31.145:65469/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20950.
+  INFO root [2021-09-30 15:17:24,457] - Machine::onFindInterfaceAddr[192.168.31.145:65469/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20950.
+  INFO root [2021-09-30 15:17:24,895] - Machine::onBroadcastInterface[192.168.31.145:65472/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:800, intaddr:192.168.31.145, intport:58265, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-30 15:17:24,895] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-30 15:17:24,895] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:17:24,987] - Machine::onBroadcastInterface: baseappmgr update, pid=800, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:17:25,867] - Machine::onBroadcastInterface[192.168.31.145:65473/0/0/0]: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, globalorderid=-1, grouporderid=-1, pid:17892, intaddr:192.168.31.145, intport:56080, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-30 15:17:25,867] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:17:25,869] - Machine::onBroadcastInterface: dbmgr update, pid=17892, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:27,954] - Machine::onBroadcastInterface: baseappmgr update, pid=800, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:27,955] - Machine::onBroadcastInterface: baseappmgr update, pid=800, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:28,940] - Machine::onBroadcastInterface: dbmgr update, pid=17892, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:28,940] - Machine::onBroadcastInterface: dbmgr update, pid=17892, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:17:29,928] - Machine::onFindInterfaceAddr[192.168.31.145:65476/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20940.
+  INFO root [2021-09-30 15:17:29,930] - Machine::onFindInterfaceAddr[192.168.31.145:65476/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20940.
+  INFO root [2021-09-30 15:17:30,149] - Machine::onFindInterfaceAddr[192.168.31.145:65479/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20655.
+  INFO root [2021-09-30 15:17:30,149] - Machine::onFindInterfaceAddr[192.168.31.145:65479/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20655.
+  INFO root [2021-09-30 15:17:30,372] - Machine::onBroadcastInterface[192.168.31.145:65482/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:12124, intaddr:192.168.31.145, intport:58275, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-30 15:17:30,372] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:17:30,374] - Machine::onBroadcastInterface: cellappmgr update, pid=12124, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:17:30,591] - Machine::onFindInterfaceAddr[192.168.31.145:65483/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20082.
+  INFO root [2021-09-30 15:17:30,594] - Machine::onFindInterfaceAddr[192.168.31.145:65483/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20082.
+  INFO root [2021-09-30 15:17:31,145] - Machine::onBroadcastInterface[192.168.31.145:65486/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, globalorderid=-1, grouporderid=-1, pid:5988, intaddr:192.168.31.145, intport:58277, extaddr:192.168.31.145, extport:20015.
+  INFO root [2021-09-30 15:17:31,145] - Components::addComponent[baseapp], uid=12169, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:17:31,241] - Machine::onBroadcastInterface: baseapp update, pid=5988, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:17:31,242] - Machine::onBroadcastInterface[192.168.31.145:65487/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderid=-1, grouporderid=-1, pid:14364, intaddr:192.168.31.145, intport:58279, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-30 15:17:31,242] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:17:31,348] - Machine::onBroadcastInterface: cellapp update, pid=14364, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:17:32,002] - Machine::onFindInterfaceAddr[192.168.31.145:65220/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20674.
+  INFO root [2021-09-30 15:17:32,004] - Machine::onFindInterfaceAddr[192.168.31.145:65220/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20674.
+ DEBUG root [2021-09-30 15:17:33,421] - Machine::onBroadcastInterface: cellappmgr update, pid=12124, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:33,421] - Machine::onBroadcastInterface: cellappmgr update, pid=12124, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:17:34,070] - Machine::onFindInterfaceAddr[192.168.31.145:65224/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20463.
+  INFO root [2021-09-30 15:17:34,070] - Machine::onFindInterfaceAddr[192.168.31.145:65224/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20463.
+ DEBUG root [2021-09-30 15:17:34,292] - Machine::onBroadcastInterface: baseapp update, pid=5988, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:34,292] - Machine::onBroadcastInterface: baseapp update, pid=5988, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:34,402] - Machine::onBroadcastInterface: cellapp update, pid=14364, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:34,402] - Machine::onBroadcastInterface: cellapp update, pid=14364, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:17:35,606] - Machine::onFindInterfaceAddr[192.168.31.145:65229/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20309.
+  INFO root [2021-09-30 15:17:35,608] - Machine::onFindInterfaceAddr[192.168.31.145:65229/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20309.
+  INFO root [2021-09-30 15:17:36,264] - Machine::onBroadcastInterface[192.168.31.145:65232/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:3560, intaddr:192.168.31.145, intport:54598, extaddr:192.168.31.145, extport:20013.
+  INFO root [2021-09-30 15:17:36,264] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:17:36,266] - Machine::onBroadcastInterface: loginapp update, pid=3560, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:17:37,457] - Machine::onFindInterfaceAddr[192.168.31.145:65233/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20634.
+  INFO root [2021-09-30 15:17:37,460] - Machine::onFindInterfaceAddr[192.168.31.145:65233/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20634.
+  INFO root [2021-09-30 15:17:38,333] - Machine::onFindInterfaceAddr[192.168.31.145:65236/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20391.
+  INFO root [2021-09-30 15:17:38,333] - Machine::onFindInterfaceAddr[192.168.31.145:65236/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20391.
+  INFO root [2021-09-30 15:17:38,549] - Machine::onFindInterfaceAddr[192.168.31.145:65239/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20900.
+  INFO root [2021-09-30 15:17:38,549] - Machine::onFindInterfaceAddr[192.168.31.145:65239/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20900.
+ DEBUG root [2021-09-30 15:17:39,314] - Machine::onBroadcastInterface: loginapp update, pid=3560, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:17:39,314] - Machine::onBroadcastInterface: loginapp update, pid=3560, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:17:39,529] - Machine::onFindInterfaceAddr[192.168.31.145:65243/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20319.
+  INFO root [2021-09-30 15:17:39,532] - Machine::onFindInterfaceAddr[192.168.31.145:65243/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20319.
+  INFO root [2021-09-30 15:17:40,397] - Machine::onFindInterfaceAddr[192.168.31.145:65246/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20461.
+  INFO root [2021-09-30 15:17:40,398] - Machine::onFindInterfaceAddr[192.168.31.145:65246/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20461.
+  INFO root [2021-09-30 15:17:40,614] - Machine::onFindInterfaceAddr[192.168.31.145:65249/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20176.
+  INFO root [2021-09-30 15:17:40,616] - Machine::onFindInterfaceAddr[192.168.31.145:65249/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20176.
+  INFO root [2021-09-30 15:17:42,463] - Machine::onFindInterfaceAddr[192.168.31.145:65252/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20093.
+  INFO root [2021-09-30 15:17:42,465] - Machine::onFindInterfaceAddr[192.168.31.145:65252/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20093.
+  INFO root [2021-09-30 15:17:42,680] - Machine::onFindInterfaceAddr[192.168.31.145:65255/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20808.
+  INFO root [2021-09-30 15:17:42,682] - Machine::onFindInterfaceAddr[192.168.31.145:65255/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20808.
+  INFO root [2021-09-30 15:17:43,443] - Machine::onFindInterfaceAddr[192.168.31.145:65258/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20310.
+  INFO root [2021-09-30 15:17:43,445] - Machine::onFindInterfaceAddr[192.168.31.145:65258/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20310.
+  INFO root [2021-09-30 15:17:45,511] - Machine::onFindInterfaceAddr[192.168.31.145:65261/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20096.
+  INFO root [2021-09-30 15:17:45,513] - Machine::onFindInterfaceAddr[192.168.31.145:65261/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20096.
+ DEBUG root [2021-09-30 15:17:50,627] - Machine::onBroadcastInterface: loginapp update, pid=3560, uid=12169, globalorderid=5, grouporderid=1!
+ DEBUG root [2021-09-30 15:17:50,627] - Machine::onBroadcastInterface: loginapp update, pid=3560, uid=12169, globalorderid=5, grouporderid=1!
+ DEBUG root [2021-09-30 15:17:51,173] - Machine::onBroadcastInterface: cellapp update, pid=14364, uid=12169, globalorderid=4, grouporderid=1!
+ DEBUG root [2021-09-30 15:17:51,173] - Machine::onBroadcastInterface: cellapp update, pid=14364, uid=12169, globalorderid=4, grouporderid=1!
+ DEBUG root [2021-09-30 15:17:51,283] - Machine::onBroadcastInterface: loginapp update, pid=3560, uid=12169, globalorderid=5, grouporderid=1!
+ DEBUG root [2021-09-30 15:17:51,283] - Machine::onBroadcastInterface: loginapp update, pid=3560, uid=12169, globalorderid=5, grouporderid=1!
+ DEBUG root [2021-09-30 15:17:51,611] - Machine::onBroadcastInterface: baseapp update, pid=5988, uid=12169, globalorderid=3, grouporderid=1!
+ DEBUG root [2021-09-30 15:17:51,611] - Machine::onBroadcastInterface: baseapp update, pid=5988, uid=12169, globalorderid=3, grouporderid=1!
+ DEBUG root [2021-09-30 15:17:51,827] - Machine::onBroadcastInterface: cellapp update, pid=14364, uid=12169, globalorderid=4, grouporderid=1!
+ DEBUG root [2021-09-30 15:17:51,827] - Machine::onBroadcastInterface: cellapp update, pid=14364, uid=12169, globalorderid=4, grouporderid=1!
+ DEBUG root [2021-09-30 15:17:52,265] - Machine::onBroadcastInterface: baseapp update, pid=5988, uid=12169, globalorderid=3, grouporderid=1!
+ DEBUG root [2021-09-30 15:17:52,265] - Machine::onBroadcastInterface: baseapp update, pid=5988, uid=12169, globalorderid=3, grouporderid=1!
+  INFO root [2021-09-30 15:18:18,268] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62923/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:20,661] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62924/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:20,769] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62927/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:21,314] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62928/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:23,925] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65468/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:24,469] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65469/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:24,905] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65472/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:25,890] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65473/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:27,962] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65474/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:29,045] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65475/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:30,018] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65476/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:30,236] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65479/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:30,457] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65482/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:30,675] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65483/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:31,220] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65486/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:31,329] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65487/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:32,095] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65220/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:33,510] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65223/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:34,170] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65224/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:34,390] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65227/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:34,500] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65228/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:35,714] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65229/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:36,266] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65232/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:37,472] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65233/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:38,352] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65236/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:38,568] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65239/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:39,336] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65242/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:39,557] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65243/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:40,434] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65246/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:40,654] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65249/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:42,502] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65252/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:42,720] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65255/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:43,482] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65258/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:45,546] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65261/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:50,663] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:63581/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:51,209] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:63582/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:51,321] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:63583/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:51,652] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:63584/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:51,869] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:63585/0/0/0 timeout!
+  INFO root [2021-09-30 15:18:52,310] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:63586/0/0/0 timeout!
+  INFO root [2021-09-30 15:55:45,637] - 
+  INFO root [2021-09-30 15:55:45,637] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-30 15:55:45,637] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-30 15:55:45,638] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-30 15:55:45,638] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-30 15:55:45,646] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20099 )
+  INFO root [2021-09-30 15:55:45,646] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20099, SOMAXCONN=5.
+  INFO root [2021-09-30 15:55:45,648] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51760 )
+  INFO root [2021-09-30 15:55:45,648] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:51760, SOMAXCONN=5.
+  INFO root [2021-09-30 15:55:45,648] - server-configs:
+  INFO root [2021-09-30 15:55:45,648] - 	internalTcpAddr : 192.168.31.145:51760
+  INFO root [2021-09-30 15:55:45,648] - 	componentID : 1000
+  WARN root [2021-09-30 15:55:45,648] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [2021-09-30 15:55:45,691] - ---- machine Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4FDF831D7F690DA91AEF080A7365BE1C. Config: Debug X64. Built: 14:53:09 Sep 29 2021. AppID: 1000. UID: 12169. PID: 17200 ----
+  INFO root [2021-09-30 15:55:45,691] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-30 15:55:45,691] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-30 15:55:45,691] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2021-09-30 15:55:45,803] - EndPoint::getInterfaces: found eth0 192.168.31.145
+  INFO root [2021-09-30 15:55:45,804] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.31.145.
+  INFO root [2021-09-30 15:55:45,804] - Machine::findBroadcastInterface: Confirmed 192.168.31.145 (eth0) as default broadcast route interface.
+  INFO root [2021-09-30 15:55:45,804] - Machine::initNetwork: bind broadcast successfully! addr:192.168.31.145:20086
+  INFO root [2021-09-30 15:55:45,959] - ---- machine is running ----
+  INFO root [2021-09-30 15:55:45,960] - Components::process(): Found all the components!
+  INFO root [2021-09-30 15:55:46,834] - Machine::onBroadcastInterface: added newUID 12169.
+  INFO root [2021-09-30 15:55:46,834] - Machine::onBroadcastInterface[192.168.31.145:62030/0/0/0]: uid:12169, username:Administrator, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:14696, intaddr:192.168.31.145, intport:51763, extaddr:192.168.31.145, extport:51762.
+  INFO root [2021-09-30 15:55:46,834] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-30 15:55:46,835] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:55:46,921] - Machine::onBroadcastInterface: logger update, pid=14696, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:50,016] - Machine::onBroadcastInterface: logger update, pid=14696, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:50,016] - Machine::onBroadcastInterface: logger update, pid=14696, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:55:51,428] - Machine::onFindInterfaceAddr[192.168.31.145:62033/0/0/0]: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20593.
+  INFO root [2021-09-30 15:55:51,430] - Machine::onFindInterfaceAddr[192.168.31.145:62033/0/0/0]: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20593.
+  INFO root [2021-09-30 15:55:52,751] - Machine::onBroadcastInterface[192.168.31.145:62036/0/0/0]: uid:12169, username:Administrator, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:15052, intaddr:192.168.31.145, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-30 15:55:52,751] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-30 15:55:52,751] - Components::addComponent[interfaces], uid=12169, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:55:52,756] - Machine::onBroadcastInterface: interfaces update, pid=15052, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:55:53,080] - Machine::onFindInterfaceAddr[192.168.31.145:62037/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20259.
+  INFO root [2021-09-30 15:55:53,082] - Machine::onFindInterfaceAddr[192.168.31.145:62038/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20308.
+  INFO root [2021-09-30 15:55:53,083] - Machine::onFindInterfaceAddr[192.168.31.145:62037/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20259.
+  INFO root [2021-09-30 15:55:53,084] - Machine::onFindInterfaceAddr[192.168.31.145:62038/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20308.
+  INFO root [2021-09-30 15:55:53,302] - Machine::onFindInterfaceAddr[192.168.31.145:62043/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20869.
+  INFO root [2021-09-30 15:55:53,303] - Machine::onFindInterfaceAddr[192.168.31.145:62043/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20869.
+  INFO root [2021-09-30 15:55:53,521] - Machine::onBroadcastInterface[192.168.31.145:62046/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:10632, intaddr:192.168.31.145, intport:61147, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-30 15:55:53,521] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-30 15:55:53,521] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:55:53,631] - Machine::onBroadcastInterface: cellappmgr update, pid=10632, uid=12169, globalorderid=-1, grouporderid=-1!
+  WARN root [2021-09-30 15:55:53,631] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 0.11 seconds
+  INFO root [2021-09-30 15:55:53,958] - Machine::onBroadcastInterface[192.168.31.145:62047/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, globalorderid=-1, grouporderid=-1, pid:4420, intaddr:192.168.31.145, intport:61151, extaddr:192.168.31.145, extport:20015.
+  INFO root [2021-09-30 15:55:53,958] - Components::addComponent[baseapp], uid=12169, componentID=7001, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:55:53,961] - Machine::onBroadcastInterface: baseapp update, pid=4420, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:55:54,068] - Machine::onBroadcastInterface[192.168.31.145:62048/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:14712, intaddr:192.168.31.145, intport:61148, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-30 15:55:54,068] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:55:54,070] - Machine::onBroadcastInterface: baseappmgr update, pid=14712, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:55,817] - Machine::onBroadcastInterface: interfaces update, pid=15052, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:55:55,817] - Machine::onFindInterfaceAddr[192.168.31.145:62050/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20239.
+ DEBUG root [2021-09-30 15:55:55,821] - Machine::onBroadcastInterface: interfaces update, pid=15052, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:55:55,821] - Machine::onFindInterfaceAddr[192.168.31.145:62050/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.31.145, finderRecvPort:20239.
+  INFO root [2021-09-30 15:55:56,033] - Machine::onFindInterfaceAddr[192.168.31.145:62053/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20954.
+  INFO root [2021-09-30 15:55:56,033] - Machine::onFindInterfaceAddr[192.168.31.145:62053/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.31.145, finderRecvPort:20954.
+  INFO root [2021-09-30 15:55:56,469] - Machine::onBroadcastInterface[192.168.31.145:62056/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderid=-1, grouporderid=-1, pid:13412, intaddr:192.168.31.145, intport:61167, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-30 15:55:56,469] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:55:56,472] - Machine::onBroadcastInterface: cellapp update, pid=13412, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:55:56,689] - Machine::onBroadcastInterface[192.168.31.145:62057/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:19400, intaddr:192.168.31.145, intport:61169, extaddr:192.168.31.145, extport:20013.
+  INFO root [2021-09-30 15:55:56,689] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:55:56,691] - Machine::onBroadcastInterface: cellappmgr update, pid=10632, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:55:56,692] - Machine::onBroadcastInterface[192.168.31.145:62059/0/0/0]: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, globalorderid=-1, grouporderid=-1, pid:18220, intaddr:192.168.31.145, intport:61140, extaddr:nonsupport, extport:0.
+  INFO root [2021-09-30 15:55:56,692] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG root [2021-09-30 15:55:56,694] - Machine::onBroadcastInterface: loginapp update, pid=19400, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:56,696] - Machine::onBroadcastInterface: cellappmgr update, pid=10632, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:56,698] - Machine::onBroadcastInterface: dbmgr update, pid=18220, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:57,033] - Machine::onBroadcastInterface: baseapp update, pid=4420, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:57,033] - Machine::onBroadcastInterface: baseapp update, pid=4420, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:57,144] - Machine::onBroadcastInterface: baseappmgr update, pid=14712, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:57,144] - Machine::onBroadcastInterface: baseappmgr update, pid=14712, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:59,571] - Machine::onBroadcastInterface: cellapp update, pid=13412, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:59,571] - Machine::onBroadcastInterface: cellapp update, pid=13412, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:59,678] - Machine::onBroadcastInterface: loginapp update, pid=19400, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:59,678] - Machine::onBroadcastInterface: loginapp update, pid=19400, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:59,790] - Machine::onBroadcastInterface: dbmgr update, pid=18220, uid=12169, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-09-30 15:55:59,790] - Machine::onBroadcastInterface: dbmgr update, pid=18220, uid=12169, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-09-30 15:56:00,668] - Machine::onFindInterfaceAddr[192.168.31.145:62065/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20290.
+  INFO root [2021-09-30 15:56:00,668] - Machine::onFindInterfaceAddr[192.168.31.145:62065/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20290.
+  INFO root [2021-09-30 15:56:01,216] - Machine::onFindInterfaceAddr[192.168.31.145:62068/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20818.
+  INFO root [2021-09-30 15:56:01,219] - Machine::onFindInterfaceAddr[192.168.31.145:62069/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20971.
+  INFO root [2021-09-30 15:56:01,220] - Machine::onFindInterfaceAddr[192.168.31.145:62068/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20818.
+  INFO root [2021-09-30 15:56:01,220] - Machine::onFindInterfaceAddr[192.168.31.145:62069/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20971.
+  INFO root [2021-09-30 15:56:02,757] - Machine::onFindInterfaceAddr[192.168.31.145:65277/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20922.
+  INFO root [2021-09-30 15:56:02,759] - Machine::onFindInterfaceAddr[192.168.31.145:65277/0/0/0]: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20922.
+  INFO root [2021-09-30 15:56:03,306] - Machine::onFindInterfaceAddr[192.168.31.145:65280/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20708.
+  INFO root [2021-09-30 15:56:03,307] - Machine::onFindInterfaceAddr[192.168.31.145:65280/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20708.
+  INFO root [2021-09-30 15:56:03,635] - Machine::onFindInterfaceAddr[192.168.31.145:65283/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20678.
+  INFO root [2021-09-30 15:56:03,637] - Machine::onFindInterfaceAddr[192.168.31.145:65283/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20678.
+  INFO root [2021-09-30 15:56:03,746] - Machine::onFindInterfaceAddr[192.168.31.145:65286/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20289.
+  INFO root [2021-09-30 15:56:03,747] - Machine::onFindInterfaceAddr[192.168.31.145:65286/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.31.145, finderRecvPort:20289.
+  INFO root [2021-09-30 15:56:04,739] - Machine::onFindInterfaceAddr[192.168.31.145:65289/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20607.
+  INFO root [2021-09-30 15:56:04,743] - Machine::onFindInterfaceAddr[192.168.31.145:65289/0/0/0]: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20607.
+  INFO root [2021-09-30 15:56:05,399] - Machine::onFindInterfaceAddr[192.168.31.145:65292/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20543.
+  INFO root [2021-09-30 15:56:05,399] - Machine::onFindInterfaceAddr[192.168.31.145:65292/0/0/0]: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20543.
+  INFO root [2021-09-30 15:56:05,727] - Machine::onFindInterfaceAddr[192.168.31.145:65295/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20820.
+  INFO root [2021-09-30 15:56:05,728] - Machine::onFindInterfaceAddr[192.168.31.145:65295/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:192.168.31.145, finderRecvPort:20820.
+  INFO root [2021-09-30 15:56:05,834] - Machine::onFindInterfaceAddr[192.168.31.145:65298/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20973.
+  INFO root [2021-09-30 15:56:05,837] - Machine::onFindInterfaceAddr[192.168.31.145:65298/0/0/0]: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20973.
+  INFO root [2021-09-30 15:56:07,920] - Machine::onFindInterfaceAddr[192.168.31.145:65301/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20939.
+  INFO root [2021-09-30 15:56:07,923] - Machine::onFindInterfaceAddr[192.168.31.145:65301/0/0/0]: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:192.168.31.145, finderRecvPort:20939.
+ DEBUG root [2021-09-30 15:56:13,061] - Machine::onBroadcastInterface: loginapp update, pid=19400, uid=12169, globalorderid=4, grouporderid=1!
+ DEBUG root [2021-09-30 15:56:13,061] - Machine::onBroadcastInterface: loginapp update, pid=19400, uid=12169, globalorderid=4, grouporderid=1!
+ DEBUG root [2021-09-30 15:56:13,606] - Machine::onBroadcastInterface: baseapp update, pid=4420, uid=12169, globalorderid=3, grouporderid=1!
+ DEBUG root [2021-09-30 15:56:13,606] - Machine::onBroadcastInterface: baseapp update, pid=4420, uid=12169, globalorderid=3, grouporderid=1!
+ DEBUG root [2021-09-30 15:56:13,717] - Machine::onBroadcastInterface: loginapp update, pid=19400, uid=12169, globalorderid=4, grouporderid=1!
+ DEBUG root [2021-09-30 15:56:13,717] - Machine::onBroadcastInterface: loginapp update, pid=19400, uid=12169, globalorderid=4, grouporderid=1!
+ DEBUG root [2021-09-30 15:56:14,164] - Machine::onBroadcastInterface: cellapp update, pid=13412, uid=12169, globalorderid=5, grouporderid=1!
+ DEBUG root [2021-09-30 15:56:14,164] - Machine::onBroadcastInterface: cellapp update, pid=13412, uid=12169, globalorderid=5, grouporderid=1!
+ DEBUG root [2021-09-30 15:56:14,272] - Machine::onBroadcastInterface: baseapp update, pid=4420, uid=12169, globalorderid=3, grouporderid=1!
+ DEBUG root [2021-09-30 15:56:14,272] - Machine::onBroadcastInterface: baseapp update, pid=4420, uid=12169, globalorderid=3, grouporderid=1!
+ DEBUG root [2021-09-30 15:56:14,824] - Machine::onBroadcastInterface: cellapp update, pid=13412, uid=12169, globalorderid=5, grouporderid=1!
+ DEBUG root [2021-09-30 15:56:14,824] - Machine::onBroadcastInterface: cellapp update, pid=13412, uid=12169, globalorderid=5, grouporderid=1!
+  INFO root [2021-09-30 15:56:46,882] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62030/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:50,031] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62032/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:51,442] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62033/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:52,856] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62036/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:53,179] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62037/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:53,179] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62038/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:53,395] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62043/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:53,610] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62046/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:54,044] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62047/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:54,152] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62048/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:55,886] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62049/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:55,886] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62050/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:56,104] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62053/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:56,536] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62056/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:56,754] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62057/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:56,754] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62058/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:56,754] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62059/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:57,079] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62060/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:57,187] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62061/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:59,585] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62062/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:59,693] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62063/0/0/0 timeout!
+  INFO root [2021-09-30 15:56:59,803] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62064/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:00,674] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62065/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:01,322] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62068/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:01,322] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62069/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:02,846] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65277/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:03,387] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65280/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:03,714] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65283/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:03,823] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65286/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:04,812] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65289/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:05,461] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65292/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:05,785] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65295/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:05,893] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65298/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:07,952] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:65301/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:13,064] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:57007/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:13,606] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:57008/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:13,821] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:57009/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:14,259] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:57010/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:14,367] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:57011/0/0/0 timeout!
+  INFO root [2021-09-30 15:57:14,908] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:57012/0/0/0 timeout!

@@ -1,0 +1,98 @@
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:40 154] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:40 154] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:40 155] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:40 155] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:40 195] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:63502 )
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:40 195] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:63502, SOMAXCONN=511.
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:40 195] - server-configs:
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:40 195] - 	internalTcpAddr : 192.168.31.145:63502
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:40 195] - 	componentID : 4000
+ WARNING      dbmgr-1 12169 4000  [2021-09-29 17:39:40 196] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:41 701] - ---- dbmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: CEEA1830B25FC811C6B0172173A5FCD0. Config: Debug X64. Built: 14:53:18 Sep 29 2021. AppID: 4000. UID: 12169. PID: 7536 ----
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:41 701] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:41 702] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:41 702] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:41 888] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:41 888] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:41 974] - Dbmgr::initializeEnd: digest(363BB7D9C7C9010E5779213C13D38542)
+  S_INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:41 974] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:41 975] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:41 975] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:41 978] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:43 069] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:43 069] - DBUtil::createInterface[0xc8b493e688]: interface=default, dbtype=mysql, ip=23.105.212.231, port=3306, currdatabase=kbe, username=root, connected=yes.
+
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:43 069] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:43 070] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:43 320] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-29 17:39:43 320] - DBInterfaceMysql::checkErrors: not found Account table(dbInterface=default), reset kbe_* table...
+ WARNING      dbmgr-1 12169 4000  [2021-09-29 17:39:43 474] - DBInterfaceMysql::checkErrors: reset kbe_* table(dbInterface=default) end!
+ WARNING      dbmgr-1 12169 4000  [2021-09-29 17:39:46 004] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 4.03 seconds
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:46 217] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:46 217] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:43 070] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:43 070] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:43 070] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:43 070] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:43 070] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:44 115] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:44 115] - DBThread::onStart(): 0x29f02b3e950!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:44 262] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:44 262] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:44 262] - DBThread::onStart(): 0x29f02b3f580!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:44 262] - DBThread::onStart(): 0x29f02b3f720!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:44 269] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:44 269] - DBThread::onStart(): 0x29f02b3e6e0!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:44 278] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:44 278] - DBThread::onStart(): 0x29f02b3f0a0!
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:44 439] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:44 640] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:44 674] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:44 847] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:44 871] - syncToDB(): Account->sm_autoLoad(tinyint not null DEFAULT 0).
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:44 987] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:45 019] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-29 17:39:45 160] - DBTask::process(): took 0.73 seconds
+sql:(insert into kbe_serverlog (heartbeatTime, isShareDB, serverGroupID) values(1632908384,0,12169) ON DUPLICATE KEY UPDATE heartbeatTime=1632908384,isShareDB=0)
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:45 189] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-29 17:39:45 190] - DBTask::process(): took 0.75 seconds
+sql:(delete from kbe_email_verification where logtime<1632904785 and type=3)
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:45 251] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:45 327] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-29 17:39:45 593] - DBTask::process(): took 1.14 seconds
+sql:(show index from tbl_Account)
+ WARNING      dbmgr-1 12169 4000  [2021-09-29 17:39:45 668] - DBTask::process(): took 1.24 seconds
+sql:(select distinct(serverGroupID) from kbe_entitylog)
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:52 385] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:52 385] - Components::addComponent: reset orderLog, uid=12169!
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:52 385] - Components::addComponent[interfaces], uid=12169, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:52 386] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63504, extaddr:nonsupport, extport:0,  from 192.168.31.145:60343/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:52 386] - Components::addComponent: reset orderLog, uid=12169!
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:52 386] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:52 615] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63509, extaddr:192.168.31.145, extport:20013,  from 192.168.31.145:49318/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:52 615] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:53 394] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:53 412] - Components::findComponents: found logger, addr:192.168.31.145:63501
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:53 412] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:53 434] - Components::process(): Found all the components!
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:53 522] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63503, extaddr:nonsupport, extport:0,  from 192.168.31.145:49328/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:53 522] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:54 572] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63508, extaddr:nonsupport, extport:0,  from 192.168.31.145:53200/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:54 572] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:54 733] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63505, extaddr:192.168.31.145, extport:20015,  from 192.168.31.145:53204/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:54 733] - Components::addComponent[baseapp], uid=12169, componentID=7001, globalorderid=6, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:57 734] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 12169 4000  [2021-09-29 17:39:57 734] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 17:39:57 734] - SyncAppDatasHandler::~SyncAppDatasHandler()
+ WARNING      dbmgr-1 12169 4000  [2021-09-29 18:39:46 511] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 0.54 seconds
+   ERROR      dbmgr-1 12169 4000  [2021-09-29 18:40:05 924] - DBInterfaceMysql::processException: Thread 0x29f02b7e740 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 18:40:05 937] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 18:40:07 150] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-29 18:40:07 150] - DBInterfaceMysql::processException: Thread 0x29f02b7e740 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-29 18:40:07 961] - DBTask::process(): delay 20.81 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_serverlog (heartbeatTime, isShareDB, serverGroupID) values(1632912007,0,12169) ON DUPLICATE KEY UPDATE heartbeatTime=1632912007,isShareDB=0)
+ WARNING      dbmgr-1 12169 4000  [2021-09-29 18:40:07 961] - DBTask::process(): took 0.64 seconds
+sql:(insert into kbe_serverlog (heartbeatTime, isShareDB, serverGroupID) values(1632912007,0,12169) ON DUPLICATE KEY UPDATE heartbeatTime=1632912007,isShareDB=0)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-29 18:40:08 158] - Dbmgr::DBTaskServerLog()

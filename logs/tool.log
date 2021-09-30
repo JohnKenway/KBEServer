@@ -1,0 +1,306 @@
+  INFO root [2021-09-29 17:40:25,762] - 
+  INFO root [2021-09-29 17:40:25,762] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 17:40:25,763] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 17:40:25,763] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 17:40:25,763] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 17:40:25,781] - 
+  INFO root [2021-09-29 17:40:25,781] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 17:40:25,782] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 17:40:25,782] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 17:40:25,782] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 17:40:25,807] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:53916 )
+  INFO root [2021-09-29 17:40:25,807] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:53916, SOMAXCONN=511.
+  INFO root [2021-09-29 17:40:25,811] - ---- tool Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: EB8AE9F114C8797B1E70E1A629686A27. Config: Debug X64. Built: 14:53:17 Sep 29 2021. AppID: 18446744073709551615. UID: 0. PID: 19832 ----
+  INFO root [2021-09-29 17:40:25,811] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 17:40:25,811] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 17:40:25,812] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 17:40:25,825] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:53917 )
+  INFO root [2021-09-29 17:40:25,825] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:53917, SOMAXCONN=511.
+  INFO root [2021-09-29 17:40:25,828] - ---- tool Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: EB8AE9F114C8797B1E70E1A629686A27. Config: Debug X64. Built: 14:53:17 Sep 29 2021. AppID: 18446744073709551615. UID: 0. PID: 9232 ----
+  INFO root [2021-09-29 17:40:25,829] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 17:40:25,829] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 17:40:25,829] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 17:40:25,988] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [2021-09-29 17:40:25,988] - Script::install(): KBExtra is successfully!
+  INFO root [2021-09-29 17:40:26,004] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [2021-09-29 17:40:26,004] - Script::install(): KBExtra is successfully!
+ DEBUG root [2021-09-29 17:40:26,377] - ClientSDK::writeServerErrorDescrsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins//
+ DEBUG root [2021-09-29 17:40:26,377] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2021-09-29 17:40:26,378] - ClientSDK::writeEngineMessagesModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2021-09-29 17:40:26,382] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2021-09-29 17:40:26,383] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2021-09-29 17:40:26,384] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2021-09-29 17:40:26,385] - ClientSDK::writeEntityDefsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2021-09-29 17:40:26,386] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2021-09-29 17:40:26,386] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2021-09-29 17:40:26,387] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2021-09-29 17:40:26,388] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2021-09-29 17:40:26,388] - ClientSDK::writeEntityModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Account
+ DEBUG root [2021-09-29 17:40:26,389] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AccountBase.cpp
+ DEBUG root [2021-09-29 17:40:26,389] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AccountBase.h
+ DEBUG root [2021-09-29 17:40:26,390] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAccountBase.cpp
+ DEBUG root [2021-09-29 17:40:26,391] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAccountBase.h
+  INFO root [2021-09-29 17:40:26,397] - Script::uninstall(): is successfully!
+ DEBUG root [2021-09-29 17:40:26,397] - ThreadPool::destroy(): starting size 2.
+  WARN root [2021-09-29 17:40:26,698] - ThreadPool::destroy(): waiting for thread(2)[0x2501e433a80,0x2501e434ca0,], try=1
+ DEBUG root [2021-09-29 17:40:26,763] - ClientSDK::writeServerErrorDescrsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2021-09-29 17:40:26,764] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2021-09-29 17:40:26,764] - ClientSDK::writeEngineMessagesModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2021-09-29 17:40:26,768] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2021-09-29 17:40:26,770] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2021-09-29 17:40:26,771] - ClientSDK::writeEntityDefsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2021-09-29 17:40:26,772] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2021-09-29 17:40:26,773] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2021-09-29 17:40:26,773] - ClientSDK::writeEntityModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins//Account
+ DEBUG root [2021-09-29 17:40:26,774] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/AccountBase.cs
+ DEBUG root [2021-09-29 17:40:26,774] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/EntityCallAccountBase.cs
+  INFO root [2021-09-29 17:40:26,781] - Script::uninstall(): is successfully!
+ DEBUG root [2021-09-29 17:40:26,781] - ThreadPool::destroy(): starting size 2.
+  WARN root [2021-09-29 17:40:27,082] - ThreadPool::destroy(): waiting for thread(2)[0x1ed94b29050,0x1ed94b28150,], try=1
+ DEBUG root [2021-09-29 17:40:27,100] - TPThread::~TPThread(): 0x2501e433a80
+ DEBUG root [2021-09-29 17:40:27,100] - TPThread::~TPThread(): 0x2501e434ca0
+ DEBUG root [2021-09-29 17:40:27,100] - ThreadPool::destroy(): successfully!
+ DEBUG root [2021-09-29 17:40:27,108] - Bundle::destroyObjPool(): size 14.
+ DEBUG root [2021-09-29 17:40:27,109] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 17:40:27,109] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 17:40:27,109] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 17:40:27,109] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 17:40:27,109] - Address::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 17:40:27,110] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 17:40:27,110] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2021-09-29 17:40:27,110] - tool(18446744073709551615) has shut down. ClientSDK=true
+ DEBUG root [2021-09-29 17:40:27,485] - TPThread::~TPThread(): 0x1ed94b29050
+ DEBUG root [2021-09-29 17:40:27,485] - TPThread::~TPThread(): 0x1ed94b28150
+ DEBUG root [2021-09-29 17:40:27,485] - ThreadPool::destroy(): successfully!
+ DEBUG root [2021-09-29 17:40:27,490] - Bundle::destroyObjPool(): size 3.
+ DEBUG root [2021-09-29 17:40:27,490] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 17:40:27,490] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 17:40:27,490] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 17:40:27,491] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 17:40:27,491] - Address::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 17:40:27,491] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 17:40:27,491] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2021-09-29 17:40:27,491] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2021-09-29 17:40:28,112] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2021-09-29 17:40:28,493] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2021-09-29 18:25:48,058] - 
+  INFO root [2021-09-29 18:25:48,058] - 
+  INFO root [2021-09-29 18:25:48,058] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 18:25:48,058] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 18:25:48,059] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 18:25:48,059] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 18:25:48,059] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 18:25:48,059] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 18:25:48,059] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 18:25:48,059] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 18:25:48,113] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:63036 )
+  INFO root [2021-09-29 18:25:48,113] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:63035 )
+  INFO root [2021-09-29 18:25:48,113] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:63036, SOMAXCONN=511.
+  INFO root [2021-09-29 18:25:48,113] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:63035, SOMAXCONN=511.
+  INFO root [2021-09-29 18:25:48,133] - ---- tool Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: EB8AE9F114C8797B1E70E1A629686A27. Config: Debug X64. Built: 14:53:17 Sep 29 2021. AppID: 18446744073709551615. UID: 0. PID: 15560 ----
+  INFO root [2021-09-29 18:25:48,133] - ---- tool Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: EB8AE9F114C8797B1E70E1A629686A27. Config: Debug X64. Built: 14:53:17 Sep 29 2021. AppID: 18446744073709551615. UID: 0. PID: 980 ----
+  INFO root [2021-09-29 18:25:48,133] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 18:25:48,133] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 18:25:48,133] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 18:25:48,134] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 18:25:48,134] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 18:25:48,134] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 18:25:48,316] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [2021-09-29 18:25:48,316] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [2021-09-29 18:25:48,316] - Script::install(): KBExtra is successfully!
+  INFO root [2021-09-29 18:25:48,316] - Script::install(): KBExtra is successfully!
+ DEBUG root [2021-09-29 18:25:49,243] - ClientSDK::writeServerErrorDescrsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins//
+ DEBUG root [2021-09-29 18:25:49,244] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2021-09-29 18:25:49,244] - ClientSDK::writeEngineMessagesModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2021-09-29 18:25:49,248] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2021-09-29 18:25:49,249] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2021-09-29 18:25:49,251] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2021-09-29 18:25:49,251] - ClientSDK::writeEntityDefsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2021-09-29 18:25:49,252] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2021-09-29 18:25:49,253] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2021-09-29 18:25:49,254] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2021-09-29 18:25:49,255] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+  INFO root [2021-09-29 18:25:49,264] - Script::uninstall(): is successfully!
+ DEBUG root [2021-09-29 18:25:49,264] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2021-09-29 18:25:49,488] - ClientSDK::writeServerErrorDescrsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2021-09-29 18:25:49,488] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2021-09-29 18:25:49,489] - ClientSDK::writeEngineMessagesModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2021-09-29 18:25:49,493] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2021-09-29 18:25:49,495] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2021-09-29 18:25:49,496] - ClientSDK::writeEntityDefsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2021-09-29 18:25:49,496] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2021-09-29 18:25:49,497] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+  INFO root [2021-09-29 18:25:49,505] - Script::uninstall(): is successfully!
+ DEBUG root [2021-09-29 18:25:49,505] - ThreadPool::destroy(): starting size 2.
+  WARN root [2021-09-29 18:25:49,566] - ThreadPool::destroy(): waiting for thread(2)[0x160a8b55bd0,0x160a8b56670,], try=1
+  WARN root [2021-09-29 18:25:49,806] - ThreadPool::destroy(): waiting for thread(2)[0x234182a4b40,0x234182a3a60,], try=1
+ DEBUG root [2021-09-29 18:25:49,968] - TPThread::~TPThread(): 0x160a8b55bd0
+ DEBUG root [2021-09-29 18:25:49,968] - TPThread::~TPThread(): 0x160a8b56670
+ DEBUG root [2021-09-29 18:25:49,968] - ThreadPool::destroy(): successfully!
+ DEBUG root [2021-09-29 18:25:49,974] - Bundle::destroyObjPool(): size 3.
+ DEBUG root [2021-09-29 18:25:49,974] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 18:25:49,974] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 18:25:49,974] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 18:25:49,974] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 18:25:49,975] - Address::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 18:25:49,975] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 18:25:49,975] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2021-09-29 18:25:49,975] - tool(18446744073709551615) has shut down. ClientSDK=true
+ DEBUG root [2021-09-29 18:25:50,208] - TPThread::~TPThread(): 0x234182a4b40
+ DEBUG root [2021-09-29 18:25:50,208] - TPThread::~TPThread(): 0x234182a3a60
+ DEBUG root [2021-09-29 18:25:50,208] - ThreadPool::destroy(): successfully!
+ DEBUG root [2021-09-29 18:25:50,217] - Bundle::destroyObjPool(): size 6.
+ DEBUG root [2021-09-29 18:25:50,217] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 18:25:50,217] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 18:25:50,217] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 18:25:50,217] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 18:25:50,217] - Address::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 18:25:50,217] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 18:25:50,217] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2021-09-29 18:25:50,217] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2021-09-29 18:25:50,976] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2021-09-29 18:25:51,218] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2021-09-29 19:59:41,204] - 
+  INFO root [2021-09-29 19:59:41,204] - 
+  INFO root [2021-09-29 19:59:41,212] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 19:59:41,212] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 19:59:41,212] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 19:59:41,212] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 19:59:41,212] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 19:59:41,212] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 19:59:41,212] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 19:59:41,212] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 19:59:41,260] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:54408 )
+  INFO root [2021-09-29 19:59:41,260] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:54409 )
+  INFO root [2021-09-29 19:59:41,261] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:54408, SOMAXCONN=511.
+  INFO root [2021-09-29 19:59:41,261] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:54409, SOMAXCONN=511.
+  INFO root [2021-09-29 19:59:41,265] - ---- tool Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: EB8AE9F114C8797B1E70E1A629686A27. Config: Debug X64. Built: 14:53:17 Sep 29 2021. AppI  INFO root [2021-09-29 19:59:41,265] - ---- tool Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: EB8AE9F114C8797B1E70E1A629686A27. Config: Debug X64. Built: 14:53:17 Sep 29 2021. AppID: 18446744073709551615. UID: 0. PID: 8100 ----
+D: 18446744073709551615. UID: 0. PID: 11992 ----
+  INFO root [2021-09-29 19:59:41,265] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 19:59:41,265] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 19:59:41,266] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 19:59:41,266] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 19:59:41,266] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 19:59:41,266] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 19:59:41,445] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [2021-09-29 19:59:41,445] - Script::install(): KBExtra is successfully!
+  INFO root [2021-09-29 19:59:41,447] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [2021-09-29 19:59:41,447] - Script::install(): KBExtra is successfully!
+ DEBUG root [2021-09-29 19:59:42,937] - ClientSDK::writeServerErrorDescrsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2021-09-29 19:59:42,937] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2021-09-29 19:59:42,957] - ClientSDK::writeEngineMessagesModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2021-09-29 19:59:42,960] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2021-09-29 19:59:42,963] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2021-09-29 19:59:42,963] - ClientSDK::writeEntityDefsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2021-09-29 19:59:42,965] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2021-09-29 19:59:42,966] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2021-09-29 19:59:42,966] - ClientSDK::writeEntityModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins//Account
+ DEBUG root [2021-09-29 19:59:42,967] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/AccountBase.cs
+ DEBUG root [2021-09-29 19:59:42,968] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_unity3d_plugins/EntityCallAccountBase.cs
+  INFO root [2021-09-29 19:59:42,977] - Script::uninstall(): is successfully!
+ DEBUG root [2021-09-29 19:59:42,977] - ThreadPool::destroy(): starting size 2.
+  WARN root [2021-09-29 19:59:43,278] - ThreadPool::destroy(): waiting for thread(2)[0x217ad254020,0x217ad255560,], try=1
+ DEBUG root [2021-09-29 19:59:43,285] - ClientSDK::writeServerErrorDescrsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins//
+ DEBUG root [2021-09-29 19:59:43,285] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2021-09-29 19:59:43,286] - ClientSDK::writeEngineMessagesModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2021-09-29 19:59:43,290] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2021-09-29 19:59:43,291] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2021-09-29 19:59:43,292] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2021-09-29 19:59:43,293] - ClientSDK::writeEntityDefsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2021-09-29 19:59:43,294] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2021-09-29 19:59:43,294] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2021-09-29 19:59:43,295] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2021-09-29 19:59:43,296] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2021-09-29 19:59:43,365] - ClientSDK::writeEntityModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Account
+ DEBUG root [2021-09-29 19:59:43,366] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AccountBase.cpp
+ DEBUG root [2021-09-29 19:59:43,367] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AccountBase.h
+ DEBUG root [2021-09-29 19:59:43,391] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAccountBase.cpp
+ DEBUG root [2021-09-29 19:59:43,392] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAccountBase.h
+  INFO root [2021-09-29 19:59:43,400] - Script::uninstall(): is successfully!
+ DEBUG root [2021-09-29 19:59:43,401] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2021-09-29 19:59:43,680] - TPThread::~TPThread(): 0x217ad254020
+ DEBUG root [2021-09-29 19:59:43,680] - TPThread::~TPThread(): 0x217ad255560
+ DEBUG root [2021-09-29 19:59:43,680] - ThreadPool::destroy(): successfully!
+ DEBUG root [2021-09-29 19:59:43,686] - Bundle::destroyObjPool(): size 3.
+ DEBUG root [2021-09-29 19:59:43,686] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 19:59:43,686] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 19:59:43,687] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 19:59:43,687] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 19:59:43,687] - Address::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 19:59:43,687] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 19:59:43,687] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2021-09-29 19:59:43,687] - tool(18446744073709551615) has shut down. ClientSDK=true
+  WARN root [2021-09-29 19:59:43,701] - ThreadPool::destroy(): waiting for thread(2)[0x14654d44980,0x14654d44d40,], try=1
+ DEBUG root [2021-09-29 19:59:44,102] - TPThread::~TPThread(): 0x14654d44980
+ DEBUG root [2021-09-29 19:59:44,102] - TPThread::~TPThread(): 0x14654d44d40
+ DEBUG root [2021-09-29 19:59:44,102] - ThreadPool::destroy(): successfully!
+ DEBUG root [2021-09-29 19:59:44,108] - Bundle::destroyObjPool(): size 14.
+ DEBUG root [2021-09-29 19:59:44,109] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 19:59:44,109] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 19:59:44,109] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 19:59:44,109] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 19:59:44,109] - Address::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 19:59:44,109] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 19:59:44,109] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2021-09-29 19:59:44,109] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2021-09-29 19:59:44,688] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2021-09-29 19:59:45,111] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2021-09-29 23:35:58,533] - 
+  INFO root [2021-09-29 23:35:58,540] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 23:35:58,540] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 23:35:58,540] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 23:35:58,540] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 23:35:58,550] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:57483 )
+  INFO root [2021-09-29 23:35:58,551] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:57483, SOMAXCONN=511.
+  INFO root [2021-09-29 23:35:58,573] - ---- tool Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: EB8AE9F114C8797B1E70E1A629686A27. Config: Debug X64. Built: 14:53:17 Sep 29 2021. AppID: 18446744073709551615. UID: 0. PID: 10712 ----
+  INFO root [2021-09-29 23:35:58,574] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 23:35:58,575] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 23:35:58,575] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 23:36:00,172] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [2021-09-29 23:36:00,172] - Script::install(): KBExtra is successfully!
+ DEBUG root [2021-09-29 23:36:01,566] - ClientSDK::writeServerErrorDescrsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins//
+ DEBUG root [2021-09-29 23:36:01,567] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2021-09-29 23:36:01,568] - ClientSDK::writeEngineMessagesModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2021-09-29 23:36:01,572] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2021-09-29 23:36:01,573] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2021-09-29 23:36:01,574] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2021-09-29 23:36:01,575] - ClientSDK::writeEntityDefsModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2021-09-29 23:36:01,576] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2021-09-29 23:36:01,577] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2021-09-29 23:36:01,578] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2021-09-29 23:36:01,578] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2021-09-29 23:36:01,579] - ClientSDK::writeEntityModule(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Consumer
+ DEBUG root [2021-09-29 23:36:01,580] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ConsumerBase.cpp
+ DEBUG root [2021-09-29 23:36:01,580] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ConsumerBase.h
+ DEBUG root [2021-09-29 23:36:01,581] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallConsumerBase.cpp
+ DEBUG root [2021-09-29 23:36:01,582] - ClientSDK::saveFile(): D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\server_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallConsumerBase.h
+  INFO root [2021-09-29 23:36:01,590] - Script::uninstall(): is successfully!
+ DEBUG root [2021-09-29 23:36:01,590] - ThreadPool::destroy(): starting size 2.
+  WARN root [2021-09-29 23:36:01,898] - ThreadPool::destroy(): waiting for thread(2)[0x1e56c1c8b30,0x1e56c1c7870,], try=1
+ DEBUG root [2021-09-29 23:36:02,323] - TPThread::~TPThread(): 0x1e56c1c8b30
+ DEBUG root [2021-09-29 23:36:02,323] - TPThread::~TPThread(): 0x1e56c1c7870
+ DEBUG root [2021-09-29 23:36:02,323] - ThreadPool::destroy(): successfully!
+ DEBUG root [2021-09-29 23:36:02,330] - Bundle::destroyObjPool(): size 14.
+ DEBUG root [2021-09-29 23:36:02,330] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 23:36:02,330] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 23:36:02,330] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 23:36:02,330] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 23:36:02,330] - Address::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 23:36:02,330] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2021-09-29 23:36:02,330] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2021-09-29 23:36:02,331] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2021-09-29 23:36:03,340] - EventDispatcher()::~EventDispatcher: Num timers = 2

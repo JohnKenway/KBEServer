@@ -1,0 +1,221 @@
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 421] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 422] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 422] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 422] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 467] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20015 )
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 467] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20015, SOMAXCONN=511.
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 469] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20005 )
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 470] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.31.145:20005, SOMAXCONN=511.
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 472] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:63505 )
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 472] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:63505, SOMAXCONN=511.
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 472] - server-configs:
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 472] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 472] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 472] - 	internalTcpAddr : 192.168.31.145:63505
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 472] - 	externalTcpAddr : 192.168.31.145:20015
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 473] - 	externalUdpAddr : 192.168.31.145:20005
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 473] - 	componentID : 7001
+ WARNING    baseapp-1 12169 7001  [2021-09-29 17:39:40 675] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 691] - Components::findLogger: found logger, addr:192.168.31.145:63501
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 691] - Components::addComponent: reset orderLog, uid=12169!
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 691] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 696] - ---- baseapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: A64E660274C30DFACD56738D4ED29713. Config: Debug X64. Built: 14:53:56 Sep 29 2021. AppID: 7001. UID: 12169. PID: 9948 ----
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 696] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 696] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 696] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 894] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 894] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 17:39:40 974] - loaded entity-script:Account(1).
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 974] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:40 975] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:41 205] - ---- baseapp is running ----
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 17:39:41 205] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 12169 7001  [2021-09-29 17:39:47 365] - EntityApp::checkTickPeriod: tick took 6160% (6.16 seconds)!
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:48 405] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:48 440] - Components::findComponents: found dbmgr, addr:192.168.31.145:63502
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:48 440] - Components::addComponent: reset orderLog, uid=12169!
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:48 440] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:48 441] - Components::findComponents: found dbmgr, addr:192.168.31.145:63502
+ WARNING    baseapp-1 12169 7001  [2021-09-29 17:39:49 442] - EntityApp::checkTickPeriod: tick took 1136% (1.14 seconds)!
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:50 505] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:50 571] - Components::findComponents: found baseappmgr, addr:192.168.31.145:63503
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:50 571] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:50 573] - Components::findComponents: found baseappmgr, addr:192.168.31.145:63503
+ WARNING    baseapp-1 12169 7001  [2021-09-29 17:39:51 574] - EntityApp::checkTickPeriod: tick took 1169% (1.17 seconds)!
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:52 604] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:52 701] - Components::findComponents: found cellappmgr, addr:192.168.31.145:63504
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:52 701] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:52 702] - Components::findComponents: found cellappmgr, addr:192.168.31.145:63504
+ WARNING    baseapp-1 12169 7001  [2021-09-29 17:39:53 703] - EntityApp::checkTickPeriod: tick took 1198% (1.20 seconds)!
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:54 722] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 17:39:54 733] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:54 735] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:54 745] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63508, extaddr:nonsupport, extport:0,  from 192.168.31.145:53205/0/0/0.
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:54 745] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:54 745] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63508, extaddr:nonsupport, extport:0,  from 192.168.31.145:53205/0/0/0.
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:54 745] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:54 804] - Components::process(): Found all the components!
+    INFO    baseapp-1 12169 7001  [2021-09-29 17:39:57 734] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=6, startGroupOrder=1, digest=363BB7D9C7C9010E5779213C13D38542.
+    INFO    baseapp01 12169 7001  [2021-09-29 17:39:57 734] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    baseapp01 12169 7001  [2021-09-29 17:39:58 070] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20086, errorno=10048
+  S_INFO    baseapp01 12169 7001  [2021-09-29 17:39:59 295] - onInit::isReload:0
+ WARNING    baseapp01 12169 7001  [2021-09-29 17:39:59 295] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.56 seconds
+ WARNING    baseapp01 12169 7001  [2021-09-29 17:39:59 295] - EntityApp::checkTickPeriod: tick took 1590% (1.59 seconds)!
+   DEBUG    baseapp01 12169 7001  [2021-09-29 17:39:59 804] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 12169 7001  [2021-09-29 17:39:59 822] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=6
+   DEBUG    baseapp01 12169 7001  [2021-09-29 17:39:59 905] - InitProgressHandler::~InitProgressHandler()
+ WARNING    baseapp01 12169 7001  [2021-09-29 18:52:22 015] - TCPPacketReceiver::processPendingEvents(192.168.31.145:63503): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   ERROR    baseapp01 12169 7001  [2021-09-29 18:52:22 016] - Components::removeComponentByChannel: baseappmgr : 5000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=5100008799021, lastReceivedTime=5099891410144, inactivityExceptionPeriod=599473654)
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:22 225] - Shutdowner::onShutdownBegin: shutting down(period=1, tickPeriod=1)
+  S_INFO    baseapp01 12169 7001  [2021-09-29 18:52:22 265] - onBaseAppShutDown: state=0
+ WARNING    baseapp01 12169 7001  [2021-09-29 18:52:22 296] - EntityApp::checkTickPeriod: tick took 282% (0.28 seconds)!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:23 226] - Shutdowner::onShutdown: shutting down
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:23 328] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+ WARNING    baseapp01 12169 7001  [2021-09-29 18:52:23 328] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 0.10 seconds
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:24 329] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+   S_ERR    baseapp01 12169 7001  [2021-09-29 18:52:24 503] - Traceback (most recent call last):
+  File "D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/base\kbemain.py", line 36, in onBaseAppShutDown
+    def onBaseAppShutDown(state):
+   S_ERR    baseapp01 12169 7001  [2021-09-29 18:52:24 504] - KeyboardInterrupt
+ WARNING    baseapp01 12169 7001  [2021-09-29 18:52:24 505] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\server\baseapp\baseapp.cpp:341: Profile scriptCall took 0.18 seconds
+ WARNING    baseapp01 12169 7001  [2021-09-29 18:52:24 505] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 0.18 seconds
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:25 505] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:26 506] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:27 506] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:28 507] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:29 508] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:30 508] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:31 509] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:32 509] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:33 510] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:34 511] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:35 512] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:36 512] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:37 513] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:38 513] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:39 513] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:40 513] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:41 513] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:42 514] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:43 514] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:44 515] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:45 515] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:46 515] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:47 516] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:48 517] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:49 518] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:50 518] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:51 519] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:52 519] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:53 520] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:54 521] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:55 521] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:56 522] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:57 522] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:58 523] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:52:59 523] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:00 523] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:01 524] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:02 524] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:03 525] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:04 525] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:05 526] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:06 526] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:07 526] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:08 526] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:09 527] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:10 528] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:11 528] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:12 529] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:13 529] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:14 530] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:15 530] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:16 530] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:17 531] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:18 532] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:19 532] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:20 533] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:21 533] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:22 534] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:23 535] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:24 179] - Components::removeComponentByChannel: cellappmgr : 6000, Normal exit!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:24 536] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:24 540] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:63502/0/0/0 timeout!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:24 540] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+ WARNING    baseapp01 12169 7001  [2021-09-29 18:53:24 540] - ServerApp::shutDown:  In shuttingdown!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:25 536] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:26 537] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:27 538] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:28 539] - Baseapp::canShutdown(): Waiting for cellapp[8001, ] destruction!
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:28 555] - Components::removeComponentByChannel: cellapp : 8001, Normal exit!
+   S_ERR    baseapp01 12169 7001  [2021-09-29 18:53:29 539] - Traceback (most recent call last):
+  File "D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/base\kbemain.py", line 26, in onReadyForShutDown
+    def onReadyForShutDown():
+   S_ERR    baseapp01 12169 7001  [2021-09-29 18:53:29 540] - KeyboardInterrupt
+  S_INFO    baseapp01 12169 7001  [2021-09-29 18:53:30 541] - onReadyForShutDown()
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:30 541] - Shutdowner::onShutdownEnd: shutting down
+  S_INFO    baseapp01 12169 7001  [2021-09-29 18:53:30 642] - onBaseAppShutDown: state=2
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:30 805] - Script::uninstall(): is successfully!
+   DEBUG    baseapp01 12169 7001  [2021-09-29 18:53:30 805] - ThreadPool::destroy(): starting size 2.
+ WARNING    baseapp01 12169 7001  [2021-09-29 18:53:31 204] - ThreadPool::destroy(): waiting for thread(2)[0x23527558140,0x235275562a0,], try=1
+   DEBUG    baseapp01 12169 7001  [2021-09-29 18:53:31 606] - TPThread::~TPThread(): 0x23527558140
+   DEBUG    baseapp01 12169 7001  [2021-09-29 18:53:31 606] - TPThread::~TPThread(): 0x235275562a0
+   DEBUG    baseapp01 12169 7001  [2021-09-29 18:53:31 606] - ThreadPool::destroy(): successfully!
+   DEBUG    baseapp01 12169 7001  [2021-09-29 18:53:31 609] - Bundle::destroyObjPool(): size 9.
+   DEBUG    baseapp01 12169 7001  [2021-09-29 18:53:31 714] - Channel::destroyObjPool(): size 15.
+   DEBUG    baseapp01 12169 7001  [2021-09-29 18:53:31 714] - TCPPacket::destroyObjPool(): size 8.
+   DEBUG    baseapp01 12169 7001  [2021-09-29 18:53:31 714] - UDPPacket::destroyObjPool(): size 15.
+   DEBUG    baseapp01 12169 7001  [2021-09-29 18:53:31 714] - EndPoint::destroyObjPool(): size 15.
+   DEBUG    baseapp01 12169 7001  [2021-09-29 18:53:31 714] - Address::destroyObjPool(): size 0.
+   DEBUG    baseapp01 12169 7001  [2021-09-29 18:53:31 714] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG    baseapp01 12169 7001  [2021-09-29 18:53:31 714] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO    baseapp01 12169 7001  [2021-09-29 18:53:31 714] - baseapp(7001) has shut down.
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 428] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 429] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 429] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 430] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 468] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20015 )
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 468] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20015, SOMAXCONN=511.
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 470] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20005 )
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 470] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.31.145:20005, SOMAXCONN=511.
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 472] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:50946 )
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 472] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:50946, SOMAXCONN=511.
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 472] - server-configs:
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 472] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 472] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 472] - 	internalTcpAddr : 192.168.31.145:50946
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 472] - 	externalTcpAddr : 192.168.31.145:20015
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 473] - 	externalUdpAddr : 192.168.31.145:20005
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 473] - 	componentID : 7001
+ WARNING    baseapp-1 12169 7001  [2021-09-29 19:20:24 638] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 711] - Components::findLogger: found logger, addr:192.168.31.145:50938
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 711] - Components::addComponent: reset orderLog, uid=12169!
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 711] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 716] - ---- baseapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: A64E660274C30DFACD56738D4ED29713. Config: Debug X64. Built: 14:53:56 Sep 29 2021. AppID: 7001. UID: 12169. PID: 7768 ----
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 716] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 716] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 716] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 903] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 903] - Script::install(): KBExtra is successfully!
+   ERROR    baseapp-1 12169 7001  [2021-09-29 19:20:24 958] - EntityDef::findScriptModule: [Account] not found!
+   ERROR    baseapp-1 12169 7001  [2021-09-29 19:20:24 959] - EntityApp::installEntityDef(): not found account script[Account], defined(kbengine[_defs].xml->dbmgr->account_system->accountEntityScriptType and entities.xml)!
+   ERROR    baseapp-1 12169 7001  [2021-09-29 19:20:24 959] - app::initialize(): initialization failed!
+    INFO    baseapp-1 12169 7001  [2021-09-29 19:20:24 968] - Script::uninstall(): is successfully!
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 19:20:24 968] - ThreadPool::destroy(): starting size 2.
+ WARNING    baseapp-1 12169 7001  [2021-09-29 19:20:25 269] - ThreadPool::destroy(): waiting for thread(2)[0x1bd87fe98b0,0x1bd87fe9950,], try=1
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 19:20:25 670] - TPThread::~TPThread(): 0x1bd87fe98b0
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 19:20:25 670] - TPThread::~TPThread(): 0x1bd87fe9950
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 19:20:25 670] - ThreadPool::destroy(): successfully!
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 19:20:25 671] - Bundle::destroyObjPool(): size 12.
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 19:20:25 671] - Channel::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 19:20:25 671] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 19:20:25 671] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 19:20:25 671] - EndPoint::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 19:20:25 671] - Address::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 19:20:25 671] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 12169 7001  [2021-09-29 19:20:25 671] - UDPPacketReceiver::destroyObjPool(): size 0.

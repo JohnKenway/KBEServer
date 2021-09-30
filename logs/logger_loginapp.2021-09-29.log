@@ -1,0 +1,170 @@
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 532] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 533] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 533] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 533] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 578] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20013 )
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 578] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20013, SOMAXCONN=511.
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 580] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:63509 )
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 580] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:63509, SOMAXCONN=511.
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 580] - server-configs:
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 580] - 	internalTcpAddr : 192.168.31.145:63509
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 580] - 	externalTcpAddr : 192.168.31.145:20013
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 581] - 	componentID : 9000
+ WARNING   loginapp-1 12169 9000  [2021-09-29 17:39:40 794] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 895] - Components::findLogger: found logger, addr:192.168.31.145:63501
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 895] - Components::addComponent: reset orderLog, uid=12169!
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 896] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 912] - ---- loginapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 1102EA4445FA7BC78DFA939A2161D781. Config: Debug X64. Built: 14:53:35 Sep 29 2021. AppID: 9000. UID: 12169. PID: 23180 ----
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 912] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 912] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:40 913] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:41 097] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:41 098] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 12169 9000  [2021-09-29 17:39:41 113] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:41 114] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:41 334] - ---- loginapp is running ----
+   DEBUG   loginapp-1 12169 9000  [2021-09-29 17:39:41 334] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:48 514] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:48 543] - Components::findComponents: found dbmgr, addr:192.168.31.145:63502
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:48 543] - Components::addComponent: reset orderLog, uid=12169!
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:48 543] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:48 544] - Components::findComponents: found dbmgr, addr:192.168.31.145:63502
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:50 554] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:50 572] - Components::findComponents: found baseappmgr, addr:192.168.31.145:63503
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:50 572] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:50 574] - Components::findComponents: found baseappmgr, addr:192.168.31.145:63503
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:52 613] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:52 633] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:52 635] - Components::process(): Found all the components!
+    INFO   loginapp-1 12169 9000  [2021-09-29 17:39:57 734] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=2, startGroupOrder=1, digest=363BB7D9C7C9010E5779213C13D38542.
+ WARNING   loginapp01 12169 9000  [2021-09-29 17:39:58 070] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20086, errorno=10048
+ WARNING   loginapp01 12169 9000  [2021-09-29 17:39:58 418] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20258, errorno=10048
+ WARNING   loginapp01 12169 9000  [2021-09-29 17:39:58 767] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20382, errorno=10048
+    INFO   loginapp01 12169 9000  [2021-09-29 17:39:59 990] - HTTPCBHandler::bind: 192.168.31.145:21103
+ WARNING   loginapp01 12169 9000  [2021-09-29 17:39:59 990] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 2.26 seconds
+    INFO   loginapp01 12169 9000  [2021-09-29 17:39:59 991] - Loginapp::onBaseappInitProgress: progress=1.
+ WARNING   loginapp01 12169 9000  [2021-09-29 18:52:22 015] - TCPPacketReceiver::processPendingEvents(192.168.31.145:63503): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   ERROR   loginapp01 12169 9000  [2021-09-29 18:52:22 137] - Components::removeComponentByChannel: baseappmgr : 5000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=5100008799448, lastReceivedTime=5099891410307, inactivityExceptionPeriod=599500064)
+    INFO   loginapp01 12169 9000  [2021-09-29 18:53:22 615] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:63502/0/0/0 timeout!
+   ERROR   loginapp01 12169 9000  [2021-09-29 18:53:22 615] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=timedout)! Channel(timestamp=5100614794219, lastReceivedTime=5099890182764, inactivityExceptionPeriod=599500064)
+    INFO   loginapp01 12169 9000  [2021-09-29 18:53:22 639] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  S_INFO   loginapp01 12169 9000  [2021-09-29 18:53:22 642] - onLoginAppShutDown()
+    INFO   loginapp01 12169 9000  [2021-09-29 18:53:22 642] - Shutdowner::onShutdown: shutting down
+    INFO   loginapp01 12169 9000  [2021-09-29 18:53:22 642] - Shutdowner::onShutdownEnd: shutting down
+    INFO   loginapp01 12169 9000  [2021-09-29 18:53:22 655] - Script::uninstall(): is successfully!
+   DEBUG   loginapp01 12169 9000  [2021-09-29 18:53:22 678] - ThreadPool::destroy(): starting size 2.
+ WARNING   loginapp01 12169 9000  [2021-09-29 18:53:23 109] - ThreadPool::destroy(): waiting for thread(2)[0x21358c4b220,0x21358c4b360,], try=1
+   DEBUG   loginapp01 12169 9000  [2021-09-29 18:53:23 511] - TPThread::~TPThread(): 0x21358c4b220
+   DEBUG   loginapp01 12169 9000  [2021-09-29 18:53:23 511] - TPThread::~TPThread(): 0x21358c4b360
+   DEBUG   loginapp01 12169 9000  [2021-09-29 18:53:23 511] - ThreadPool::destroy(): successfully!
+   DEBUG   loginapp01 12169 9000  [2021-09-29 18:53:23 575] - Bundle::destroyObjPool(): size 4.
+   DEBUG   loginapp01 12169 9000  [2021-09-29 18:53:23 576] - Channel::destroyObjPool(): size 15.
+   DEBUG   loginapp01 12169 9000  [2021-09-29 18:53:23 576] - TCPPacket::destroyObjPool(): size 3.
+   DEBUG   loginapp01 12169 9000  [2021-09-29 18:53:23 576] - UDPPacket::destroyObjPool(): size 15.
+   DEBUG   loginapp01 12169 9000  [2021-09-29 18:53:23 576] - EndPoint::destroyObjPool(): size 14.
+   DEBUG   loginapp01 12169 9000  [2021-09-29 18:53:23 576] - Address::destroyObjPool(): size 0.
+   DEBUG   loginapp01 12169 9000  [2021-09-29 18:53:23 576] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG   loginapp01 12169 9000  [2021-09-29 18:53:23 576] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO   loginapp01 12169 9000  [2021-09-29 18:53:23 576] - loginapp(9000) has shut down.
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 701] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 702] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 702] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 702] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 738] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20013 )
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 738] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20013, SOMAXCONN=511.
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 740] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:50952 )
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 740] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:50952, SOMAXCONN=511.
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 741] - server-configs:
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 741] - 	internalTcpAddr : 192.168.31.145:50952
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 741] - 	externalTcpAddr : 192.168.31.145:20013
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 741] - 	componentID : 9000
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:20:25 886] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 927] - Components::findLogger: found logger, addr:192.168.31.145:50938
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 927] - Components::addComponent: reset orderLog, uid=12169!
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 927] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 932] - ---- loginapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 1102EA4445FA7BC78DFA939A2161D781. Config: Debug X64. Built: 14:53:35 Sep 29 2021. AppID: 9000. UID: 12169. PID: 15132 ----
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 932] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 932] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:25 932] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:26 114] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:26 114] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 12169 9000  [2021-09-29 19:20:26 134] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:26 134] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:26 338] - ---- loginapp is running ----
+   DEBUG   loginapp-1 12169 9000  [2021-09-29 19:20:26 338] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:33 474] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:35 574] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:37 694] - Components::findComponents: find dbmgr(3)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:39 703] - Components::findComponents: find dbmgr(4)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:41 734] - Components::findComponents: find dbmgr(5)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:43 854] - Components::findComponents: find dbmgr(6)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:45 974] - Components::findComponents: find dbmgr(7)...
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:20:46 313] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20963, errorno=10048
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:47 314] - Components::findComponents: find dbmgr(8)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:49 394] - Components::findComponents: find dbmgr(9)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:51 413] - Components::findComponents: find dbmgr(10)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:53 434] - Components::findComponents: find dbmgr(11)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:55 454] - Components::findComponents: find dbmgr(12)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:57 474] - Components::findComponents: find dbmgr(13)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:20:59 493] - Components::findComponents: find dbmgr(14)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:01 514] - Components::findComponents: find dbmgr(15)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:03 534] - Components::findComponents: find dbmgr(16)...
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:21:05 554] - Components::findComponents: find dbmgr(17)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:21:07 574] - Components::findComponents: find dbmgr(18)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:21:09 594] - Components::findComponents: find dbmgr(19)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:21:11 614] - Components::findComponents: find dbmgr(20)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:21:13 634] - Components::findComponents: find dbmgr(21)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:21:15 654] - Components::findComponents: find dbmgr(22)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:21:17 673] - Components::findComponents: find dbmgr(23)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:21:19 694] - Components::findComponents: find dbmgr(24)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:21:21 734] - Components::findComponents: find dbmgr(25)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:21:23 754] - Components::findComponents: find dbmgr(26)...
+delay time is too long, please check the dbmgr logs!
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:45 781] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:45 782] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:45 782] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:45 782] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:45 824] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20013 )
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:45 824] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20013, SOMAXCONN=511.
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:45 826] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51023 )
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:45 826] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:51023, SOMAXCONN=511.
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:45 826] - server-configs:
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:45 826] - 	internalTcpAddr : 192.168.31.145:51023
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:45 826] - 	externalTcpAddr : 192.168.31.145:20013
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:45 827] - 	componentID : 9000
+ WARNING   loginapp-1 12169 9000  [2021-09-29 19:21:45 975] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:46 053] - Components::findLogger: found logger, addr:192.168.31.145:51014
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:46 053] - Components::addComponent: reset orderLog, uid=12169!
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:46 053] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:46 058] - ---- loginapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 1102EA4445FA7BC78DFA939A2161D781. Config: Debug X64. Built: 14:53:35 Sep 29 2021. AppID: 9000. UID: 12169. PID: 11548 ----
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:46 058] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:46 058] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:46 058] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:46 238] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:46 238] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 12169 9000  [2021-09-29 19:21:46 249] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:46 249] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:46 463] - ---- loginapp is running ----
+   DEBUG   loginapp-1 12169 9000  [2021-09-29 19:21:46 463] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:53 583] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:55 649] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:57 769] - Components::findComponents: find dbmgr(3)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:21:59 869] - Components::findComponents: find dbmgr(4)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:22:01 909] - Components::findComponents: find dbmgr(5)...
+    INFO   loginapp-1 12169 9000  [2021-09-29 19:22:04 029] - Components::findComponents: find dbmgr(6)...

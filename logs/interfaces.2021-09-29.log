@@ -1,0 +1,90 @@
+  INFO root [2021-09-29 17:39:40,070] - 
+  INFO root [2021-09-29 17:39:40,071] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 17:39:40,072] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 17:39:40,072] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 17:39:40,072] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 17:39:40,117] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:30099 )
+  INFO root [2021-09-29 17:39:40,117] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:30099, SOMAXCONN=511.
+  INFO root [2021-09-29 17:39:40,117] - server-configs:
+  INFO root [2021-09-29 17:39:40,117] - 	internalTcpAddr : 192.168.31.145:30099
+  INFO root [2021-09-29 17:39:40,117] - 	externalTcpAddr : %s
+  INFO root [2021-09-29 17:39:40,118] - 	componentID : 3000
+  WARN root [2021-09-29 17:39:40,118] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [2021-09-29 17:39:40,121] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Debug X64. Built: 14:53:11 Sep 29 2021. AppID: 3000. UID: 12169. PID: 19884 ----
+  INFO root [2021-09-29 17:39:40,122] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 17:39:40,122] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 17:39:40,122] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 17:39:40,311] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [2021-09-29 17:39:40,311] - Script::install(): KBExtra is successfully!
+S_INFO root [2021-09-29 17:39:40,449] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2021-09-29 17:39:40,454] - TelnetServer server is running on port 33000
+  INFO root [2021-09-29 17:39:40,724] - ---- interfaces is running ----
+ DEBUG root [2021-09-29 17:39:40,724] - Components::process(): Request for the process of identity...
+  INFO root [2021-09-29 17:39:46,917] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:63502, extaddr:nonsupport, extport:0,  from 127.0.0.1:63514/0/0/0.
+  INFO root [2021-09-29 17:39:46,918] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 17:39:46,918] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2021-09-29 17:39:47,974] - Components::process(): Found all the components!
+  WARN root [2021-09-29 18:53:35,157] - TCPPacketReceiver::processPendingEvents(127.0.0.1:63514): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2021-09-29 18:53:35,263] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2021-09-29 19:20:21,223] - 
+  INFO root [2021-09-29 19:20:21,281] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 19:20:21,282] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 19:20:21,282] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 19:20:21,282] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 19:20:21,319] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:30099 )
+  INFO root [2021-09-29 19:20:21,319] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:30099, SOMAXCONN=511.
+  INFO root [2021-09-29 19:20:21,319] - server-configs:
+  INFO root [2021-09-29 19:20:21,319] - 	internalTcpAddr : 192.168.31.145:30099
+  INFO root [2021-09-29 19:20:21,319] - 	externalTcpAddr : %s
+  INFO root [2021-09-29 19:20:21,319] - 	componentID : 3000
+  WARN root [2021-09-29 19:20:21,319] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [2021-09-29 19:20:21,322] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Debug X64. Built: 14:53:11 Sep 29 2021. AppID: 3000. UID: 12169. PID: 14560 ----
+  INFO root [2021-09-29 19:20:21,322] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 19:20:21,322] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 19:20:21,323] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 19:20:22,911] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [2021-09-29 19:20:22,911] - Script::install(): KBExtra is successfully!
+S_INFO root [2021-09-29 19:20:23,251] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2021-09-29 19:20:23,255] - TelnetServer server is running on port 33000
+  INFO root [2021-09-29 19:20:23,471] - ---- interfaces is running ----
+ DEBUG root [2021-09-29 19:20:23,472] - Components::process(): Request for the process of identity...
+  INFO root [2021-09-29 19:20:29,585] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:50940, extaddr:nonsupport, extport:0,  from 127.0.0.1:50945/0/0/0.
+  INFO root [2021-09-29 19:20:29,586] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 19:20:29,586] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2021-09-29 19:20:30,683] - Components::process(): Found all the components!
+  WARN root [2021-09-29 19:20:31,629] - TCPPacketReceiver::processPendingEvents(127.0.0.1:50945): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2021-09-29 19:20:31,629] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2021-09-29 19:21:45,125] - 
+  INFO root [2021-09-29 19:21:45,126] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-09-29 19:21:45,127] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [2021-09-29 19:21:45,127] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [2021-09-29 19:21:45,127] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2021-09-29 19:21:45,167] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:30099 )
+  INFO root [2021-09-29 19:21:45,167] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:30099, SOMAXCONN=511.
+  INFO root [2021-09-29 19:21:45,168] - server-configs:
+  INFO root [2021-09-29 19:21:45,168] - 	internalTcpAddr : 192.168.31.145:30099
+  INFO root [2021-09-29 19:21:45,168] - 	externalTcpAddr : %s
+  INFO root [2021-09-29 19:21:45,168] - 	componentID : 3000
+  WARN root [2021-09-29 19:21:45,168] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [2021-09-29 19:21:45,171] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Debug X64. Built: 14:53:11 Sep 29 2021. AppID: 3000. UID: 12169. PID: 3216 ----
+  INFO root [2021-09-29 19:21:45,171] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [2021-09-29 19:21:45,171] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-09-29 19:21:45,172] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-09-29 19:21:45,360] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [2021-09-29 19:21:45,360] - Script::install(): KBExtra is successfully!
+S_INFO root [2021-09-29 19:21:45,476] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2021-09-29 19:21:45,481] - TelnetServer server is running on port 33000
+  INFO root [2021-09-29 19:21:45,736] - ---- interfaces is running ----
+ DEBUG root [2021-09-29 19:21:45,736] - Components::process(): Request for the process of identity...
+  INFO root [2021-09-29 19:21:51,932] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:51015, extaddr:nonsupport, extport:0,  from 127.0.0.1:51026/0/0/0.
+  INFO root [2021-09-29 19:21:51,932] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [2021-09-29 19:21:51,933] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2021-09-29 19:21:53,028] - Components::process(): Found all the components!
+  WARN root [2021-09-29 19:21:54,575] - TCPPacketReceiver::processPendingEvents(127.0.0.1:51026): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2021-09-29 19:21:54,575] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!

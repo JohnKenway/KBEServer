@@ -1,0 +1,471 @@
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 497] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 498] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 499] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 499] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 508] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:56080 )
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 508] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:56080, SOMAXCONN=511.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 508] - server-configs:
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 508] - 	internalTcpAddr : 192.168.31.145:56080
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 508] - 	componentID : 4000
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:17:20 509] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 641] - Components::findLogger: found logger, addr:192.168.31.145:51387
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 641] - Components::addComponent: reset orderLog, uid=12169!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 641] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 645] - ---- dbmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: CEEA1830B25FC811C6B0172173A5FCD0. Config: Debug X64. Built: 14:53:18 Sep 29 2021. AppID: 4000. UID: 12169. PID: 17892 ----
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 645] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 646] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 646] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 842] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:20 842] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:21 143] - Dbmgr::initializeEnd: digest(3240ED17A2FC6BF486E613049A996360)
+  S_INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:21 143] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:21 143] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:21 143] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:21 169] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:22 438] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:22 438] - DBUtil::createInterface[0x9e75cfe5f8]: interface=default, dbtype=mysql, ip=23.105.212.231, port=3306, currdatabase=kbe, username=root, connected=yes.
+
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:22 438] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:22 439] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:22 734] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:17:22 734] - DBInterfaceMysql::checkErrors: not found Consumer table(dbInterface=default), reset kbe_* table...
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:17:22 959] - DBInterfaceMysql::checkErrors: reset kbe_* table(dbInterface=default) end!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:25 291] - DBInterfaceMysql::dropEntityTableFromDB: tbl_Account.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:25 478] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:17:25 479] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 4.34 seconds
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:25 697] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:25 697] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:22 439] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:22 439] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:22 439] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:22 439] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:22 439] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:23 482] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:23 482] - DBThread::onStart(): 0x292b73347d0!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:23 487] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:23 487] - DBThread::onStart(): 0x292b7334b10!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:23 487] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:23 487] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:23 487] - DBThread::onStart(): 0x292b7333ee0!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:23 487] - DBThread::onStart(): 0x292b7335670!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:23 487] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:23 488] - DBThread::onStart(): 0x292b7333fb0!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:23 786] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:23 872] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:23 877] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:17:23 878] - DBTask::process(): took 0.24 seconds
+sql:(CREATE TABLE IF NOT EXISTS kbe_accountinfos (`accountName` varchar(128) not null, PRIMARY KEY idKey (`accountName`),`password` varchar(255) not null,`bindata` blob,`email` varchar(191) not null, UNIQUE KEY `email` (`email`),`entityDBID` bigint(20) unsigned not null DEFAULT 0, UNIQUE KEY `entityDBID` (`entityDBID`),`flags` int unsigned not null DEFAULT 0,`deadline` bigint(20) not null DEFAULT 0,`regtime` bigint(20) not null DEFAULT 0,`lasttime` bigint(20) not null DEFAULT 0,`numlogin` int unsigned not null DEFAULT 0)ENGINE=InnoDB)
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:24 031] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:24 032] - syncToDB(): Consumer->sm_autoLoad(tinyint not null DEFAULT 0).
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:24 183] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:17:24 248] - DBTask::process(): took 0.61 seconds
+sql:(insert into kbe_serverlog (heartbeatTime, isShareDB, serverGroupID) values(1632986244,0,12169) ON DUPLICATE KEY UPDATE heartbeatTime=1632986244,isShareDB=0)
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:24 333] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:17:24 333] - DBTask::process(): took 0.70 seconds
+sql:(delete from kbe_email_verification where logtime<1632982644 and type=3)
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:24 341] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:24 437] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:24 645] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:17:24 744] - DBTask::process(): took 1.11 seconds
+sql:(show index from tbl_Consumer)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:17:24 944] - DBTask::process(): took 1.31 seconds
+sql:(select distinct(serverGroupID) from kbe_entitylog)
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:31 913] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:31 913] - Components::addComponent: reset orderLog, uid=12169!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:31 913] - Components::addComponent[interfaces], uid=12169, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:32 952] - Components::process(): Found all the components!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:36 108] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:58265, extaddr:nonsupport, extport:0,  from 192.168.31.145:54600/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:36 108] - Components::addComponent: reset orderLog, uid=12169!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:36 108] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:41 578] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:58275, extaddr:nonsupport, extport:0,  from 192.168.31.145:49484/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:41 578] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:44 532] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:58277, extaddr:192.168.31.145, extport:20015,  from 192.168.31.145:49488/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:44 532] - Components::addComponent[baseapp], uid=12169, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:44 749] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:58279, extaddr:nonsupport, extport:0,  from 192.168.31.145:49491/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:44 749] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:47 575] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:54598, extaddr:192.168.31.145, extport:20013,  from 192.168.31.145:60062/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:47 575] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:50 594] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:17:50 594] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:17:50 594] - SyncAppDatasHandler::~SyncAppDatasHandler()
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:22:22 447] - DBInterfaceMysql::processException: Thread 0x292b93ff820 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:22:22 448] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:22:23 691] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:22:23 691] - DBInterfaceMysql::processException: Thread 0x292b93ff820 reconnected(kbe). Attempts = 1
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:22:23 711] - DBInterfaceMysql::processException: Thread 0x292b9407910 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:22:23 712] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:22:24 409] - DBTask::process(): delay 20.69 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("abc",md5("123"),"","abc@0.0",1,0,0,1632986544,1632986544))
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:22:24 409] - DBTask::process(): took 0.54 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("abc",md5("123"),"","abc@0.0",1,0,0,1632986544,1632986544))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:22:24 596] - Dbmgr::reqCreateAccount: abc, success=true.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:22:24 759] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:22:24 759] - DBInterfaceMysql::processException: Thread 0x292b9407910 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:22:25 360] - DBTask::process(): delay 20.48 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=1 and entityType=1 LIMIT 1)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:22:25 360] - DBTask::process(): took 0.45 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=1 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:22:25 521] - Dbmgr::onAccountLogin:loginName=abc, accountName=abc, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:22:38 645] - DBInterfaceMysql::processException: Thread 0x292b9410210 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:22:38 645] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:22:39 693] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:22:39 693] - DBInterfaceMysql::processException: Thread 0x292b9410210 reconnected(kbe). Attempts = 1
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:22:39 725] - DBInterfaceMysql::processException: Thread 0x292b93e4e90 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:22:39 725] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:22:40 301] - DBTask::process(): delay 20.47 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("d1",md5("d1"),"","d1@0.0",2,0,0,1632986560,1632986560))
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:22:40 301] - DBTask::process(): took 0.46 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("d1",md5("d1"),"","d1@0.0",2,0,0,1632986560,1632986560))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:22:40 462] - Dbmgr::reqCreateAccount: d1, success=true.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:22:40 764] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:22:40 764] - DBInterfaceMysql::processException: Thread 0x292b93e4e90 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:22:41 358] - DBTask::process(): delay 20.46 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=2 and entityType=1 LIMIT 1)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:22:41 358] - DBTask::process(): took 0.45 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=2 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:22:41 520] - Dbmgr::onAccountLogin:loginName=d1, accountName=d1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:23:12 676] - DBTask::process(): took 0.53 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=2 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:23:12 871] - Dbmgr::onAccountLogin:loginName=d1, accountName=d1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:23:13 512] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(2,1,1,"192.168.31.145",55006,7001,12169))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:23:13 677] - Dbmgr::queryAccount: d1, success=true, flags=0, deadline=0.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:23:17 515] - DBTask::process(): took 0.45 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=2 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:23:17 695] - Dbmgr::onAccountLogin:loginName=d1, accountName=d1, success=10, componentID=7001, entityID=1, dbid=2, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:23:24 766] - DBInterfaceMysql::processException: Thread 0x292b93fcd90 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:23:24 767] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:23:25 823] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:23:25 824] - DBInterfaceMysql::processException: Thread 0x292b93fcd90 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:23:26 128] - DBTask::process(): delay 20.48 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityDBID, password, flags, deadline, bindata from kbe_accountinfos where accountName="d1" or email="d1" LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:23:26 286] - Dbmgr::reqCreateAccount: d1, success=false.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:25:49 961] - DBTask::process(): took 0.45 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=2 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:25:50 126] - Dbmgr::onAccountLogin:loginName=d1, accountName=d1, success=10, componentID=7001, entityID=1, dbid=2, flags=0, deadline=0.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:26:00 351] - DBTask::process(): took 0.53 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("d2",md5("d2"),"","d2@0.0",3,0,0,1632986760,1632986760))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:26:00 540] - Dbmgr::reqCreateAccount: d2, success=true.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:26:02 688] - DBTask::process(): took 0.45 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=3 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:26:02 844] - Dbmgr::onAccountLogin:loginName=d2, accountName=d2, success=0, componentID=0, entityID=0, dbid=3, flags=0, deadline=0.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:26:03 500] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(3,1,2,"192.168.31.145",61658,7001,12169))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:26:03 661] - Dbmgr::queryAccount: d2, success=true, flags=0, deadline=0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:28:09 516] - DBTaskAccountLogin::db_thread_process(): not found account[d3], autocreate successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:28:09 814] - DBTask::process(): took 0.89 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=4 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:28:09 970] - Dbmgr::onAccountLogin:loginName=d3, accountName=d3, success=0, componentID=0, entityID=0, dbid=4, flags=0, deadline=0.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:28:10 743] - DBTask::process(): took 0.54 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(4,1,3,"192.168.31.145",63215,7001,12169))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:28:10 957] - Dbmgr::queryAccount: d3, success=true, flags=0, deadline=0.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:28:10 945] - DBTransaction::commit(): took 0.20 seconds
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:28:25 987] - DBInterfaceMysql::processException: Thread 0x292b93fcd90 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:28:25 988] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:28:27 037] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:28:27 037] - DBInterfaceMysql::processException: Thread 0x292b93fcd90 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:28:27 344] - DBTask::process(): delay 20.47 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityDBID, password, flags, deadline, bindata from kbe_accountinfos where accountName="d3" or email="d3" LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:28:27 504] - Dbmgr::reqCreateAccount: d3, success=false.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:29:35 345] - DBTask::process(): took 0.45 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=4 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:29:35 511] - Dbmgr::onAccountLogin:loginName=d3, accountName=d3, success=10, componentID=7001, entityID=3, dbid=4, flags=0, deadline=0.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:29:38 336] - Dbmgr::reqCreateAccount: d3, success=false.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:29:45 740] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("d4",md5("d4"),"","d4@0.0",5,0,0,1632986985,1632986985))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:29:45 897] - Dbmgr::reqCreateAccount: d4, success=true.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:29:55 473] - DBTask::process(): took 0.53 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=5 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:29:55 660] - Dbmgr::onAccountLogin:loginName=d4, accountName=d4, success=0, componentID=0, entityID=0, dbid=5, flags=0, deadline=0.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:29:56 310] - DBTask::process(): took 0.46 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(5,1,4,"192.168.31.145",52959,7001,12169))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:29:56 473] - Dbmgr::queryAccount: d4, success=true, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:34:42 959] - DBInterfaceMysql::processException: Thread 0x292b9407910 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:34:42 961] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:34:44 210] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:34:44 210] - DBInterfaceMysql::processException: Thread 0x292b9407910 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:34:44 926] - DBTask::process(): delay 20.68 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("d5",md5("d5"),"","d5@0.0",6,0,0,1632987284,1632987284))
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:34:44 926] - DBTask::process(): took 0.54 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("d5",md5("d5"),"","d5@0.0",6,0,0,1632987284,1632987284))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:34:45 111] - Dbmgr::reqCreateAccount: d5, success=true.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:34:52 537] - DBInterfaceMysql::processException: Thread 0x292b9410210 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:34:52 538] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:34:53 583] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:34:53 583] - DBInterfaceMysql::processException: Thread 0x292b9410210 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:34:54 178] - DBTask::process(): delay 20.47 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=6 and entityType=1 LIMIT 1)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:34:54 178] - DBTask::process(): took 0.45 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=6 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:34:54 342] - Dbmgr::onAccountLogin:loginName=d5, accountName=d5, success=0, componentID=0, entityID=0, dbid=6, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:35:14 505] - DBInterfaceMysql::processException: Thread 0x292b93e4e90 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:35:14 506] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:35:15 542] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:35:15 542] - DBInterfaceMysql::processException: Thread 0x292b93e4e90 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:35:16 138] - DBTask::process(): delay 20.47 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(6,1,5,"192.168.31.145",45557,7001,12169))
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:35:16 138] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(6,1,5,"192.168.31.145",45557,7001,12169))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:35:16 289] - Dbmgr::queryAccount: d5, success=true, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:38:57 840] - DBInterfaceMysql::processException: Thread 0x292b93ff820 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:38:57 842] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:38:58 907] - DBInterfaceMysql::processException: Thread 0x292b93fcd90 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:38:58 909] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:38:59 092] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:38:59 092] - DBInterfaceMysql::processException: Thread 0x292b93ff820 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:38:59 805] - DBTask::process(): delay 20.69 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("d6",md5("d6"),"","d6@0.0",7,0,0,1632987539,1632987539))
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:38:59 806] - DBTask::process(): took 0.54 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("d6",md5("d6"),"","d6@0.0",7,0,0,1632987539,1632987539))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:39:00 009] - Dbmgr::reqCreateAccount: d6, success=true.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:39:00 007] - DBTransaction::commit(): took 0.20 seconds
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:39:00 156] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:39:00 156] - DBInterfaceMysql::processException: Thread 0x292b93fcd90 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:39:01 815] - DBTask::process(): delay 20.69 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=7 and entityType=1 LIMIT 1)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:39:01 815] - DBTask::process(): took 1.48 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=7 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:39:02 005] - Dbmgr::onAccountLogin:loginName=d6, accountName=d6, success=0, componentID=0, entityID=0, dbid=7, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:39:22 524] - DBInterfaceMysql::processException: Thread 0x292b9407910 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:39:22 525] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:39:23 791] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:39:23 791] - DBInterfaceMysql::processException: Thread 0x292b9407910 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:39:24 504] - DBTask::process(): delay 20.71 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(7,1,6,"192.168.31.145",32247,7001,12169))
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:39:24 504] - DBTask::process(): took 0.54 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(7,1,6,"192.168.31.145",32247,7001,12169))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:39:24 698] - Dbmgr::queryAccount: d6, success=true, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:47:15 762] - DBInterfaceMysql::processException: Thread 0x292b9410210 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:47:15 763] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:47:16 810] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:47:16 810] - DBInterfaceMysql::processException: Thread 0x292b9410210 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:47:17 112] - DBTask::process(): delay 20.48 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityDBID, password, flags, deadline, bindata from kbe_accountinfos where accountName="d6" or email="d6" LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:47:17 276] - Dbmgr::reqCreateAccount: d6, success=false.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:47:18 442] - DBInterfaceMysql::processException: Thread 0x292b93e4e90 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:47:18 442] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:47:19 689] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:47:19 689] - DBInterfaceMysql::processException: Thread 0x292b93e4e90 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:47:20 405] - DBTask::process(): delay 20.67 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=7 and entityType=1 LIMIT 1)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:47:20 405] - DBTask::process(): took 0.54 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=7 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:47:20 598] - Dbmgr::onAccountLogin:loginName=d6, accountName=d6, success=10, componentID=7001, entityID=6, dbid=7, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:47:51 809] - DBInterfaceMysql::processException: Thread 0x292b93ff820 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:47:51 810] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:47:53 065] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:47:53 065] - DBInterfaceMysql::processException: Thread 0x292b93ff820 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:47:53 777] - DBTask::process(): delay 20.71 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("d7",md5("d7"),"","d7@0.0",8,0,0,1632988073,1632988073))
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:47:53 777] - DBTask::process(): took 0.54 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("d7",md5("d7"),"","d7@0.0",8,0,0,1632988073,1632988073))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:47:53 966] - Dbmgr::reqCreateAccount: d7, success=true.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:48:27 501] - DBInterfaceMysql::processException: Thread 0x292b93fcd90 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:48:27 502] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:48:28 549] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:48:28 549] - DBInterfaceMysql::processException: Thread 0x292b93fcd90 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:48:29 142] - DBTask::process(): delay 20.45 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=8 and entityType=1 LIMIT 1)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:48:29 142] - DBTask::process(): took 0.45 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=8 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:48:29 313] - Dbmgr::onAccountLogin:loginName=d7, accountName=d7, success=0, componentID=0, entityID=0, dbid=8, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:48:48 617] - DBInterfaceMysql::processException: Thread 0x292b9407910 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:48:48 617] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:48:49 869] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:48:49 869] - DBInterfaceMysql::processException: Thread 0x292b9407910 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:48:50 586] - DBTask::process(): delay 20.69 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(8,1,7,"192.168.31.145",35053,7001,12169))
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:48:50 586] - DBTask::process(): took 0.54 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(8,1,7,"192.168.31.145",35053,7001,12169))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:48:50 773] - Dbmgr::queryAccount: d7, success=true, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:54:24 619] - DBInterfaceMysql::processException: Thread 0x292b9410210 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:54:24 620] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:54:25 672] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:54:25 672] - DBInterfaceMysql::processException: Thread 0x292b9410210 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:54:26 271] - DBTask::process(): delay 20.46 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("d9",md5("d9"),"","d9@0.0",9,0,0,1632988466,1632988466))
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:54:26 271] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("d9",md5("d9"),"","d9@0.0",9,0,0,1632988466,1632988466))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:54:26 434] - Dbmgr::reqCreateAccount: d9, success=true.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:54:28 076] - DBInterfaceMysql::processException: Thread 0x292b93e4e90 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:54:28 077] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:54:29 130] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:54:29 130] - DBInterfaceMysql::processException: Thread 0x292b93e4e90 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:54:29 731] - DBTask::process(): delay 20.45 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=9 and entityType=1 LIMIT 1)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:54:29 731] - DBTask::process(): took 0.45 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=9 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:54:29 898] - Dbmgr::onAccountLogin:loginName=d9, accountName=d9, success=0, componentID=0, entityID=0, dbid=9, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 15:54:49 195] - DBInterfaceMysql::processException: Thread 0x292b93ff820 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:54:49 197] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:54:50 446] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:54:50 446] - DBInterfaceMysql::processException: Thread 0x292b93ff820 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:54:51 158] - DBTask::process(): delay 20.67 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(9,1,8,"192.168.31.145",50943,7001,12169))
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:54:51 158] - DBTask::process(): took 0.54 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(9,1,8,"192.168.31.145",50943,7001,12169))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:54:51 363] - Dbmgr::queryAccount: d9, success=true, flags=0, deadline=0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 311] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 312] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 312] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 312] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 321] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:61140 )
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 321] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:61140, SOMAXCONN=511.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 321] - server-configs:
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 321] - 	internalTcpAddr : 192.168.31.145:61140
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 321] - 	componentID : 4000
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:55:51 322] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 430] - Components::findLogger: found logger, addr:192.168.31.145:51763
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 430] - Components::addComponent: reset orderLog, uid=12169!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 431] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 434] - ---- dbmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: CEEA1830B25FC811C6B0172173A5FCD0. Config: Debug X64. Built: 14:53:18 Sep 29 2021. AppID: 4000. UID: 12169. PID: 18220 ----
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 434] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 435] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 435] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 620] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 620] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 702] - Dbmgr::initializeEnd: digest(3240ED17A2FC6BF486E613049A996360)
+  S_INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 702] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 702] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:51 703] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:52 235] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:53 487] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:53 488] - DBUtil::createInterface[0xf75e55e558]: interface=default, dbtype=mysql, ip=23.105.212.231, port=3306, currdatabase=kbe, username=root, connected=yes.
+
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:53 488] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:53 488] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:53 778] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:55:56 244] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 4.54 seconds
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:56 522] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:56 522] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:53 488] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:53 488] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:53 489] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:53 489] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:53 489] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:54 524] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:54 524] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:54 524] - DBThread::onStart(): 0x2abf162fc00!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:54 524] - DBThread::onStart(): 0x2abf1630830!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:54 525] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:54 525] - DBThread::onStart(): 0x2abf1630900!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:54 526] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:54 527] - DBThread::onStart(): 0x2abf1631870!
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:54 728] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:55:54 728] - DBThread::onStart(): 0x2abf162ff40!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:54 819] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:54 819] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:55 090] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:55:55 265] - DBTask::process(): took 0.59 seconds
+sql:(insert into kbe_serverlog (heartbeatTime, isShareDB, serverGroupID) values(1632988555,0,12169) ON DUPLICATE KEY UPDATE heartbeatTime=1632988555,isShareDB=0)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:55:55 266] - DBTask::process(): took 0.59 seconds
+sql:(show index from tbl_Consumer)
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:55 267] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:55 302] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:55 447] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:55 600] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:55:55 625] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:55:55 625] - DBTask::process(): delay 1.13 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(delete from kbe_email_verification where logtime<1632984955 and type=3)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:55:55 625] - DBTask::process(): took 0.71 seconds
+sql:(delete from kbe_email_verification where logtime<1632984955 and type=3)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:55:55 897] - DBTask::process(): took 1.22 seconds
+sql:(select distinct(serverGroupID) from kbe_entitylog)
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:02 746] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:02 746] - Components::addComponent: reset orderLog, uid=12169!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:02 747] - Components::addComponent[interfaces], uid=12169, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:03 794] - Components::process(): Found all the components!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:04 819] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:61147, extaddr:nonsupport, extport:0,  from 192.168.31.145:63480/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:04 819] - Components::addComponent: reset orderLog, uid=12169!
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:04 819] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:06 795] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:61148, extaddr:nonsupport, extport:0,  from 192.168.31.145:63484/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:06 795] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:07 497] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:61151, extaddr:192.168.31.145, extport:20015,  from 192.168.31.145:63486/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:07 497] - Components::addComponent[baseapp], uid=12169, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:07 889] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:61169, extaddr:192.168.31.145, extport:20013,  from 192.168.31.145:63491/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:07 889] - Components::addComponent[loginapp], uid=12169, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:10 030] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.145, intport:61167, extaddr:nonsupport, extport:0,  from 192.168.31.145:63495/0/0/0.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:10 030] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:13 043] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 12169 4000  [2021-09-30 15:56:13 043] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:56:13 043] - SyncAppDatasHandler::~SyncAppDatasHandler()
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:56:35 841] - DBTask::process(): took 0.44 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=2 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:56:36 007] - Dbmgr::onAccountLogin:loginName=d1, accountName=d1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 15:56:36 646] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(2,1,1,"192.168.31.145",58608,7001,12169))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 15:56:36 806] - Dbmgr::queryAccount: d1, success=true, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 16:06:26 813] - DBInterfaceMysql::processException: Thread 0x2abf3701b20 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:06:26 814] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:06:28 057] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 16:06:28 057] - DBInterfaceMysql::processException: Thread 0x2abf3701b20 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 16:06:28 781] - DBTask::process(): delay 20.69 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=3 and entityType=1 LIMIT 1)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 16:06:28 781] - DBTask::process(): took 0.55 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=3 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:06:28 973] - Dbmgr::onAccountLogin:loginName=d2, accountName=d2, success=0, componentID=0, entityID=0, dbid=3, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 16:06:48 271] - DBInterfaceMysql::processException: Thread 0x2abf370cd30 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:06:48 272] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:06:49 319] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 16:06:49 319] - DBInterfaceMysql::processException: Thread 0x2abf370cd30 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 16:06:49 928] - DBTask::process(): delay 20.46 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(3,1,2,"192.168.31.145",60141,7001,12169))
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 16:06:49 928] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(3,1,2,"192.168.31.145",60141,7001,12169))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:06:50 087] - Dbmgr::queryAccount: d2, success=true, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 16:10:01 458] - DBInterfaceMysql::processException: Thread 0x2abf36fe920 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:10:01 459] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:10:02 734] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 16:10:02 734] - DBInterfaceMysql::processException: Thread 0x2abf36fe920 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 16:10:03 090] - DBTask::process(): delay 20.72 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityDBID, password, flags, deadline, bindata from kbe_accountinfos where accountName="d3" or email="d3" LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:10:03 271] - Dbmgr::reqCreateAccount: d3, success=false.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 16:12:24 045] - DBInterfaceMysql::processException: Thread 0x2abf3703420 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:12:24 046] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:12:25 086] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 16:12:25 086] - DBInterfaceMysql::processException: Thread 0x2abf3703420 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 16:12:25 688] - DBTask::process(): delay 20.45 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=5 and entityType=1 LIMIT 1)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 16:12:25 688] - DBTask::process(): took 0.45 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=5 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:12:25 854] - Dbmgr::onAccountLogin:loginName=d4, accountName=d4, success=0, componentID=0, entityID=0, dbid=5, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 16:12:45 162] - DBInterfaceMysql::processException: Thread 0x2abf3700220 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:12:45 164] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:12:46 440] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 16:12:46 440] - DBInterfaceMysql::processException: Thread 0x2abf3700220 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 16:12:47 157] - DBTask::process(): delay 20.73 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(5,1,3,"192.168.31.145",52458,7001,12169))
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 16:12:47 157] - DBTask::process(): took 0.54 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, serverGroupID) values(5,1,3,"192.168.31.145",52458,7001,12169))
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:12:47 353] - Dbmgr::queryAccount: d4, success=true, flags=0, deadline=0.
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 16:56:15 457] - DBInterfaceMysql::processException: Thread 0x2abf3701b20 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:56:15 458] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:56:16 511] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 16:56:16 511] - DBInterfaceMysql::processException: Thread 0x2abf3701b20 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 16:56:17 111] - DBTask::process(): delay 20.47 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_serverlog (heartbeatTime, isShareDB, serverGroupID) values(1632992176,0,12169) ON DUPLICATE KEY UPDATE heartbeatTime=1632992176,isShareDB=0)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 16:56:17 111] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_serverlog (heartbeatTime, isShareDB, serverGroupID) values(1632992176,0,12169) ON DUPLICATE KEY UPDATE heartbeatTime=1632992176,isShareDB=0)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 16:56:17 273] - Dbmgr::DBTaskServerLog()
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 17:56:15 396] - DBInterfaceMysql::processException: Thread 0x2abf370cd30 lost connection to database. Exception: Lost connection to MySQL server during query. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 17:56:15 397] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 17:56:16 436] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 17:56:16 436] - DBInterfaceMysql::processException: Thread 0x2abf370cd30 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 17:56:17 034] - DBTask::process(): delay 20.44 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_serverlog (heartbeatTime, isShareDB, serverGroupID) values(1632995776,0,12169) ON DUPLICATE KEY UPDATE heartbeatTime=1632995776,isShareDB=0)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 17:56:17 034] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_serverlog (heartbeatTime, isShareDB, serverGroupID) values(1632995776,0,12169) ON DUPLICATE KEY UPDATE heartbeatTime=1632995776,isShareDB=0)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 17:56:17 197] - Dbmgr::DBTaskServerLog()
+   ERROR      dbmgr-1 12169 4000  [2021-09-30 18:55:56 091] - DBInterfaceMysql::processException: Thread 0x2abf36fe920 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 18:55:56 092] - DBInterfaceMysql::attach: connect: 23.105.212.231:3306 starting...
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 18:55:57 352] - DBInterfaceMysql::attach: successfully! addr: 23.105.212.231:3306
+    INFO      dbmgr-1 12169 4000  [2021-09-30 18:55:57 352] - DBInterfaceMysql::processException: Thread 0x2abf36fe920 reconnected(kbe). Attempts = 1
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 18:55:58 071] - DBTask::process(): delay 1.44 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_serverlog (heartbeatTime, isShareDB, serverGroupID) values(1632999357,0,12169) ON DUPLICATE KEY UPDATE heartbeatTime=1632999357,isShareDB=0)
+ WARNING      dbmgr-1 12169 4000  [2021-09-30 18:55:58 071] - DBTask::process(): took 0.54 seconds
+sql:(insert into kbe_serverlog (heartbeatTime, isShareDB, serverGroupID) values(1632999357,0,12169) ON DUPLICATE KEY UPDATE heartbeatTime=1632999357,isShareDB=0)
+   DEBUG      dbmgr-1 12169 4000  [2021-09-30 18:55:58 265] - Dbmgr::DBTaskServerLog()

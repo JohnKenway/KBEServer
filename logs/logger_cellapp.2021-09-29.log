@@ -1,0 +1,177 @@
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 469] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 469] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 470] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 470] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 513] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:63508 )
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 513] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:63508, SOMAXCONN=511.
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 514] - server-configs:
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 514] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 514] - 	defaultViewRadius : 80
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 514] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 514] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 514] - 	internalTcpAddr : 192.168.31.145:63508
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 514] - 	componentID : 8001
+ WARNING    cellapp-1 12169 8001  [2021-09-29 17:39:40 514] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 588] - Components::findLogger: found logger, addr:192.168.31.145:63501
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 588] - Components::addComponent: reset orderLog, uid=12169!
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 588] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 593] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 14:54:15 Sep 29 2021. AppID: 8001. UID: 12169. PID: 11804 ----
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 593] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 594] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 594] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 789] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 789] - Script::install(): KBExtra is successfully!
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:40 860] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:41 099] - ---- cellapp is running ----
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 17:39:41 099] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 12169 8001  [2021-09-29 17:39:47 267] - EntityApp::checkTickPeriod: tick took 6168% (6.17 seconds)!
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:48 271] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:48 337] - Components::findComponents: found dbmgr, addr:192.168.31.145:63502
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:48 337] - Components::addComponent: reset orderLog, uid=12169!
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:48 337] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:48 338] - Components::findComponents: found dbmgr, addr:192.168.31.145:63502
+ WARNING    cellapp-1 12169 8001  [2021-09-29 17:39:49 338] - EntityApp::checkTickPeriod: tick took 1139% (1.14 seconds)!
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:50 370] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:50 466] - Components::findComponents: found cellappmgr, addr:192.168.31.145:63504
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:50 466] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:50 467] - Components::findComponents: found cellappmgr, addr:192.168.31.145:63504
+ WARNING    cellapp-1 12169 8001  [2021-09-29 17:39:51 468] - EntityApp::checkTickPeriod: tick took 1168% (1.17 seconds)!
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:52 471] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:52 496] - Components::findComponents: found baseappmgr, addr:192.168.31.145:63503
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:52 496] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:52 497] - Components::findComponents: found baseappmgr, addr:192.168.31.145:63503
+ WARNING    cellapp-1 12169 8001  [2021-09-29 17:39:53 497] - EntityApp::checkTickPeriod: tick took 1097% (1.10 seconds)!
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:54 571] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:54 600] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:54 670] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:54 699] - Components::process(): Found all the components!
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:54 734] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=6, grouporderID=1, intaddr:192.168.31.145, intport:63505, extaddr:192.168.31.145, extport:20015,  from 192.168.31.145:63502/0/0/0.
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:54 734] - Components::addComponent[baseapp], uid=12169, componentID=7001, globalorderid=6, grouporderid=1, totalcount=1
+    INFO    cellapp-1 12169 8001  [2021-09-29 17:39:57 734] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=5, startGroupOrder=1, digest=363BB7D9C7C9010E5779213C13D38542.
+    INFO    cellapp01 12169 8001  [2021-09-29 17:39:57 734] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    cellapp01 12169 8001  [2021-09-29 17:39:58 070] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20086, errorno=10048
+ WARNING    cellapp01 12169 8001  [2021-09-29 17:39:58 418] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20258, errorno=10048
+ WARNING    cellapp01 12169 8001  [2021-09-29 17:39:59 644] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.91 seconds
+ WARNING    cellapp01 12169 8001  [2021-09-29 17:39:59 644] - EntityApp::checkTickPeriod: tick took 1944% (1.94 seconds)!
+   S_DBG    cellapp01 12169 8001  [2021-09-29 17:39:59 671] - onInit::isReload:0
+   DEBUG    cellapp01 12169 8001  [2021-09-29 17:39:59 699] - InitProgressHandler::~InitProgressHandler()
+ WARNING    cellapp01 12169 8001  [2021-09-29 18:52:22 015] - TCPPacketReceiver::processPendingEvents(192.168.31.145:63503): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   ERROR    cellapp01 12169 8001  [2021-09-29 18:52:22 017] - Components::removeComponentByChannel: baseappmgr : 5000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=5100008801059, lastReceivedTime=5099891409714, inactivityExceptionPeriod=599499617)
+ WARNING    cellapp01 12169 8001  [2021-09-29 18:52:22 282] - EntityApp::checkTickPeriod: tick took 215% (0.22 seconds)!
+ WARNING    cellapp01 12169 8001  [2021-09-29 18:53:24 179] - TCPPacketReceiver::processPendingEvents(192.168.31.145:63504): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   ERROR    cellapp01 12169 8001  [2021-09-29 18:53:24 180] - Components::removeComponentByChannel: cellappmgr : 6000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=5100630435191, lastReceivedTime=5100492533287, inactivityExceptionPeriod=599499617)
+    INFO    cellapp01 12169 8001  [2021-09-29 18:53:24 278] - Shutdowner::onShutdownBegin: shutting down(period=1, tickPeriod=1)
+    INFO    cellapp01 12169 8001  [2021-09-29 18:53:24 570] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:63502/0/0/0 timeout!
+    INFO    cellapp01 12169 8001  [2021-09-29 18:53:24 570] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+ WARNING    cellapp01 12169 8001  [2021-09-29 18:53:24 570] - ServerApp::shutDown:  In shuttingdown!
+    INFO    cellapp01 12169 8001  [2021-09-29 18:53:25 279] - Shutdowner::onShutdown: shutting down
+    INFO    cellapp01 12169 8001  [2021-09-29 18:53:26 279] - Shutdowner::onShutdownEnd: shutting down
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:26 501] - EntityRef::destroyObjPool(): size 0.
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:26 501] - Witness::destroyObjPool(): size 0.
+    INFO    cellapp01 12169 8001  [2021-09-29 18:53:26 577] - Script::uninstall(): is successfully!
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:26 577] - ThreadPool::destroy(): starting size 2.
+ WARNING    cellapp01 12169 8001  [2021-09-29 18:53:26 987] - ThreadPool::destroy(): waiting for thread(2)[0x122635340a0,0x12263534140,], try=1
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:27 389] - TPThread::~TPThread(): 0x122635340a0
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:27 389] - TPThread::~TPThread(): 0x12263534140
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:27 389] - ThreadPool::destroy(): successfully!
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:27 496] - Bundle::destroyObjPool(): size 8.
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:27 496] - Channel::destroyObjPool(): size 14.
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:27 496] - TCPPacket::destroyObjPool(): size 7.
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:27 496] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:27 496] - EndPoint::destroyObjPool(): size 14.
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:27 496] - Address::destroyObjPool(): size 0.
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:27 496] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG    cellapp01 12169 8001  [2021-09-29 18:53:27 496] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO    cellapp01 12169 8001  [2021-09-29 18:53:27 496] - cellapp(8001) has shut down.
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 135] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 136] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 136] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 136] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 172] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:50950 )
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 172] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:50950, SOMAXCONN=511.
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 172] - server-configs:
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 172] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 172] - 	defaultViewRadius : 80
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 172] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 173] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 173] - 	internalTcpAddr : 192.168.31.145:50950
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 173] - 	componentID : 8001
+ WARNING    cellapp-1 12169 8001  [2021-09-29 19:20:25 173] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 220] - Components::findLogger: found logger, addr:192.168.31.145:50938
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 220] - Components::addComponent: reset orderLog, uid=12169!
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 220] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 224] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 14:54:15 Sep 29 2021. AppID: 8001. UID: 12169. PID: 15240 ----
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 225] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 225] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 225] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 409] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 409] - Script::install(): KBExtra is successfully!
+   ERROR    cellapp-1 12169 8001  [2021-09-29 19:20:25 458] - EntityDef::findScriptModule: [Account] not found!
+   ERROR    cellapp-1 12169 8001  [2021-09-29 19:20:25 458] - EntityApp::installEntityDef(): not found account script[Account], defined(kbengine[_defs].xml->dbmgr->account_system->accountEntityScriptType and entities.xml)!
+   ERROR    cellapp-1 12169 8001  [2021-09-29 19:20:25 458] - app::initialize(): initialization failed!
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:25 459] - EntityRef::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:25 459] - Witness::destroyObjPool(): size 0.
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:20:25 465] - Script::uninstall(): is successfully!
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:25 465] - ThreadPool::destroy(): starting size 2.
+ WARNING    cellapp-1 12169 8001  [2021-09-29 19:20:25 766] - ThreadPool::destroy(): waiting for thread(2)[0x2ced805a310,0x2ced805a3b0,], try=1
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:26 168] - TPThread::~TPThread(): 0x2ced805a310
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:26 168] - TPThread::~TPThread(): 0x2ced805a3b0
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:26 168] - ThreadPool::destroy(): successfully!
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:26 169] - Bundle::destroyObjPool(): size 14.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:26 169] - Channel::destroyObjPool(): size 15.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:26 169] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:26 169] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:26 169] - EndPoint::destroyObjPool(): size 15.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:26 169] - Address::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:26 169] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:20:26 169] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 696] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 697] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 697] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 697] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 734] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51021 )
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 734] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:51021, SOMAXCONN=511.
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 734] - server-configs:
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 734] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 734] - 	defaultViewRadius : 80
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 734] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 735] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 735] - 	internalTcpAddr : 192.168.31.145:51021
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 735] - 	componentID : 8001
+ WARNING    cellapp-1 12169 8001  [2021-09-29 19:21:45 735] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 805] - Components::findLogger: found logger, addr:192.168.31.145:51014
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 805] - Components::addComponent: reset orderLog, uid=12169!
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 805] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 810] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 14:54:15 Sep 29 2021. AppID: 8001. UID: 12169. PID: 1808 ----
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 810] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 811] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 811] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 999] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:45 999] - Script::install(): KBExtra is successfully!
+   ERROR    cellapp-1 12169 8001  [2021-09-29 19:21:46 047] - EntityDef::findScriptModule: [Account] not found!
+   ERROR    cellapp-1 12169 8001  [2021-09-29 19:21:46 048] - EntityApp::installEntityDef(): not found account script[Account], defined(kbengine[_defs].xml->dbmgr->account_system->accountEntityScriptType and entities.xml)!
+   ERROR    cellapp-1 12169 8001  [2021-09-29 19:21:46 048] - app::initialize(): initialization failed!
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 048] - EntityRef::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 048] - Witness::destroyObjPool(): size 0.
+    INFO    cellapp-1 12169 8001  [2021-09-29 19:21:46 055] - Script::uninstall(): is successfully!
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 055] - ThreadPool::destroy(): starting size 2.
+ WARNING    cellapp-1 12169 8001  [2021-09-29 19:21:46 355] - ThreadPool::destroy(): waiting for thread(2)[0x251b326b030,0x251b326ab30,], try=1
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 757] - TPThread::~TPThread(): 0x251b326b030
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 757] - TPThread::~TPThread(): 0x251b326ab30
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 758] - ThreadPool::destroy(): successfully!
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 758] - Bundle::destroyObjPool(): size 14.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 758] - Channel::destroyObjPool(): size 15.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 758] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 758] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 758] - EndPoint::destroyObjPool(): size 15.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 758] - Address::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 759] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 12169 8001  [2021-09-29 19:21:46 759] - UDPPacketReceiver::destroyObjPool(): size 0.

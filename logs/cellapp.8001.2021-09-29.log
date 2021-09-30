@@ -1,0 +1,129 @@
+  INFO root [0x000028f0] [2021-09-29 17:39:40,467] - 
+  INFO root [0x000028f0] [2021-09-29 17:39:40,468] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000028f0] [2021-09-29 17:39:40,468] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [0x000028f0] [2021-09-29 17:39:40,469] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [0x000028f0] [2021-09-29 17:39:40,469] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [0x000028f0] [2021-09-29 17:39:40,512] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:63508 )
+  INFO root [0x000028f0] [2021-09-29 17:39:40,513] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:63508, SOMAXCONN=511.
+  INFO root [0x000028f0] [2021-09-29 17:39:40,513] - server-configs:
+  INFO root [0x000028f0] [2021-09-29 17:39:40,513] - 	gameUpdateHertz : 10
+  INFO root [0x000028f0] [2021-09-29 17:39:40,513] - 	defaultViewRadius : 80
+  INFO root [0x000028f0] [2021-09-29 17:39:40,513] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000028f0] [2021-09-29 17:39:40,513] - 	entryScriptFile : kbemain
+  INFO root [0x000028f0] [2021-09-29 17:39:40,513] - 	internalTcpAddr : 192.168.31.145:63508
+  INFO root [0x000028f0] [2021-09-29 17:39:40,513] - 	componentID : 8001
+  WARN root [0x000028f0] [2021-09-29 17:39:40,513] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [0x000028f0] [2021-09-29 17:39:40,587] - Components::findLogger: found logger, addr:192.168.31.145:63501
+  INFO root [0x000028f0] [2021-09-29 17:39:40,587] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [0x000028f0] [2021-09-29 17:39:40,588] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000028f0] [2021-09-29 17:39:40,593] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 14:54:15 Sep 29 2021. AppID: 8001. UID: 12169. PID: 11804 ----
+  INFO root [0x000028f0] [2021-09-29 17:39:40,593] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [0x000028f0] [2021-09-29 17:39:40,593] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000028f0] [2021-09-29 17:39:40,593] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000028f0] [2021-09-29 17:39:40,789] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [0x000028f0] [2021-09-29 17:39:40,789] - Script::install(): KBExtra is successfully!
+  INFO root [0x000028f0] [2021-09-29 17:39:40,859] - TelnetServer server is running on port 50000
+  INFO root [0x000028f0] [2021-09-29 17:39:41,098] - ---- cellapp is running ----
+ DEBUG root [0x000028f0] [2021-09-29 17:39:41,098] - Components::process(): Request for the process of identity...
+  WARN root [0x000028f0] [2021-09-29 17:39:47,266] - Forwarding logs to logger[192.168.31.145:63501/0/0/0]...
+ ERROR root [0x000028f0] [2021-09-29 18:52:22,015] - Components::removeComponentByChannel: baseappmgr : 5000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=5100008801059, lastReceivedTime=5099891409714, inactivityExceptionPeriod=599499617)
+ ERROR root [0x000028f0] [2021-09-29 18:53:24,178] - Components::removeComponentByChannel: cellappmgr : 6000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=5100630435191, lastReceivedTime=5100492533287, inactivityExceptionPeriod=599499617)
+  INFO root [0x000028f0] [2021-09-29 18:53:28,554] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [0x0000253c] [2021-09-29 19:20:25,113] - 
+  INFO root [0x0000253c] [2021-09-29 19:20:25,134] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000253c] [2021-09-29 19:20:25,135] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [0x0000253c] [2021-09-29 19:20:25,135] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [0x0000253c] [2021-09-29 19:20:25,135] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [0x0000253c] [2021-09-29 19:20:25,171] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:50950 )
+  INFO root [0x0000253c] [2021-09-29 19:20:25,171] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:50950, SOMAXCONN=511.
+  INFO root [0x0000253c] [2021-09-29 19:20:25,171] - server-configs:
+  INFO root [0x0000253c] [2021-09-29 19:20:25,171] - 	gameUpdateHertz : 10
+  INFO root [0x0000253c] [2021-09-29 19:20:25,172] - 	defaultViewRadius : 80
+  INFO root [0x0000253c] [2021-09-29 19:20:25,172] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000253c] [2021-09-29 19:20:25,172] - 	entryScriptFile : kbemain
+  INFO root [0x0000253c] [2021-09-29 19:20:25,172] - 	internalTcpAddr : 192.168.31.145:50950
+  INFO root [0x0000253c] [2021-09-29 19:20:25,172] - 	componentID : 8001
+  WARN root [0x0000253c] [2021-09-29 19:20:25,172] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [0x0000253c] [2021-09-29 19:20:25,219] - Components::findLogger: found logger, addr:192.168.31.145:50938
+  INFO root [0x0000253c] [2021-09-29 19:20:25,219] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [0x0000253c] [2021-09-29 19:20:25,219] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000253c] [2021-09-29 19:20:25,224] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 14:54:15 Sep 29 2021. AppID: 8001. UID: 12169. PID: 15240 ----
+  INFO root [0x0000253c] [2021-09-29 19:20:25,224] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [0x0000253c] [2021-09-29 19:20:25,224] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000253c] [2021-09-29 19:20:25,224] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000253c] [2021-09-29 19:20:25,409] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [0x0000253c] [2021-09-29 19:20:25,409] - Script::install(): KBExtra is successfully!
+ ERROR root [0x0000253c] [2021-09-29 19:20:25,457] - EntityDef::findScriptModule: [Account] not found!
+ ERROR root [0x0000253c] [2021-09-29 19:20:25,458] - EntityApp::installEntityDef(): not found account script[Account], defined(kbengine[_defs].xml->dbmgr->account_system->accountEntityScriptType and entities.xml)!
+ ERROR root [0x0000253c] [2021-09-29 19:20:25,458] - app::initialize(): initialization failed!
+ DEBUG root [0x0000253c] [2021-09-29 19:20:25,458] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x0000253c] [2021-09-29 19:20:25,458] - Witness::destroyObjPool(): size 0.
+  INFO root [0x0000253c] [2021-09-29 19:20:25,464] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000253c] [2021-09-29 19:20:25,464] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000253c] [2021-09-29 19:20:25,766] - ThreadPool::destroy(): waiting for thread(2)[0x2ced805a310,0x2ced805a3b0,], try=1
+ DEBUG root [0x0000253c] [2021-09-29 19:20:26,168] - TPThread::~TPThread(): 0x2ced805a310
+ DEBUG root [0x0000253c] [2021-09-29 19:20:26,168] - TPThread::~TPThread(): 0x2ced805a3b0
+ DEBUG root [0x0000253c] [2021-09-29 19:20:26,168] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x0000253c] [2021-09-29 19:20:26,168] - Bundle::destroyObjPool(): size 14.
+ DEBUG root [0x0000253c] [2021-09-29 19:20:26,168] - Channel::destroyObjPool(): size 15.
+ DEBUG root [0x0000253c] [2021-09-29 19:20:26,169] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x0000253c] [2021-09-29 19:20:26,169] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x0000253c] [2021-09-29 19:20:26,169] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [0x0000253c] [2021-09-29 19:20:26,169] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x0000253c] [2021-09-29 19:20:26,169] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x0000253c] [2021-09-29 19:20:26,169] - UDPPacketReceiver::destroyObjPool(): size 0.
+  WARN root [0x0000253c] [2021-09-29 19:20:26,169] - Forwarding logs to logger[192.168.31.145:50938/0/0/0]...
+  INFO root [0x0000253c] [2021-09-29 19:20:32,683] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x000033e0] [2021-09-29 19:21:45,695] - 
+  INFO root [0x000033e0] [2021-09-29 19:21:45,695] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000033e0] [2021-09-29 19:21:45,696] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+  INFO root [0x000033e0] [2021-09-29 19:21:45,696] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+  INFO root [0x000033e0] [2021-09-29 19:21:45,696] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+  INFO root [0x000033e0] [2021-09-29 19:21:45,733] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:51021 )
+  INFO root [0x000033e0] [2021-09-29 19:21:45,734] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:51021, SOMAXCONN=511.
+  INFO root [0x000033e0] [2021-09-29 19:21:45,734] - server-configs:
+  INFO root [0x000033e0] [2021-09-29 19:21:45,734] - 	gameUpdateHertz : 10
+  INFO root [0x000033e0] [2021-09-29 19:21:45,734] - 	defaultViewRadius : 80
+  INFO root [0x000033e0] [2021-09-29 19:21:45,734] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000033e0] [2021-09-29 19:21:45,734] - 	entryScriptFile : kbemain
+  INFO root [0x000033e0] [2021-09-29 19:21:45,734] - 	internalTcpAddr : 192.168.31.145:51021
+  INFO root [0x000033e0] [2021-09-29 19:21:45,734] - 	componentID : 8001
+  WARN root [0x000033e0] [2021-09-29 19:21:45,734] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+  INFO root [0x000033e0] [2021-09-29 19:21:45,804] - Components::findLogger: found logger, addr:192.168.31.145:51014
+  INFO root [0x000033e0] [2021-09-29 19:21:45,804] - Components::addComponent: reset orderLog, uid=12169!
+  INFO root [0x000033e0] [2021-09-29 19:21:45,804] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000033e0] [2021-09-29 19:21:45,809] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 14:54:15 Sep 29 2021. AppID: 8001. UID: 12169. PID: 1808 ----
+  INFO root [0x000033e0] [2021-09-29 19:21:45,809] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+  INFO root [0x000033e0] [2021-09-29 19:21:45,810] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000033e0] [2021-09-29 19:21:45,810] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000033e0] [2021-09-29 19:21:45,998] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [0x000033e0] [2021-09-29 19:21:45,998] - Script::install(): KBExtra is successfully!
+ ERROR root [0x000033e0] [2021-09-29 19:21:46,047] - EntityDef::findScriptModule: [Account] not found!
+ ERROR root [0x000033e0] [2021-09-29 19:21:46,047] - EntityApp::installEntityDef(): not found account script[Account], defined(kbengine[_defs].xml->dbmgr->account_system->accountEntityScriptType and entities.xml)!
+ ERROR root [0x000033e0] [2021-09-29 19:21:46,048] - app::initialize(): initialization failed!
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,048] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,048] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000033e0] [2021-09-29 19:21:46,054] - Script::uninstall(): is successfully!
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,054] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000033e0] [2021-09-29 19:21:46,355] - ThreadPool::destroy(): waiting for thread(2)[0x251b326b030,0x251b326ab30,], try=1
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,757] - TPThread::~TPThread(): 0x251b326b030
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,757] - TPThread::~TPThread(): 0x251b326ab30
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,757] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,757] - Bundle::destroyObjPool(): size 14.
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,757] - Channel::destroyObjPool(): size 15.
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,758] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,758] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,758] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,758] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,758] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x000033e0] [2021-09-29 19:21:46,758] - UDPPacketReceiver::destroyObjPool(): size 0.
+  WARN root [0x000033e0] [2021-09-29 19:21:46,758] - Forwarding logs to logger[192.168.31.145:51014/0/0/0]...
+  INFO root [0x000033e0] [2021-09-29 19:21:53,272] - EventDispatcher()::~EventDispatcher: Num timers = 1

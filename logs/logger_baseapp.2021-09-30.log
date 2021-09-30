@@ -1,0 +1,343 @@
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 973] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 974] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 974] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 974] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 983] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20015 )
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 984] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20015, SOMAXCONN=511.
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 985] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20005 )
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 985] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.31.145:20005, SOMAXCONN=511.
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 986] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:58277 )
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 987] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:58277, SOMAXCONN=511.
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 987] - server-configs:
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 987] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 987] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 987] - 	internalTcpAddr : 192.168.31.145:58277
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 987] - 	externalTcpAddr : 192.168.31.145:20015
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 987] - 	externalUdpAddr : 192.168.31.145:20005
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:29 987] - 	componentID : 7001
+ WARNING    baseapp-1 12169 7001  [2021-09-30 15:17:30 095] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:30 150] - Components::findLogger: found logger, addr:192.168.31.145:51387
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:30 150] - Components::addComponent: reset orderLog, uid=12169!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:30 151] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:30 155] - ---- baseapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: A64E660274C30DFACD56738D4ED29713. Config: Debug X64. Built: 14:53:56 Sep 29 2021. AppID: 7001. UID: 12169. PID: 5988 ----
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:30 155] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:30 155] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:30 155] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:30 348] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:30 348] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 12169 7001  [2021-09-30 15:17:30 775] - loaded entity-script:Consumer(1).
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:30 775] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:30 775] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:31 010] - ---- baseapp is running ----
+   DEBUG    baseapp-1 12169 7001  [2021-09-30 15:17:31 010] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 12169 7001  [2021-09-30 15:17:37 270] - EntityApp::checkTickPeriod: tick took 6260% (6.26 seconds)!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:38 287] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:38 333] - Components::findComponents: found dbmgr, addr:192.168.31.145:56080
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:38 334] - Components::addComponent: reset orderLog, uid=12169!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:38 334] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:38 334] - Components::findComponents: found dbmgr, addr:192.168.31.145:56080
+ WARNING    baseapp-1 12169 7001  [2021-09-30 15:17:39 344] - EntityApp::checkTickPeriod: tick took 1118% (1.12 seconds)!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:40 382] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:40 398] - Components::findComponents: found baseappmgr, addr:192.168.31.145:58265
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:40 398] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:40 399] - Components::findComponents: found baseappmgr, addr:192.168.31.145:58265
+ WARNING    baseapp-1 12169 7001  [2021-09-30 15:17:41 405] - EntityApp::checkTickPeriod: tick took 1084% (1.08 seconds)!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:42 416] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:42 466] - Components::findComponents: found cellappmgr, addr:192.168.31.145:58275
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:42 466] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:42 466] - Components::findComponents: found cellappmgr, addr:192.168.31.145:58275
+ WARNING    baseapp-1 12169 7001  [2021-09-30 15:17:43 475] - EntityApp::checkTickPeriod: tick took 1151% (1.15 seconds)!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:44 517] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 12169 7001  [2021-09-30 15:17:44 532] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:44 578] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:44 609] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:44 687] - Components::process(): Found all the components!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:44 749] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=4, grouporderID=1, intaddr:192.168.31.145, intport:58279, extaddr:nonsupport, extport:0,  from 192.168.31.145:56080/0/0/0.
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:44 749] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:17:50 594] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=3, startGroupOrder=1, digest=3240ED17A2FC6BF486E613049A996360.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:17:50 594] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:17:51 078] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20064, errorno=10048
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:17:51 577] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20696, errorno=10048
+  S_INFO    baseapp01 12169 7001  [2021-09-30 15:17:52 901] - onInit::isReload:0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:17:52 901] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 2.31 seconds
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:17:52 901] - EntityApp::checkTickPeriod: tick took 2384% (2.38 seconds)!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:17:53 478] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 12169 7001  [2021-09-30 15:17:53 510] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=3
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:17:53 573] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:22:25 522] - PendingLoginMgr::add: abc, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:22:41 521] - PendingLoginMgr::add: d1, size=2.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:23:12 875] - Channel::handshake: kcp(192.168.31.145:57046/1/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:23:12 887] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:57046/1/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:23:12 887] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:57046/1/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:23:12 912] - Baseapp::loginBaseapp: new user[d1], channel[192.168.31.145:57046/1/0/0].
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:23:13 677] - PendingLoginMgr::remove: d1, size=1.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:23:13 677] - EntityApp::createEntity: new Consumer 1
+    INFO    baseapp01 12169 7001  [2021-09-30 15:23:13 677] - Baseapp::onQueryAccountCBFromDbmgr: user=d1, uuid=7013624011741921280, entityID=1, flags=0, deadline=0.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:23:17 696] - PendingLoginMgr::add: d1, size=2.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:23:17 700] - Channel::handshake: kcp(192.168.31.145:57047/2/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:23:17 713] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:57047/2/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:23:17 713] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:57047/2/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:23:17 749] - Baseapp::loginBaseapp: new user[d1], channel[192.168.31.145:57047/2/0/0].
+    INFO    baseapp01 12169 7001  [2021-09-30 15:23:17 749] - Baseapp::loginBaseapp: user[d1] has entity(1).
+   S_ERR    baseapp01 12169 7001  [2021-09-30 15:23:17 750] - AttributeError: 'Consumer' object has no attribute 'onLogOnAttempt'
+    INFO    baseapp01 12169 7001  [2021-09-30 15:23:17 750] - Baseapp::loginBaseapp: script LOG_ON_REJECT.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:23:17 773] - PendingLoginMgr::process: [d1] is timeout, currsize=1.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:24:12 874] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:57046/1/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:24:12 874] - Consumer::onClientDeath: 1.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:24:17 707] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:57047/2/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:24:25 765] - PendingLoginMgr::process: [abc] is timeout, currsize=0.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:25:50 126] - PendingLoginMgr::add: d1, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:25:50 136] - Channel::handshake: kcp(192.168.31.145:56047/3/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:25:50 148] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:56047/3/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:25:50 148] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:56047/3/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:25:50 174] - Baseapp::loginBaseapp: new user[d1], channel[192.168.31.145:56047/3/0/0].
+    INFO    baseapp01 12169 7001  [2021-09-30 15:25:50 174] - Baseapp::loginBaseapp: user[d1] has entity(1).
+   S_ERR    baseapp01 12169 7001  [2021-09-30 15:25:50 174] - AttributeError: 'Consumer' object has no attribute 'onLogOnAttempt'
+    INFO    baseapp01 12169 7001  [2021-09-30 15:25:50 174] - Baseapp::loginBaseapp: script LOG_ON_REJECT.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:25:50 766] - PendingLoginMgr::process: [d1] is timeout, currsize=0.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:26:02 844] - PendingLoginMgr::add: d2, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:26:02 848] - Channel::handshake: kcp(192.168.31.145:56048/4/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:26:02 862] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:56048/4/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:26:02 862] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:56048/4/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:26:02 898] - Baseapp::loginBaseapp: new user[d2], channel[192.168.31.145:56048/4/0/0].
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:26:03 661] - PendingLoginMgr::remove: d2, size=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:26:03 661] - EntityApp::createEntity: new Consumer 2
+    INFO    baseapp01 12169 7001  [2021-09-30 15:26:03 662] - Baseapp::onQueryAccountCBFromDbmgr: user=d2, uuid=7013624741886361600, entityID=2, flags=0, deadline=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:26:50 134] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:56047/3/0/0 timeout!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:27:02 855] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:56048/4/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:27:02 855] - Consumer::onClientDeath: 2.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:28:09 971] - PendingLoginMgr::add: d3, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:28:09 981] - Channel::handshake: kcp(192.168.31.145:61430/5/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:28:09 993] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:61430/5/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:28:09 993] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:61430/5/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:28:10 018] - Baseapp::loginBaseapp: new user[d3], channel[192.168.31.145:61430/5/0/0].
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:28:10 957] - PendingLoginMgr::remove: d3, size=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:28:10 957] - EntityApp::createEntity: new Consumer 3
+    INFO    baseapp01 12169 7001  [2021-09-30 15:28:10 958] - Baseapp::onQueryAccountCBFromDbmgr: user=d3, uuid=7013625287347208192, entityID=3, flags=0, deadline=0.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:29:35 512] - PendingLoginMgr::add: d3, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:29:35 517] - Channel::handshake: kcp(192.168.31.145:51364/6/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:29:35 528] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:51364/6/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:29:35 528] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:51364/6/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:29:35 553] - Baseapp::loginBaseapp: new user[d3], channel[192.168.31.145:51364/6/0/0].
+    INFO    baseapp01 12169 7001  [2021-09-30 15:29:35 553] - Baseapp::loginBaseapp: user[d3] has entity(3).
+   S_ERR    baseapp01 12169 7001  [2021-09-30 15:29:35 553] - AttributeError: 'Consumer' object has no attribute 'onLogOnAttempt'
+    INFO    baseapp01 12169 7001  [2021-09-30 15:29:35 554] - Baseapp::loginBaseapp: script LOG_ON_REJECT.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:29:35 745] - PendingLoginMgr::process: [d3] is timeout, currsize=0.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:29:55 660] - PendingLoginMgr::add: d4, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:29:55 663] - Channel::handshake: kcp(192.168.31.145:57294/7/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:29:55 675] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:57294/7/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:29:55 675] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:57294/7/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:29:55 699] - Baseapp::loginBaseapp: new user[d4], channel[192.168.31.145:57294/7/0/0].
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:29:56 473] - PendingLoginMgr::remove: d4, size=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:29:56 473] - EntityApp::createEntity: new Consumer 4
+    INFO    baseapp01 12169 7001  [2021-09-30 15:29:56 473] - Baseapp::onQueryAccountCBFromDbmgr: user=d4, uuid=7013625742613741568, entityID=4, flags=0, deadline=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:30:09 984] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:61430/5/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:30:09 984] - Consumer::onClientDeath: 3.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:30:35 519] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:51364/6/0/0 timeout!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:31:55 667] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:57294/7/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:31:55 667] - Consumer::onClientDeath: 4.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:34:54 343] - PendingLoginMgr::add: d5, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:34:54 541] - Channel::handshake: kcp(192.168.31.145:62897/8/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:34:54 878] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:62897/8/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:34:54 879] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:62897/8/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:34:55 225] - Baseapp::loginBaseapp: new user[d5], channel[192.168.31.145:62897/8/0/0].
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:35:16 289] - PendingLoginMgr::remove: d5, size=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:35:16 289] - EntityApp::createEntity: new Consumer 5
+    INFO    baseapp01 12169 7001  [2021-09-30 15:35:16 290] - Baseapp::onQueryAccountCBFromDbmgr: user=d5, uuid=7013627117003276288, entityID=5, flags=0, deadline=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:38:24 546] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:62897/8/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:38:24 546] - Consumer::onClientDeath: 5.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:39:02 006] - PendingLoginMgr::add: d6, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:39:02 245] - Channel::handshake: kcp(192.168.31.145:63357/9/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:39:02 585] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:63357/9/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:39:02 585] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:63357/9/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:39:03 259] - Baseapp::loginBaseapp: new user[d6], channel[192.168.31.145:63357/9/0/0].
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:39:24 698] - PendingLoginMgr::remove: d6, size=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:39:24 698] - EntityApp::createEntity: new Consumer 6
+    INFO    baseapp01 12169 7001  [2021-09-30 15:39:24 698] - Baseapp::onQueryAccountCBFromDbmgr: user=d6, uuid=7013628182155165696, entityID=6, flags=0, deadline=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:40:32 243] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:63357/9/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:40:32 243] - Consumer::onClientDeath: 6.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:47:20 599] - PendingLoginMgr::add: d6, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:47:20 606] - Channel::handshake: kcp(192.168.31.145:57144/10/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:47:20 618] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:57144/10/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:47:20 618] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:57144/10/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:47:20 642] - Baseapp::loginBaseapp: new user[d6], channel[192.168.31.145:57144/10/0/0].
+    INFO    baseapp01 12169 7001  [2021-09-30 15:47:20 643] - Baseapp::loginBaseapp: user[d6] has entity(6).
+   S_ERR    baseapp01 12169 7001  [2021-09-30 15:47:20 643] - AttributeError: 'Consumer' object has no attribute 'onLogOnAttempt'
+    INFO    baseapp01 12169 7001  [2021-09-30 15:47:20 643] - Baseapp::loginBaseapp: script LOG_ON_REJECT.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:47:20 706] - PendingLoginMgr::process: [d6] is timeout, currsize=0.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:48:29 314] - PendingLoginMgr::add: d7, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:48:29 321] - Channel::handshake: kcp(192.168.31.145:60808/11/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:48:29 333] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:60808/11/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:48:29 334] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:60808/11/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:48:29 358] - Baseapp::loginBaseapp: new user[d7], channel[192.168.31.145:60808/11/0/0].
+    INFO    baseapp01 12169 7001  [2021-09-30 15:48:50 603] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:57144/10/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:48:50 774] - PendingLoginMgr::remove: d7, size=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:48:50 774] - EntityApp::createEntity: new Consumer 7
+    INFO    baseapp01 12169 7001  [2021-09-30 15:48:50 774] - Baseapp::onQueryAccountCBFromDbmgr: user=d7, uuid=7013630613106655232, entityID=7, flags=0, deadline=0.
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:46 403] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:48 378] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:49 828] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:50 428] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:50 903] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:51 341] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:51 778] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:52 228] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:52 692] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:53 067] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:53 428] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:53 928] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:54 416] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:54 853] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:55 066] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:55 241] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:55 430] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:55 604] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:55 766] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:55 928] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:56 078] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:56 242] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:56 378] - Consumer[7] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:49:56 516] - Consumer[7] Say 
+    INFO    baseapp01 12169 7001  [2021-09-30 15:51:29 325] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:60808/11/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:51:29 325] - Consumer::onClientDeath: 7.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:54:29 899] - PendingLoginMgr::add: d9, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:54:29 902] - Channel::handshake: kcp(192.168.31.145:65478/12/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:54:29 914] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:65478/12/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:54:29 914] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:65478/12/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:54:29 951] - Baseapp::loginBaseapp: new user[d9], channel[192.168.31.145:65478/12/0/0].
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:54:51 363] - PendingLoginMgr::remove: d9, size=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:54:51 363] - EntityApp::createEntity: new Consumer 8
+    INFO    baseapp01 12169 7001  [2021-09-30 15:54:51 363] - Baseapp::onQueryAccountCBFromDbmgr: user=d9, uuid=7013632163589849088, entityID=8, flags=0, deadline=0.
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:55:00 875] - Consumer[8] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:55:02 025] - Consumer[8] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:55:02 575] - Consumer[8] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:55:02 800] - Consumer[8] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:55:02 975] - Consumer[8] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:55:03 125] - Consumer[8] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:55:03 475] - Consumer[8] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:55:03 650] - Consumer[8] Say 
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:55:03 787] - Consumer[8] Say 
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 091] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 092] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 092] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 092] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 101] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20015 )
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 101] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20015, SOMAXCONN=511.
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 102] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20005 )
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 103] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.31.145:20005, SOMAXCONN=511.
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 104] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:61151 )
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 104] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:61151, SOMAXCONN=511.
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 104] - server-configs:
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 104] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 104] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 104] - 	internalTcpAddr : 192.168.31.145:61151
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 104] - 	externalTcpAddr : 192.168.31.145:20015
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 104] - 	externalUdpAddr : 192.168.31.145:20005
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 105] - 	componentID : 7001
+ WARNING    baseapp-1 12169 7001  [2021-09-30 15:55:53 244] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 303] - Components::findLogger: found logger, addr:192.168.31.145:51763
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 303] - Components::addComponent: reset orderLog, uid=12169!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 303] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 307] - ---- baseapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: A64E660274C30DFACD56738D4ED29713. Config: Debug X64. Built: 14:53:56 Sep 29 2021. AppID: 7001. UID: 12169. PID: 4420 ----
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 308] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 308] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 308] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 504] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 505] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 12169 7001  [2021-09-30 15:55:53 586] - loaded entity-script:Consumer(1).
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 586] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 587] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:55:53 815] - ---- baseapp is running ----
+   DEBUG    baseapp-1 12169 7001  [2021-09-30 15:55:53 815] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 12169 7001  [2021-09-30 15:56:00 054] - EntityApp::checkTickPeriod: tick took 6239% (6.24 seconds)!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:01 107] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:01 220] - Components::findComponents: found dbmgr, addr:192.168.31.145:61140
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:01 220] - Components::addComponent: reset orderLog, uid=12169!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:01 220] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:01 221] - Components::findComponents: found dbmgr, addr:192.168.31.145:61140
+ WARNING    baseapp-1 12169 7001  [2021-09-30 15:56:02 223] - EntityApp::checkTickPeriod: tick took 1195% (1.20 seconds)!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:03 229] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:03 307] - Components::findComponents: found baseappmgr, addr:192.168.31.145:61148
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:03 307] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:03 308] - Components::findComponents: found baseappmgr, addr:192.168.31.145:61148
+ WARNING    baseapp-1 12169 7001  [2021-09-30 15:56:04 315] - EntityApp::checkTickPeriod: tick took 1198% (1.20 seconds)!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:05 320] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:05 400] - Components::findComponents: found cellappmgr, addr:192.168.31.145:61147
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:05 400] - Components::addComponent[cellappmgr], uid=12169, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:05 400] - Components::findComponents: found cellappmgr, addr:192.168.31.145:61147
+ WARNING    baseapp-1 12169 7001  [2021-09-30 15:56:06 416] - EntityApp::checkTickPeriod: tick took 1188% (1.19 seconds)!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:07 497] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 12169 7001  [2021-09-30 15:56:07 497] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:07 527] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:07 590] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:07 622] - Components::process(): Found all the components!
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:10 031] - ServerApp::onRegisterNewApp: uid:12169, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.31.145, intport:61167, extaddr:nonsupport, extport:0,  from 192.168.31.145:61140/0/0/0.
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:10 031] - Components::addComponent[cellapp], uid=12169, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 12169 7001  [2021-09-30 15:56:13 043] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=3, startGroupOrder=1, digest=3240ED17A2FC6BF486E613049A996360.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:56:13 043] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:56:13 528] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20034, errorno=10048
+  S_INFO    baseapp01 12169 7001  [2021-09-30 15:56:14 870] - onInit::isReload:0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:56:14 870] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.83 seconds
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:56:14 870] - EntityApp::checkTickPeriod: tick took 1843% (1.84 seconds)!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:56:15 403] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 12169 7001  [2021-09-30 15:56:15 418] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=3
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:56:15 496] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:56:36 008] - PendingLoginMgr::add: d1, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:56:36 011] - Channel::handshake: kcp(192.168.31.145:61668/1/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 15:56:36 022] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:61668/1/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 15:56:36 022] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:61668/1/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 15:56:36 049] - Baseapp::loginBaseapp: new user[d1], channel[192.168.31.145:61668/1/0/0].
+   DEBUG    baseapp01 12169 7001  [2021-09-30 15:56:36 807] - PendingLoginMgr::remove: d1, size=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 15:56:36 807] - EntityApp::createEntity: new Consumer 1
+    INFO    baseapp01 12169 7001  [2021-09-30 15:56:36 807] - Baseapp::onQueryAccountCBFromDbmgr: user=d1, uuid=7013632614561415168, entityID=1, flags=0, deadline=0.
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:56:40 585] - Consumer[1] Say gggggggggg
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:56:41 635] - Consumer[1] Say gggggggggg
+   S_DBG    baseapp01 12169 7001  [2021-09-30 15:56:42 460] - Consumer[1] Say gggggggggg
+   DEBUG    baseapp01 12169 7001  [2021-09-30 16:06:28 974] - PendingLoginMgr::add: d2, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 16:06:28 978] - Channel::handshake: kcp(192.168.31.145:60906/2/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 16:06:28 991] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:60906/2/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 16:06:28 991] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:60906/2/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 16:06:29 015] - Baseapp::loginBaseapp: new user[d2], channel[192.168.31.145:60906/2/0/0].
+    INFO    baseapp01 12169 7001  [2021-09-30 16:06:36 010] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:61668/1/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 16:06:36 010] - Consumer::onClientDeath: 1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 16:06:50 087] - PendingLoginMgr::remove: d2, size=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 16:06:50 087] - EntityApp::createEntity: new Consumer 2
+    INFO    baseapp01 12169 7001  [2021-09-30 16:06:50 088] - Baseapp::onQueryAccountCBFromDbmgr: user=d2, uuid=7013635251671334912, entityID=2, flags=0, deadline=0.
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:07:10 662] - Consumer[2] Say 111222
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:07:41 338] - Consumer[2] Say 111222
+    INFO    baseapp01 12169 7001  [2021-09-30 16:08:58 988] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:60906/2/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 16:08:58 988] - Consumer::onClientDeath: 2.
+    INFO    baseapp01 12169 7001  [2021-09-30 16:10:35 359] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:60906/3/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 16:12:25 854] - PendingLoginMgr::add: d4, size=1.
+   DEBUG    baseapp01 12169 7001  [2021-09-30 16:12:25 857] - Channel::handshake: kcp(192.168.31.145:60108/4/0/0) successfully!
+    INFO    baseapp01 12169 7001  [2021-09-30 16:12:25 869] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.145:60108/4/0/0
+ WARNING    baseapp01 12169 7001  [2021-09-30 16:12:25 869] - Baseapp::onHello: client is not encrypted, addr=192.168.31.145:60108/4/0/0
+    INFO    baseapp01 12169 7001  [2021-09-30 16:12:25 894] - Baseapp::loginBaseapp: new user[d4], channel[192.168.31.145:60108/4/0/0].
+   DEBUG    baseapp01 12169 7001  [2021-09-30 16:12:47 353] - PendingLoginMgr::remove: d4, size=0.
+    INFO    baseapp01 12169 7001  [2021-09-30 16:12:47 353] - EntityApp::createEntity: new Consumer 3
+    INFO    baseapp01 12169 7001  [2021-09-30 16:12:47 354] - Baseapp::onQueryAccountCBFromDbmgr: user=d4, uuid=7013636784974659584, entityID=3, flags=0, deadline=0.
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:12:50 519] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:03 674] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:04 149] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:04 336] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:04 486] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:04 624] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:04 773] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:04 911] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:05 062] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:05 199] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:05 349] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:05 461] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:06 236] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:06 374] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:06 536] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:06 673] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:06 799] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 16:14:06 923] - Consumer[3] Say 111
+   S_DBG    baseapp01 12169 7001  [2021-09-30 17:58:20 777] - Consumer[3] Say 111
+    INFO    baseapp01 12169 7001  [2021-09-30 17:59:25 772] - ServerApp::onChannelTimeOut: Channel 192.168.31.145:60108/4/0/0 timeout!
+   DEBUG    baseapp01 12169 7001  [2021-09-30 17:59:25 772] - Consumer::onClientDeath: 3.

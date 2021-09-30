@@ -1,0 +1,375 @@
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 386] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 387] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 387] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 387] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 396] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20013 )
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 396] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20013, SOMAXCONN=511.
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 398] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:54598 )
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 398] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:54598, SOMAXCONN=511.
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 398] - server-configs:
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 398] - 	internalTcpAddr : 192.168.31.145:54598
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 398] - 	externalTcpAddr : 192.168.31.145:20013
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 398] - 	componentID : 9000
+ WARNING   loginapp-1 12169 9000  [2021-09-30 15:17:35 509] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 609] - Components::findLogger: found logger, addr:192.168.31.145:51387
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 609] - Components::addComponent: reset orderLog, uid=12169!
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 609] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 613] - ---- loginapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 1102EA4445FA7BC78DFA939A2161D781. Config: Debug X64. Built: 14:53:35 Sep 29 2021. AppID: 9000. UID: 12169. PID: 3560 ----
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 613] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 614] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 614] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 799] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 799] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 913] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:35 913] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:36 123] - ---- loginapp is running ----
+   DEBUG   loginapp-1 12169 9000  [2021-09-30 15:17:36 123] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:43 396] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:43 446] - Components::findComponents: found dbmgr, addr:192.168.31.145:56080
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:43 446] - Components::addComponent: reset orderLog, uid=12169!
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:43 446] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:43 446] - Components::findComponents: found dbmgr, addr:192.168.31.145:56080
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:45 465] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:45 514] - Components::findComponents: found baseappmgr, addr:192.168.31.145:58265
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:45 514] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:45 514] - Components::findComponents: found baseappmgr, addr:192.168.31.145:58265
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:47 559] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:47 591] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:47 608] - Components::process(): Found all the components!
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:17:50 594] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=5, startGroupOrder=1, digest=3240ED17A2FC6BF486E613049A996360.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:17:51 904] - HTTPCBHandler::bind: 192.168.31.145:21103
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:17:51 904] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.31 seconds
+    INFO   loginapp01 12169 9000  [2021-09-30 15:17:53 574] - Loginapp::onBaseappInitProgress: progress=1.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:03 181] - onRequestCreateAccount() abc
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:03 181] - Loginapp::_createAccount: accountName=abc, passwordsize=3, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:03 181] - PendingLoginMgr::add: abc, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:04 407] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:61596/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:04 407] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:61596/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:04 429] - onRequestLogin() loginName=abc, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:04 429] - PendingLoginMgr::add: abc, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:04 429] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=abc, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:05 133] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:61597/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:05 133] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:61597/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:05 154] - onRequestLogin() loginName=abc, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:05 154] - Loginapp::loginFailed: loginName=abc login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:05 330] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:61598/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:05 331] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:61598/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:05 354] - onRequestLogin() loginName=abc, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:05 354] - Loginapp::loginFailed: loginName=abc login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:05 482] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:61599/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:05 482] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:61599/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:05 504] - onRequestLogin() loginName=abc, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:05 504] - Loginapp::loginFailed: loginName=abc login failed. failedcode=SERVER_ERR_BUSY, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:19 375] - onRequestCreateAccount() d1
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:19 375] - Loginapp::_createAccount: accountName=d1, passwordsize=2, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:19 375] - PendingLoginMgr::add: d1, size=2.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:20 438] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:54902/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:20 438] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:54902/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:20 448] - onRequestLogin() loginName=d1, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:20 448] - PendingLoginMgr::add: d1, size=2.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:20 448] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d1, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:20 862] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:63936/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:20 862] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:63936/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:20 873] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:20 873] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 025] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:63937/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:21 025] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:63937/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 036] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 036] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 200] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:63938/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:21 200] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:63938/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 211] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 211] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 362] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:63939/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:21 362] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:63939/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 373] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 373] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 525] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:62716/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:21 525] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:62716/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 536] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 536] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 700] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:51157/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:21 700] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:51157/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 710] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 711] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 851] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:51158/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:21 851] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:51158/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 862] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:21 862] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 013] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:51159/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:22 013] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:51159/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 023] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 023] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 151] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:51160/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:22 151] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:51160/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 161] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 161] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 288] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:51161/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:22 288] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:51161/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 298] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 298] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 452] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:51164/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:22 452] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:51164/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 460] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 461] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 588] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:51165/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:22 588] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:51165/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 598] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 598] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 738] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:51166/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:22 738] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:51166/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 748] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 748] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 875] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:51167/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:22 875] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:51167/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 885] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:22 886] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:23 014] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:51168/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:22:23 014] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:51168/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:23 024] - onRequestLogin() loginName=d1, clientType=2
+    INFO   loginapp01 12169 9000  [2021-09-30 15:22:23 024] - Loginapp::loginFailed: loginName=d1 login failed. failedcode=SERVER_ERR_BUSY, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:24 596] - onCreateAccountCallbackFromDB() accountName=abc, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:24 596] - Loginapp::onReqCreateAccountResult: accountName=abc, failedcode=0.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:24 596] - PendingLoginMgr::remove: abc, size=1.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:25 521] - onLoginCallbackFromDB() loginName=abc, accountName=abc, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:25 522] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=abc, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:25 522] - PendingLoginMgr::remove: abc, size=1.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:40 462] - onCreateAccountCallbackFromDB() accountName=d1, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:40 462] - Loginapp::onReqCreateAccountResult: accountName=d1, failedcode=0.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:40 462] - PendingLoginMgr::remove: d1, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:22:41 520] - onLoginCallbackFromDB() loginName=d1, accountName=d1, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:41 521] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d1, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:22:41 521] - PendingLoginMgr::remove: d1, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:23:05 500] - onRequestCreateAccount() d1
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:23:05 500] - Loginapp::_createAccount: accountName=d1, passwordsize=2, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:23:05 500] - PendingLoginMgr::add: d1, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:23:11 953] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:54639/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:23:11 953] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:54639/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:23:11 962] - onRequestLogin() loginName=d1, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:23:11 962] - PendingLoginMgr::add: d1, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:23:11 963] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d1, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:23:12 871] - onLoginCallbackFromDB() loginName=d1, accountName=d1, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:23:12 871] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d1, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:23:12 871] - PendingLoginMgr::remove: d1, size=0.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:23:16 902] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:56871/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:23:16 902] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:56871/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:23:16 912] - onRequestLogin() loginName=d1, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:23:16 912] - PendingLoginMgr::add: d1, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:23:16 912] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d1, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:23:17 696] - onLoginCallbackFromDB() loginName=d1, accountName=d1, errorno=10
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:23:17 696] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d1, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:23:17 696] - PendingLoginMgr::remove: d1, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:23:26 286] - onCreateAccountCallbackFromDB() accountName=d1, errorno=7
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:23:26 286] - Loginapp::onReqCreateAccountResult: accountName=d1, failedcode=7.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:23:26 286] - PendingLoginMgr::remove: d1, size=0.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:25:49 352] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:53556/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:25:49 352] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:53556/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:25:49 361] - onRequestLogin() loginName=d1, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:25:49 361] - PendingLoginMgr::add: d1, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:25:49 361] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d1, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:25:50 126] - onLoginCallbackFromDB() loginName=d1, accountName=d1, errorno=10
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:25:50 126] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d1, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:25:50 126] - PendingLoginMgr::remove: d1, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:25:59 639] - onRequestCreateAccount() d2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:25:59 639] - Loginapp::_createAccount: accountName=d2, passwordsize=2, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:25:59 639] - PendingLoginMgr::add: d2, size=1.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:26:00 540] - onCreateAccountCallbackFromDB() accountName=d2, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:26:00 540] - Loginapp::onReqCreateAccountResult: accountName=d2, failedcode=0.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:26:00 540] - PendingLoginMgr::remove: d2, size=0.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:26:02 076] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:65052/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:26:02 076] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:65052/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:26:02 086] - onRequestLogin() loginName=d2, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:26:02 086] - PendingLoginMgr::add: d2, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:26:02 086] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d2, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:26:02 844] - onLoginCallbackFromDB() loginName=d2, accountName=d2, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:26:02 845] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d2, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:26:02 845] - PendingLoginMgr::remove: d2, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:28:06 721] - onRequestCreateAccount() d3
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:28:06 721] - Loginapp::_createAccount: accountName=d3, passwordsize=2, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:28:06 721] - PendingLoginMgr::add: d3, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:28:08 746] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58911/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:28:08 746] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58911/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:28:08 757] - onRequestLogin() loginName=d3, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:28:08 757] - PendingLoginMgr::add: d3, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:28:08 757] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d3, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:28:09 971] - onLoginCallbackFromDB() loginName=d3, accountName=d3, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:28:09 971] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d3, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:28:09 971] - PendingLoginMgr::remove: d3, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:28:27 504] - onCreateAccountCallbackFromDB() accountName=d3, errorno=7
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:28:27 504] - Loginapp::onReqCreateAccountResult: accountName=d3, failedcode=7.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:28:27 504] - PendingLoginMgr::remove: d3, size=0.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:29:34 731] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:49992/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:29:34 731] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:49992/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:29:34 741] - onRequestLogin() loginName=d3, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:34 741] - PendingLoginMgr::add: d3, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:29:34 741] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d3, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:29:35 511] - onLoginCallbackFromDB() loginName=d3, accountName=d3, errorno=10
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:35 512] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d3, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:35 512] - PendingLoginMgr::remove: d3, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:29:37 882] - onRequestCreateAccount() d3
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:37 882] - Loginapp::_createAccount: accountName=d3, passwordsize=2, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:37 882] - PendingLoginMgr::add: d3, size=1.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:29:38 336] - onCreateAccountCallbackFromDB() accountName=d3, errorno=7
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:38 336] - Loginapp::onReqCreateAccountResult: accountName=d3, failedcode=7.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:38 336] - PendingLoginMgr::remove: d3, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:29:45 143] - onRequestCreateAccount() d4
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:45 143] - Loginapp::_createAccount: accountName=d4, passwordsize=2, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:45 143] - PendingLoginMgr::add: d4, size=1.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:29:45 897] - onCreateAccountCallbackFromDB() accountName=d4, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:45 897] - Loginapp::onReqCreateAccountResult: accountName=d4, failedcode=0.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:45 897] - PendingLoginMgr::remove: d4, size=0.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:29:54 752] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:52960/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:29:54 752] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:52960/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:29:54 762] - onRequestLogin() loginName=d4, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:54 762] - PendingLoginMgr::add: d4, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:29:54 762] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d4, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:29:55 660] - onLoginCallbackFromDB() loginName=d4, accountName=d4, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:55 661] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d4, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:29:55 661] - PendingLoginMgr::remove: d4, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:34:23 706] - onRequestCreateAccount() d5
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:34:23 706] - Loginapp::_createAccount: accountName=d5, passwordsize=2, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:34:23 706] - PendingLoginMgr::add: d5, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:34:33 254] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:49500/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:34:33 255] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:49500/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:34:33 265] - onRequestLogin() loginName=d5, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:34:33 265] - PendingLoginMgr::add: d5, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:34:33 265] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d5, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:34:45 112] - onCreateAccountCallbackFromDB() accountName=d5, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:34:45 112] - Loginapp::onReqCreateAccountResult: accountName=d5, failedcode=0.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:34:45 112] - PendingLoginMgr::remove: d5, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:34:54 343] - onLoginCallbackFromDB() loginName=d5, accountName=d5, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:34:54 343] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d5, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:34:54 343] - PendingLoginMgr::remove: d5, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:38:38 578] - onRequestCreateAccount() d6
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:38:38 578] - Loginapp::_createAccount: accountName=d6, passwordsize=2, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:38:38 578] - PendingLoginMgr::add: d6, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:38:39 628] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:51545/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:38:39 628] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:51545/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:38:39 638] - onRequestLogin() loginName=d6, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:38:39 639] - PendingLoginMgr::add: d6, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:38:39 639] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d6, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:39:00 010] - onCreateAccountCallbackFromDB() accountName=d6, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:39:00 010] - Loginapp::onReqCreateAccountResult: accountName=d6, failedcode=0.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:39:00 010] - PendingLoginMgr::remove: d6, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:39:02 005] - onLoginCallbackFromDB() loginName=d6, accountName=d6, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:39:02 006] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d6, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:39:02 006] - PendingLoginMgr::remove: d6, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:46:56 483] - onRequestCreateAccount() d6
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:46:56 483] - Loginapp::_createAccount: accountName=d6, passwordsize=2, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:46:56 483] - PendingLoginMgr::add: d6, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:46:59 184] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58269/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:46:59 184] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58269/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:46:59 193] - onRequestLogin() loginName=d6, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:46:59 193] - PendingLoginMgr::add: d6, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:46:59 193] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d6, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:47:17 276] - onCreateAccountCallbackFromDB() accountName=d6, errorno=7
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:47:17 276] - Loginapp::onReqCreateAccountResult: accountName=d6, failedcode=7.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:47:17 276] - PendingLoginMgr::remove: d6, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:47:20 598] - onLoginCallbackFromDB() loginName=d6, accountName=d6, errorno=10
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:47:20 599] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d6, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:47:20 599] - PendingLoginMgr::remove: d6, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:47:32 533] - onRequestCreateAccount() d7
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:47:32 533] - Loginapp::_createAccount: accountName=d7, passwordsize=2, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:47:32 533] - PendingLoginMgr::add: d7, size=1.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:47:53 967] - onCreateAccountCallbackFromDB() accountName=d7, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:47:53 967] - Loginapp::onReqCreateAccountResult: accountName=d7, failedcode=0.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:47:53 967] - PendingLoginMgr::remove: d7, size=0.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:48:08 233] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:62622/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:48:08 233] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:62622/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:48:08 244] - onRequestLogin() loginName=d7, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:48:08 244] - PendingLoginMgr::add: d7, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:48:08 244] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d7, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:48:29 313] - onLoginCallbackFromDB() loginName=d7, accountName=d7, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:48:29 314] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d7, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:48:29 314] - PendingLoginMgr::remove: d7, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:54:05 357] - onRequestCreateAccount() d9
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:54:05 357] - Loginapp::_createAccount: accountName=d9, passwordsize=2, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:54:05 357] - PendingLoginMgr::add: d9, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:54:08 818] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:55551/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:54:08 818] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:55551/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:54:08 827] - onRequestLogin() loginName=d9, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:54:08 827] - PendingLoginMgr::add: d9, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:54:08 827] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d9, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:54:26 434] - onCreateAccountCallbackFromDB() accountName=d9, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:54:26 435] - Loginapp::onReqCreateAccountResult: accountName=d9, failedcode=0.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:54:26 435] - PendingLoginMgr::remove: d9, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:54:29 898] - onLoginCallbackFromDB() loginName=d9, accountName=d9, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:54:29 899] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d9, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:54:29 899] - PendingLoginMgr::remove: d9, size=0.
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:55 903] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:55 904] - Resmgr::initialize: KBE_ROOT=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:55 904] - Resmgr::initialize: KBE_RES_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/res/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/scripts/;D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/server_assets/res/
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:55 904] - Resmgr::initialize: KBE_BIN_PATH=D:/UnrealEngineProject/kbengine-2.5.12/kbengine-2.5.12/kbe/bin/server/
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:55 913] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:20013 )
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:55 913] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.31.145:20013, SOMAXCONN=511.
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:55 914] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.31.145 ( 192.168.31.145:61169 )
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:55 914] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.31.145:61169, SOMAXCONN=511.
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:55 915] - server-configs:
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:55 915] - 	internalTcpAddr : 192.168.31.145:61169
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:55 915] - 	externalTcpAddr : 192.168.31.145:20013
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:55 915] - 	componentID : 9000
+ WARNING   loginapp-1 12169 9000  [2021-09-30 15:55:56 018] - invalid UID(0) <= 0, please check UID for environment! automatically set to 12169.
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:56 034] - Components::findLogger: found logger, addr:192.168.31.145:51763
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:56 034] - Components::addComponent: reset orderLog, uid=12169!
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:56 034] - Components::addComponent[logger], uid=12169, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:56 038] - ---- loginapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 1102EA4445FA7BC78DFA939A2161D781. Config: Debug X64. Built: 14:53:35 Sep 29 2021. AppID: 9000. UID: 12169. PID: 19400 ----
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:56 038] - Server Administrator: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz with 16710936kB RAM
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:56 038] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:56 038] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:56 227] - Script::install(): is successfully, Python=(3.7.3 (default, Sep 29 2021, 14:52:32) [MSC v.1928 64 bit (AMD64)])!
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:56 227] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 12169 9000  [2021-09-30 15:55:56 237] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:56 237] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:55:56 475] - ---- loginapp is running ----
+   DEBUG   loginapp-1 12169 9000  [2021-09-30 15:55:56 475] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:03 715] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:03 747] - Components::findComponents: found dbmgr, addr:192.168.31.145:61140
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:03 747] - Components::addComponent: reset orderLog, uid=12169!
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:03 747] - Components::addComponent[dbmgr], uid=12169, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:03 748] - Components::findComponents: found dbmgr, addr:192.168.31.145:61140
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:05 757] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:05 837] - Components::findComponents: found baseappmgr, addr:192.168.31.145:61148
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:05 837] - Components::addComponent[baseappmgr], uid=12169, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:05 837] - Components::findComponents: found baseappmgr, addr:192.168.31.145:61148
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:07 888] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:07 904] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:07 921] - Components::process(): Found all the components!
+    INFO   loginapp-1 12169 9000  [2021-09-30 15:56:13 043] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=4, startGroupOrder=1, digest=3240ED17A2FC6BF486E613049A996360.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:56:14 364] - HTTPCBHandler::bind: 192.168.31.145:21103
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:56:14 364] - D:\UnrealEngineProject\kbengine-2.5.12\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.32 seconds
+    INFO   loginapp01 12169 9000  [2021-09-30 15:56:15 497] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:56:35 237] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:63247/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 15:56:35 237] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:63247/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:56:35 248] - onRequestLogin() loginName=d1, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:56:35 248] - PendingLoginMgr::add: d1, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 15:56:35 248] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d1, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 15:56:36 007] - onLoginCallbackFromDB() loginName=d1, accountName=d1, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:56:36 008] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d1, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 15:56:36 008] - PendingLoginMgr::remove: d1, size=0.
+    INFO   loginapp01 12169 9000  [2021-09-30 16:06:07 538] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:50415/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 16:06:07 538] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:50415/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 16:06:07 547] - onRequestLogin() loginName=d2, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 16:06:07 547] - PendingLoginMgr::add: d2, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 16:06:07 547] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d2, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 16:06:28 974] - onLoginCallbackFromDB() loginName=d2, accountName=d2, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 16:06:28 974] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d2, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 16:06:28 974] - PendingLoginMgr::remove: d2, size=0.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 16:09:42 195] - onRequestCreateAccount() d3
+   DEBUG   loginapp01 12169 9000  [2021-09-30 16:09:42 195] - Loginapp::_createAccount: accountName=d3, passwordsize=2, type=1, oldType=3.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 16:09:42 195] - PendingLoginMgr::add: d3, size=1.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 16:10:03 271] - onCreateAccountCallbackFromDB() accountName=d3, errorno=7
+   DEBUG   loginapp01 12169 9000  [2021-09-30 16:10:03 271] - Loginapp::onReqCreateAccountResult: accountName=d3, failedcode=7.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 16:10:03 271] - PendingLoginMgr::remove: d3, size=0.
+    INFO   loginapp01 12169 9000  [2021-09-30 16:10:42 202] - ServerApp::onChannelTimeOut: Channel 127.0.0.1:60267/0/0/0 timeout!
+    INFO   loginapp01 12169 9000  [2021-09-30 16:12:04 771] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57798/0/0/0
+ WARNING   loginapp01 12169 9000  [2021-09-30 16:12:04 771] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57798/0/0/0
+  S_INFO   loginapp01 12169 9000  [2021-09-30 16:12:04 781] - onRequestLogin() loginName=d4, clientType=2
+   DEBUG   loginapp01 12169 9000  [2021-09-30 16:12:04 781] - PendingLoginMgr::add: d4, size=1.
+    INFO   loginapp01 12169 9000  [2021-09-30 16:12:04 781] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=d4, datas=.
+  S_INFO   loginapp01 12169 9000  [2021-09-30 16:12:25 854] - onLoginCallbackFromDB() loginName=d4, accountName=d4, errorno=0
+   DEBUG   loginapp01 12169 9000  [2021-09-30 16:12:25 854] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=d4, addr=192.168.31.145:20015.
+   DEBUG   loginapp01 12169 9000  [2021-09-30 16:12:25 854] - PendingLoginMgr::remove: d4, size=0.
